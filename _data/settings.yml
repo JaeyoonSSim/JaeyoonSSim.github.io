@@ -1,0 +1,19 @@
+menu:
+- {name: 'PUBLICATIONS', url: '/publications'}
+- {name: 'COURSES', url: '/courses'}
+- {name: 'ABOUT ME', url: '/cv'}
+- {name: 'CONTACT', url: '/contact'}
+
+courses:
+- {name: 'Vector Calculus', url: 'vector-calculus'}
+- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+- {name: 'Stellar Structures', url: 'stellar-structures'}
+
+social:
+- {icon: 'github', link: 'https://github.com/JaeyoonSSim'}
+- {icon: 'facebook', link: 'https://www.facebook.com/profile.php?id=100005326242324'}
+- {icon: 'instagram', link: 'https://www.instagram.com/jaeyoon_243/'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/jaeyoon-sim-86a4aa185/'}
+
+contacts:
+- {name: 'Jaeyoon Sim', title: 'Student', department: 'Convergence IT Engineering', institution: 'POSTECH', institution_address: 'Pohang, Korea', phone: '(010) 8181-9541', email: 'simjy98@postech.ac.kr', building: 'C5', image: 'assets/img/contact.jpeg'}

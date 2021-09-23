@@ -1,0 +1,10 @@
+<footer class="pt-5 my-5 text-muted border-top">
+  <div class="row">
+    <div class="col-md-12 text-end social-media-icons">
+      {% for item in site.data.settings.social %}
+        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
+      {% endfor %}
+      <p class="copyright text-center">&copy; Jaeyoon Sim 2021</p>
+    </div>
+  </div>
+</footer>
