@@ -1,15 +1,41 @@
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-    {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-    {% else %}
-      {% for item in site.data.publications.index %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-    {% endif %}
+
+    <div class="row g-5 mb-5">
+      <div class="col-md-5" style="text-align:center; border-radius:10px; color:white; background-color:#000000;">
+        <h4>International Conference</h4>
+      </div>
+      <div class="col-md-12" style="font-size:0.8em;">
+        {% if page.title == "Home" %}
+          {% for item in site.data.publications.featured %}
+            <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+          {% endfor %}
+        {% else %}
+          {% for item in site.data.publications.index %}
+            <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="row g-5 mb-5">
+      <div class="col-md-5" style="text-align:center; border-radius:10px; color:white; background-color:#000000;">
+        <h4>International Journal</h4>
+      </div>
+      <div class="col-md-12" style="font-size:0.8em;">
+        {% if page.title == "Home" %}
+          {% for item in site.data.publications.featured %}
+            <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+          {% endfor %}
+        {% else %}
+          {% for item in site.data.publications.index %}
+            <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+
   </div>
 </div>
 

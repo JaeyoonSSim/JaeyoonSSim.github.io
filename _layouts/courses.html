@@ -7,10 +7,28 @@ layout: default
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Courses</h3>
-    {% for course in site.data.settings.courses %}
-      <p><a href="{{ site.github.url }}/courses/{{ course.url}}">{{ course.name }}</a></p>
-    {% endfor %}
+
+    <div class="row g-5 mb-5">
+      <div class="col-md-5" style="text-align:center; border-radius:10px; color:white; background-color:#000000;">
+        <h4>Undergraduate Course</h4>
+      </div>
+      <div class="col-md-12" style="font-size:0.8em;">
+        {% for course in site.data.settings.undergraduate_courses %}
+          <p><kbd>{{ course.number }}</kbd> <a href="{{ site.github.url }}/courses/{{ course.url}}">{{ course.name }}</a></p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="row g-5 mb-5">
+      <div class="col-md-5" style="text-align:center; border-radius:10px; color:white; background-color:#000000;">
+        <h4>Graduate Course</h4>
+      </div>
+      <div class="col-md-12" style="font-size:0.8em;">
+        {% for course in site.data.settings.graduate_courses %}
+          <p><kbd>{{ course.number }}</kbd> <a href="{{ site.github.url }}/courses/{{ course.url}}">{{ course.name }}</a></p>
+        {% endfor %}
+      </div>
+    </div>
+
   </div>
 </div>
-
-update later

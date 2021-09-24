@@ -1,14 +1,75 @@
 menu:
 - {name: 'ABOUT ME', url: '/cv'}
-- {name: 'PUBLICATIONS', url: '/publications'}
 - {name: 'ACADEMIC EXPERIENCES', url: '/experiences'}
+- {name: 'PUBLICATIONS', url: '/publications'}
 - {name: 'COURSES', url: '/courses'}
 - {name: 'CONTACT', url: '/contact'}
 
-courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
+undergraduate_courses:
+- {number: 'MATH103', name: 'Calculus', url: 'vector-calculus'}
+- {number: 'MATH203', name: 'Linear Algebra', url: 'quantum-mechanics'}
+
+- {number: 'CSED101', name: 'Programming and Problem Solving', url: 'stellar-structures'}
+- {number: 'CSED211', name: 'Introduction to Computer SW Systems', url: 'stellar-structures'}
+- {number: 'CSED232', name: 'Object-Oriented Programming', url: 'stellar-structures'}
+- {number: 'CSED233', name: 'Data Structure', url: 'stellar-structures'}
+- {number: 'CSED261', name: 'Computational Mathematics', url: 'stellar-structures'}
+- {number: 'CSED273', name: 'Digital System Design', url: 'stellar-structures'}
+- {number: 'CSED291', name: 'Self-Development for Computer Science Majors', url: 'stellar-structures'}
+- {number: 'CSED321', name: 'Programming Language', url: 'stellar-structures'}
+- {number: 'CSED331', name: 'Algorithms', url: 'stellar-structures'}
+- {number: 'CSED490B', name: 'Introduction to Machine Learning', url: 'stellar-structures'}
+- {number: 'SBUCSE303', name: 'Introduction to Theory of Computation', url: 'stellar-structures'}
+
+- {number: 'IMEN261', name: 'Optimization Introduction', url: 'stellar-structures'}
+- {number: 'IMEN400C', name: 'Future Technology and Innovation: Cities and Future Life', url: 'stellar-structures'}
+
+- {number: 'CITE101', name: 'Personal Growth Statement(PGS) Design', url: 'vector-calculus'}
+- {number: 'CITE102', name: 'Introduction to Humanities and Technology Convergence', url: 'vector-calculus'}
+- {number: 'CITE201', name: 'Creative IT Design I', url: 'vector-calculus'}
+- {number: 'CITE202', name: 'Creative IT Design II', url: 'vector-calculus'}
+- {number: 'CITE203', name: 'Interaction Design Studio', url: 'vector-calculus'}
+- {number: 'CITE301', name: 'Creative IT Design III', url: 'vector-calculus'}
+- {number: 'CITE302', name: 'Creative IT Design IV', url: 'vector-calculus'}
+- {number: 'CITE306', name: 'Life Sensibility and Transhuman Studio', url: 'vector-calculus'}
+- {number: 'CITE490H', name: 'Sports Convergence Leadership Research', url: 'vector-calculus'}
+
+- {number: 'SBUGEO101', name: 'Environmental Geology', url: 'vector-calculus'}
+- {number: 'SBUANP101', name: 'Human Biology', url: 'vector-calculus'}
+- {number: 'SBUPHY134', name: 'Introduction to Psychology', url: 'vector-calculus'}
+- {number: 'SBUIAP390', name: 'Rethinking America', url: 'vector-calculus'}
+- {number: 'UCPHYCH7', name: 'The Person in Big Data', url: 'vector-calculus'}
+- {number: 'UCPHYCH7', name: 'The Person in Big Data', url: 'vector-calculus'}
+- {number: 'SNU041.0102', name: 'Reading Modern Korean Poems', url: 'vector-calculus'}
+- {number: 'KUDD122081', name: 'Basic Acting I', url: 'vector-calculus'}
+
+- {number: 'HASS201', name: 'World of Humanities and Arts', url: 'vector-calculus'}
+- {number: 'HASS202', name: 'Integration of Science and Society', url: 'vector-calculus'}
+- {number: 'GEDU101', name: 'Writing', url: 'vector-calculus'}
+- {number: 'GEDU117', name: 'English IV', url: 'vector-calculus'}
+- {number: 'GEDU121', name: 'Intermediate English Listening and Speaking', url: 'vector-calculus'}
+- {number: 'GEDU136', name: 'Advanced English Reading', url: 'vector-calculus'}
+- {number: 'GEDU137', name: 'Advanced English Listening and Speaking', url: 'vector-calculus'}
+- {number: 'GEDU164', name: 'Ping-pong', url: 'vector-calculus'}
+- {number: 'GEDU151', name: 'Physical Fitness', url: 'vector-calculus'}
+- {number: 'ARTS316', name: 'Understanding of the Film', url: 'vector-calculus'}
+- {number: 'HUMN413', name: 'Literature and Popular Culture', url: 'vector-calculus'}
+
+- {number: 'CHEM102', name: 'Chemistry(H)', url: 'vector-calculus'}
+- {number: 'CHEM106', name: 'Chemistry Experiment', url: 'vector-calculus'}
+
+- {number: 'LIFE103', name: 'Biology', url: 'vector-calculus'}
+
+- {number: 'PHYS101', name: 'Physics I', url: 'vector-calculus'}
+- {number: 'PHYS103', name: 'Physics Experiment I', url: 'vector-calculus'}
+- {number: 'PHYS104', name: 'Physics Experiment II', url: 'vector-calculus'}
+- {number: 'PHYS106', name: 'Physics II', url: 'vector-calculus'}
+
+graduate_courses:
+- {number: 'AIGS515', name: 'Machine Learning', url: 'quantum-mechanics'}
+- {number: 'AIGS539', name: 'Computer Vision', url: 'vector-calculus'}
+- {number: 'AIGS551', name: 'Computational Photography', url: 'quantum-mechanics'}
+- {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', url: 'quantum-mechanics'}
 
 social:
 - {icon: 'github', link: 'https://github.com/JaeyoonSSim'}
