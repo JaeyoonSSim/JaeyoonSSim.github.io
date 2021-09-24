@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Academic experiences</h3>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2" style="text-align:center; border-radius:10px; color:white; background-color:#000000;">
+        <h4>Academic Project</h4>
+      </div>
+      <div class="col-md-10" style="font-size:0.8em;">
+        {% for section in site.data.cv.academic-experience %}
+          <h6><p class="fw-bold">{{ section.title }}</p></h6>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

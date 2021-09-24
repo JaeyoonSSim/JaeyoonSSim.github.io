@@ -1,7 +1,8 @@
 menu:
-- {name: 'PUBLICATIONS', url: '/publications'}
-- {name: 'COURSES', url: '/courses'}
 - {name: 'ABOUT ME', url: '/cv'}
+- {name: 'PUBLICATIONS', url: '/publications'}
+- {name: 'ACADEMIC EXPERIENCES', url: '/experiences'}
+- {name: 'COURSES', url: '/courses'}
 - {name: 'CONTACT', url: '/contact'}
 
 courses:

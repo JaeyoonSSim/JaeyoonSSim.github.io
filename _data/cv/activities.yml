@@ -1,41 +1,49 @@
-- title: 'Charitable Fund Sponsorship'
-- description: '- Save the Children, Mar. 2017 ~ Present'
-
-- title: 'Football Club, Kickoff'
-- description: '- Pohang University of Science and Technology (POSTECH), Mar. 2017 ~ Jun. 2019'
-
-- title: 'Exchange Student'
-- description: '- Seoul National University (SNU), Jun. 2018 ~ Jul. 2018'
-
-- title: 'Einstein Class 10th College Student Mentor'
-- description: '- KOREA HYDRO & NUCLEAR POWER Co., Ltd. (KHNP), Dec. 2018 ~ Feb. 2019'
-
-- title: 'University Frestival Management Committee Planning Team Leader'
-- description: '- Pohang University of Science and Technology (POSTECH), Apr. 2019 ~ May 2019'
-
-- title: 'Exchange Student'
-- description: '- University of California Berkeley (UCB), Jun. 2019 ~ Aug. 2019'
-
-- title: 'Exchange Student'
-- description: '- Stony Brook University of New York (SBU), Aug. 2019 ~ Dec. 2019'
-
-- title: 'Exchange Student'
-- description: '- Korea National University of Arts (K.Arts), Dec. 2019 ~ Jan. 2020'
+- title: 'Student Adviser(a.k.a. SA) President'
+- description: '🏢 Pohang University of Science and Technology (POSTECH)'
+- location: '🇰🇷 Pohang, Republic of Korea'
+- period: '📆 Jan. 2020 ~ Dec. 2020'
 
 - title: 'Student Adviser(a.k.a. SA) for freshmen'
-- description: '- Pohang University of Science and Technology (POSTECH), Jan. 2020 ~ Dec. 2020'
+- description: '🏢 Pohang University of Science and Technology (POSTECH)'
+- location: '🇰🇷 Pohang, Republic of Korea'
+- period: '📆 Jan. 2020 ~ Dec. 2020'
 
-- title: 'Student Adviser(a.k.a. SA) President'
-- description: '- Pohang University of Science and Technology (POSTECH), Jan. 2020 ~ Dec. 2020'
+- title: 'Exchange Student'
+- description: '🏢 Korea National University of Arts (K.Arts)'
+- location: '🇰🇷 Seoul, Republic of Korea'
+- period: '📆 Dec. 2019 ~ Jan. 2020'
 
-- title: 'Undergraduate Research Intern'
-- description: '- Computer Vision (CV) Lab'
-- description: '- Pohang University of Science and Technology (POSTECH), Jun. 2020 ~ Feb. 2021'
+- title: 'Exchange Student'
+- description: '🏢 Stony Brook University of New York (SBU)'
+- location: '🇺🇸 NewYork, USA'
+- period: '📆 Aug. 2019 ~ Dec. 2019'
 
-- title: 'Multimedia Group Development and Research Intern' 
-- description: '- Summer Internship Program'
-- description: '- 4DReplayKorea, Jun. 2021 ~ Aug. 2021'  
+- title: 'Exchange Student'
+- description: '🏢 University of California Berkeley (UCB)'
+- location: '🇺🇸 California, USA'
+- period: '📆 Jun. 2019 ~ Aug. 2019'
 
-- title: 'Undergraduate Research Intern'
-- description: '- Artificial Intelligence and Medical Imaging (AIMI) Lab'
-- description: '- Pohang University of Science and Technology (POSTECH), Sep. 2021 ~ Dec. 2021'
+- title: 'University Frestival Management Committee Planning Team Leader'
+- description: '🏢 Pohang University of Science and Technology (POSTECH)'
+- location: '🇰🇷 Pohang, Republic of Korea'
+- period: '📆 Apr. 2019 ~ May 2019'
+
+- title: 'Einstein Class 10th College Student Mentor'
+- description: '🏢 KOREA HYDRO & NUCLEAR POWER Co., Ltd. (KHNP)'
+- location: '🇰🇷 Yeonggwang, Republic of Korea'
+- period: '📆 Dec. 2018 ~ Feb. 2019'
+
+- title: 'Exchange Student'
+- description: '🏢 Seoul National University (SNU)'
+- location: '🇰🇷 Seoul, Republic of Korea'
+- period: '📆 Jun. 2018 ~ Jul. 2018'
+
+- title: 'Football Club, Kickoff'
+- description: '🏢 Pohang University of Science and Technology (POSTECH)'
+- location: '🇰🇷 Pohang, Republic of Korea'
+- period: '📆 Mar. 2017 ~ Jun. 2019'
+
+- title: 'Charitable Fund Sponsorship'
+- description: '🏢 Save the Children'
+- location: '🇰🇷 Seoul, Republic of Korea'
+- period: '📆 Mar. 2017 ~ Present'
