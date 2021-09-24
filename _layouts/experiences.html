@@ -15,6 +15,8 @@ layout: default
         {% for section in site.data.cv.academic-experience %}
           <h6><p class="fw-bold">{{ section.title }}</p></h6>
           <p>{{ section.description }}</p>
+          <p>{{ section.location }}</p>
+          <p>{{ section.period }}</p>
         {% endfor %}
       </div>
     </div>
