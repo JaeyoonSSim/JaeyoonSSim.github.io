@@ -16,4 +16,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/jaeyoon-sim-86a4aa185/'}
 
 contacts:
-- {name: 'Jaeyoon Sim', title: 'Student', department: 'Convergence IT Engineering', institution: 'POSTECH', institution_address: 'Pohang, Korea', phone: '(010) 8181-9541', email: 'simjy98@postech.ac.kr', building: 'C5', image: 'assets/img/contact.jpeg'}
+- {name: 'Jaeyoon Sim', title: 'Student', department: 'Convergence IT Engineering', institution: 'POSTECH', institution_address: 'Pohang, Korea', email: 'simjy98@postech.ac.kr', building: 'C5', image: 'assets/img/contact.jpeg'}
