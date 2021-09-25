@@ -39,7 +39,6 @@ undergraduate_courses:
 - {number: 'SBUPHY134', name: 'Introduction to Psychology', url: 'vector-calculus'}
 - {number: 'SBUIAP390', name: 'Rethinking America', url: 'vector-calculus'}
 - {number: 'UCPHYCH7', name: 'The Person in Big Data', url: 'vector-calculus'}
-- {number: 'UCPHYCH7', name: 'The Person in Big Data', url: 'vector-calculus'}
 - {number: 'SNU041.0102', name: 'Reading Modern Korean Poems', url: 'vector-calculus'}
 - {number: 'KUDD122081', name: 'Basic Acting I', url: 'vector-calculus'}
 
