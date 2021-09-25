@@ -1,4 +1,4 @@
 ---
 layout: cv
-title: "ABOUT ME"
+title: "About me"
 ---

@@ -1,4 +1,4 @@
 ---
 layout: experiences
-title: "ACADEMIC EXPERIENCES"
+title: "Academic experiences"
 ---
