@@ -3,8 +3,7 @@ layout: home
 title: "Home"
 ---
 
-▶︎ Hello, I am a B.S. student of POSTECH(Pohang University of Science and Technology) where I belong to department of convergence IT engineering. I interested in and mainly study computer engineering, especially vision field. 
-
+▶︎ Hello, I am a M.S/Ph.D integrated graduate student of POSTECH(Pohang University of Science and Technology) where I belong to graduate school of artificial intelligence(A.I.). Also I belong to artificial intelligence and medical imaging(AIMI) lab. I interested in and mainly study computer engineering, especially vision and machine learning field. 
 <br/>
 
 ##### ***Interesting Fields***
