@@ -69,4 +69,4 @@ social:
 - {icon: 'instagram', link: 'https://www.instagram.com/jaeyoon_243/'}
 
 contacts:
-- {name: 'Jaeyoon Sim', title: 'Graduate Student', department: 'Graduate School of Artificial Intelligence(A.I.)', institution: 'POSTECH AIMI LAB', institution_address: 'Pohang, Korea', email: 'simjy98@postech.ac.kr', building: 'Rist 4', image: 'assets/img/contact.jpeg'}
+- {name: 'Jaeyoon Sim', title: 'Graduate Student', department: 'Graduate School of Artificial Intelligence(A.I.)', institution: 'POSTECH AIMI LAB', institution_address: 'Pohang, Korea', email: 'simjy98[at]postech[dot]ac[dot]kr', building: 'Rist 4', image: 'assets/img/contact.jpeg'}
