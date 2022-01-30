@@ -15,7 +15,7 @@
       <div class="row">
         {% for paper in site.data.publications.conference %}
         <div class="col-lg-4 text-center">
-          <img src="publications/data/2.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
+          <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
         </div>
         <div class="col-lg-8 text_center">
           <h4>{{ paper.title }}</h4>
@@ -39,7 +39,7 @@
       <div class="row">
         {% for paper in site.data.publications.journal %}
         <div class="col-lg-4 text-center">
-          <img src="publications/data/2.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
+          <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
         </div>
         <div class="col-lg-8 text_center">
           <h4>{{ paper.title }}</h4>
