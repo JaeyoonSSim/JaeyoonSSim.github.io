@@ -5,90 +5,46 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <!-- International Conference -->
-<!--
-    <div class="container-fluid">
-      <div class="row g-5 mb-4">
-        <div class="col-md-12" style="text-align:center; border-radius:10px; color:#FFFFFF; background-color:#000000;">
-          <h4>International Conference</h4>
-        </div>
+    <div class="row g-5 mb-5">
+      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background-color:#000000;">
+        <h5>International Conference</h5>
       </div>
-
-      <div class="row">
-        {% for paper in site.data.publications.conference %}
-        <div class="col-lg-4 text-center">
-          <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
+      <div class="col-lg-10" style="font-size:0.8em;">
+        <div class="row g-5 mb-5">
+          {% for paper in site.data.publications.conference %}
+            <div class="col-lg-4 text-center">
+              <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
+            </div>
+            <div class="col-lg-8 text_center">
+              <h5><p class="fw-bold">{{ paper.title }}</h5>
+              <p class="text-muted">{{ paper.author }}. {{ paper.accept }}, {{ paper.year }}</p>
+              <p><a href="{{ paper.url }}" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>
+            </div>
+          {% endfor %}
         </div>
-        <div class="col-lg-8 text_center">
-          <h4>{{ paper.title }}</h4>
-          <p class="text-muted">{{ paper.author }}. {{ paper.accept }}, {{ paper.year }}</p>
-          <p><a href="{{ paper.url }}" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>
-        </div>
-        {% endfor %}
-      </div>
-    -->
-<!-- International Journal -->
-<!---
-      <div class="row g-5 mb-4">
-        <div class="col-md-12" style="text-align:center; border-radius:10px; color:#FFFFFF; background-color:#000000;">
-          <h4>International Journal</h4>
-        </div>
-      </div>
-
-      <div class="row">
-        {% for paper in site.data.publications.journal %}
-        <div class="col-lg-4 text-center">
-          <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
-        </div>
-        <div class="col-lg-8 text_center">
-          <h4>{{ paper.title }}</h4>
-          <p class="text-muted">{{ paper.author }}. {{ paper.accept }}, {{ paper.year }}</p>
-          <p><a href="{{ paper.url }}" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>
-        </div>
-        {% endfor %}
-      </div>
-
-    </div>
-  -->
-
-  <div class="row g-5 mb-5">
-    <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background-color:#000000;">
-      <h5>International Conference</h5>
-    </div>
-    <div class="col-lg-10" style="font-size:0.8em;">
-      <div class="row g-5 mb-5">
-        {% for paper in site.data.publications.conference %}
-          <div class="col-lg-4 text-center">
-            <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
-          </div>
-          <div class="col-lg-8 text_center">
-            <h4>{{ paper.title }}</h4>
-            <p class="text-muted">{{ paper.author }}. {{ paper.accept }}, {{ paper.year }}</p>
-            <p><a href="{{ paper.url }}" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>
-          </div>
-        {% endfor %}
       </div>
     </div>
-  </div>
 
-  <div class="row g-5 mb-5">
-    <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background-color:#000000;">
-      <h5>International Journal</h5>
-    </div>
-    <div class="col-lg-10" style="font-size:0.8em;">
-      <div class="row g-5 mb-5">
-        {% for paper in site.data.publications.journal %}
-          <div class="col-lg-4 text-center">
-            <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
-          </div>
-          <div class="col-lg-8 text_center">
-            <h4>{{ paper.title }}</h4>
-            <p class="text-muted">{{ paper.author }}. {{ paper.accept }}, {{ paper.year }}</p>
-            <p><a href="{{ paper.url }}" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>
-          </div>
-        {% endfor %}
+  <!-- International Journal -->
+    <div class="row g-5 mb-5">
+      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background-color:#000000;">
+        <h5>International Journal</h5>
+      </div>
+      <div class="col-lg-10" style="font-size:0.8em;">
+        <div class="row g-5 mb-5">
+          {% for paper in site.data.publications.journal %}
+            <div class="col-lg-4 text-center">
+              <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
+            </div>
+            <div class="col-lg-8 text_center">
+              <h5><p class="fw-bold">{{ paper.title }}</h5>
+              <p class="text-muted">{{ paper.author }}. {{ paper.accept }}, {{ paper.year }}</p>
+              <p><a href="{{ paper.url }}" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
-  </div>
 
   </div>
 </div>
