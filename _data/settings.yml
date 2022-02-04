@@ -4,6 +4,7 @@ menu:
 - {name: 'PUBLICATIONS', url: '/publications'}
 - {name: 'COURSES', url: '/courses'}
 - {name: 'CONTACT', url: '/contact'}
+- {name: 'BLOG', url: 'https://velog.io/@claude_ssim'}
 
 undergraduate_courses:
 - {number: 'MATH103', name: 'Calculus', url: 'vector-calculus'}

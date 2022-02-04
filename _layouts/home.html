@@ -5,8 +5,21 @@ layout: default
 <!-- Home -->
 <div class="row g-5 mb-5">
   <div class="col-md-4">
-    <img style="border:10px solid black; border-radius:50px" src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" width="100%" hiehgt="100%">
+    <img style="border:5px solid black; border-radius:50px" src="{{ site.github.url }}/assets/img/home.jpg" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hiehgt="100%">
   </div>
+  <script>
+    function zoomIn(event) {
+      event.target.style.transform = "scale(1.2)";
+      event.target.style.zIndex = 1;
+      event.target.style.transition = "all 0.5s";
+    }
+    function zoomOut(event) {
+      event.target.style.transform = "scale(1)";
+      event.target.style.zIndex = 0;
+      event.target.style.transition = "all 0.5s";
+    }
+  </script>
+
   <div class="col-md-8">
     <h3 class="fw-bold">Jaeyoon Sim</h3>
       <div style="text-align:justify">

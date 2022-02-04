@@ -7,11 +7,11 @@
 <!-- International Conference -->
     <div class="row g-5 mb-5">
       <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background-color:#000000;">
-        <h5>International Conference</h5>
+        <h5>International Publication</h5>
       </div>
       <div class="col-lg-10" style="font-size:0.8em;">
         <div class="row g-5 mb-5">
-          {% for paper in site.data.publications.conference %}
+          {% for paper in site.data.publications.international %}
             <div class="col-lg-4 text-center">
               <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
             </div>
@@ -28,11 +28,11 @@
   <!-- International Journal -->
     <div class="row g-5 mb-5">
       <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background-color:#000000;">
-        <h5>International Journal</h5>
+        <h5>Domestic Publication</h5>
       </div>
       <div class="col-lg-10" style="font-size:0.8em;">
         <div class="row g-5 mb-5">
-          {% for paper in site.data.publications.journal %}
+          {% for paper in site.data.publications.domestic %}
             <div class="col-lg-4 text-center">
               <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
             </div>

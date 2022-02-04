@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
-		"$backgroundColor: #ffffff;\n$bodyColor: #000000;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n$linkColor: #212529 !important;\n\nbody {\n  background: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n}\n\nbody a {\n  color: $linkColor\n}\n"
+		"$backgroundColor: linear-gradient(to right, rgb(156, 156, 156) 0%, white 30%, rgb(230, 245, 224) 70%, rgb(205, 247, 227) 100%);\n$bodyColor: #000000;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n$linkColor: #212529 !important;\n\nbody {\n  background: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n}\n\nbody a {\n  color: $linkColor\n}\n"
 	],
 	"names": [],
-	"mappings": "ACKA,AAAA,IAAI,CAAC,EACH,UAAU,EANM,OAAO,EAOvB,KAAK,EANK,OAAO,EAOjB,WAAW,EANF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAOvI;;AAED,AAAA,IAAI,CAAC,CAAC,CAAC,EACL,KAAK,EATK,OAAO,CAAC,UAAU,GAU7B"
+	"mappings": "ACKA,AAAA,IAAI,CAAC,EACH,UAAU,EANM,2EAA4G,EAO5H,KAAK,EANK,OAAO,EAOjB,WAAW,EANF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAOvI;;AAED,AAAA,IAAI,CAAC,CAAC,CAAC,EACL,KAAK,EATK,OAAO,CAAC,UAAU,GAU7B"
 }
