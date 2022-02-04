@@ -57,10 +57,10 @@ undergraduate_courses:
 - {number: 'PHYS106', name: 'Physics II', url: 'vector-calculus'}
 
 graduate_courses:
-- {number: 'AIGS515', name: 'Machine Learning', url: 'quantum-mechanics'}
-- {number: 'AIGS539', name: 'Computer Vision', url: 'vector-calculus'}
-- {number: 'AIGS551', name: 'Computational Photography', url: 'quantum-mechanics'}
-- {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', url: 'quantum-mechanics'}
+- {number: 'AIGS515', name: 'Machine Learning', url: 'machine-learning'}
+- {number: 'AIGS539', name: 'Computer Vision', url: 'computer-vision'}
+- {number: 'AIGS551', name: 'Computational Photography', url: 'computational-photography'}
+- {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', url: 'sports-engineering-and-ict-convergence'}
 
 social:
 - {icon: 'github', link: 'https://github.com/JaeyoonSSim'}

@@ -28,7 +28,8 @@ layout: default
       </div>
       <div class="col-lg-10" style="font-size:0.8em;">
         {% for course in site.data.settings.undergraduate_courses %}
-          <p><kbd>{{ course.number }}</kbd> <a href="{{ site.github.url }}/courses/{{ course.url}}">{{ course.name }}</a></p>
+          <!--<p><kbd>{{ course.number }}</kbd> <a href="{{ site.github.url }}/courses/{{ course.url}}">{{ course.name }}</a></p>-->
+          <p><kbd>{{ course.number }}</kbd> {{ course.name }}</a></p>
         {% endfor %}
       </div>
     </div>
