@@ -4,7 +4,6 @@ menu:
 - {name: 'PUBLICATIONS', url: '/publications'}
 - {name: 'COURSES', url: '/courses'}
 - {name: 'CONTACT', url: '/contact'}
-- {name: 'BLOG', url: 'https://velog.io/@claude_ssim'}
 
 undergraduate_courses:
 - {number: 'MATH103', name: 'Calculus', url: 'vector-calculus'}
@@ -66,8 +65,7 @@ graduate_courses:
 social:
 - {icon: 'github', link: 'https://github.com/JaeyoonSSim'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/jaeyoon-sim-86a4aa185/'}
-- {icon: 'facebook', link: 'https://www.facebook.com/profile.php?id=100005326242324'}
-- {icon: 'instagram', link: 'https://www.instagram.com/jaeyoon_243/'}
+- {icon: 'apple', link: 'https://velog.io/@claude_ssim'}
 
 contacts:
 - {name: 'Jaeyoon Sim', title: 'Graduate Student', department: 'Graduate School of Artificial Intelligence(GSAI)', institution: 'POSTECH AIMI LAB', institution_address: 'Pohang, Korea', email: 'simjy98[at]postech[dot]ac[dot]kr', building: 'Rist 4', image: 'assets/img/contact.jpeg'}
