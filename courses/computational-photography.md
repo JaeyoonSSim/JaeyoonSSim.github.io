@@ -11,20 +11,19 @@ title: "Computational Photography"
 
 #### Schedule
 
-- Week 1: Course Intro, Cameras & Optics
-- Week 2: Camera ISP & Image formation / Image filtering
-- Week 3: No class - Chuseok
-- Week 4: Image filtering / frequency domain
-- Week 5: frequency domain / edge-aware filtering
-- Week 6: Colors / image blending
-- Week 7: Image warping / image alignment
-- Week 9: Morphology / global optimization
-- Week 10: Deep learning basics / Generative adversarial networks
-- Week 11: Image restoration
-- Week 12: Image synthesis
-- Week 13: Image manipulation
-- Week 14: Image enhancement
-- Week 15: HDR / Image matting
+- Cameras & Optics
+- Camera ISP & Image formation / Image filtering
+- Image filtering / frequency domain
+- frequency domain / edge-aware filtering
+- Colors / image blending
+- Image warping / image alignment
+- Morphology / global optimization
+- Deep learning basics / Generative adversarial networks
+- Image restoration
+- Image synthesis
+- Image manipulation
+- Image enhancement
+- HDR / Image matting
 
 #### Assignments
 

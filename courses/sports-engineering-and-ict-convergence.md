@@ -27,20 +27,19 @@ Class Objectives:
 
 #### Schedule
 
-- Week 1: Orientation
-- Week 2: New paradigm of sports and ICT culture  
-- Week 3: Sports meets Big Data
-- Week 4: Plans to integrate ICT technology in order to develop sports broadcasting industry 
-- Week 5: Changes in mobile environment and evolution of sports medical business model 
-- Week 6: Smart imagination of sports stadiums
-- Week 7: Performance enhancement through technological development of sports and ICT convergence. 
-- Week 9: Plan of building sports and ICT convergence technology DB and application development
-- Week 10: Analysis of ICT convergence on advanced leisure sport industry
-- Week 11: Research plan on marine leisure sport and sports ICT convergence 
-- Week 12: Plan on winter sports and ICT convergence service 
-- Week 13: Sports ICT tourism marketing strategy for regional economic development  
-- Week 14: Research for sports ICT on disabled/rehabilitation sport  
-- Week 15: Sports doping policy improvement through development of ICT technology 
+- New paradigm of sports and ICT culture  
+- Sports meets Big Data
+- Plans to integrate ICT technology in order to develop sports broadcasting industry 
+- Changes in mobile environment and evolution of sports medical business model 
+- Smart imagination of sports stadiums
+- Performance enhancement through technological development of sports and ICT convergence. 
+- Plan of building sports and ICT convergence technology DB and application development
+- Analysis of ICT convergence on advanced leisure sport industry
+- Research plan on marine leisure sport and sports ICT convergence 
+- Plan on winter sports and ICT convergence service 
+- Sports ICT tourism marketing strategy for regional economic development  
+- Research for sports ICT on disabled/rehabilitation sport  
+- Sports doping policy improvement through development of ICT technology 
 
 #### Assignments
 

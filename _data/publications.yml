@@ -1,6 +1,5 @@
 international:
-- {img: 'publications/data/2.jpg', title: 'Artificial Intelligence and Medical Imaging (AIMI) Lab', author: 'Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim', accept: 'International Conference on Learning Representations (ICLR)', year: '2020', url: '/publications/1501.07274.pdf'}
-- {img: 'publications/data/2.jpg', title: 'Artificial Intelligence and Medical Imaging (AIMI) Lab', author: 'Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim', accept: 'International Conference on Learning Representations (ICLR)', year: '2020', url: '/publications/1501.07274.pdf'}
+- {img: 'publications/data/2.jpg', title: 'Title1', author: 'Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim', accept: 'International Conference on Learning Representations (ICLR)', year: '2020', url: '/publications/1501.07274.pdf'}
 
 domestic:
-- {img: 'publications/data/3.jpg', title: 'Artificial Intelligence and Medical Imaging (AIMI) Lab', author: 'Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim', accept: 'International Conference on Learning Representations (ICLR)', year: '2020', url: '/publications/1501.07274.pdf'}
+- {img: 'publications/data/3.jpg', title: 'Title2', author: 'Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim', accept: 'International Conference on Learning Representations (ICLR)', year: '2070', url: '/publications/1501.07274.pdf'}
