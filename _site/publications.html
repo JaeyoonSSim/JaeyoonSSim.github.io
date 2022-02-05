@@ -60,8 +60,20 @@
         <div class="row g-5 mb-5">
           
             <div class="col-lg-4 text-center">
-              <img src="publications/data/2.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
+              <img src="publications/data/2.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
             </div>
+            <script>
+              function zoomIn(event) {
+                event.target.style.transform = "scale(1.2)";
+                event.target.style.zIndex = 1;
+                event.target.style.transition = "all 0.5s";
+              }
+              function zoomOut(event) {
+                event.target.style.transform = "scale(1)";
+                event.target.style.zIndex = 0;
+                event.target.style.transition = "all 0.5s";
+              }
+            </script>
             <div class="col-lg-8 text_center">
               <h5><p class="fw-bold">Title1</h5>
               <p class="text-muted">Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim. International Conference on Learning Representations (ICLR), 2020</p>
@@ -80,9 +92,21 @@
       <div class="col-lg-10" style="font-size:0.8em;">
         <div class="row g-5 mb-5">
           
-            <div class="col-lg-4 text-center">
-              <img src="publications/data/3.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
-            </div>
+          <div class="col-lg-4 text-center">
+            <img src="publications/data/3.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+          </div>
+          <script>
+            function zoomIn(event) {
+              event.target.style.transform = "scale(1.2)";
+              event.target.style.zIndex = 1;
+              event.target.style.transition = "all 0.5s";
+            }
+            function zoomOut(event) {
+              event.target.style.transform = "scale(1)";
+              event.target.style.zIndex = 0;
+              event.target.style.transition = "all 0.5s";
+            }
+          </script>
             <div class="col-lg-8 text_center">
               <h5><p class="fw-bold">Title2</h5>
               <p class="text-muted">Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim. International Conference on Learning Representations (ICLR), 2070</p>

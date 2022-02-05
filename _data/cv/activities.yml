@@ -61,6 +61,13 @@ flag: 'up',
 url: 'http://peace.postech.ac.kr/main.php',
 picture: '/experiences/images/picture_Essay.jpg'}
 
+- {title: 'POSTECH RC Volunteer Corps Mentor',
+description: '🏢 Pohang University of Science and Technology (POSTECH)',
+location: '🇰🇷 Pohang, Republic of Korea',
+period: '📆 Sep. 2018 ~ Dec. 2018',
+flag: 'p',
+picture: '/experiences/images/picture_RCvolunteer.jpg'}
+
 - {title: 'Exchange Student - 2018 Summer Semester',
 description: '🏢 Seoul National University (SNU)',
 location: '🇰🇷 Seoul, Republic of Korea',
