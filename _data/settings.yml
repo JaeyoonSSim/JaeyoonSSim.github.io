@@ -62,6 +62,10 @@ graduate_courses:
 - {number: 'AIGS551', name: 'Computational Photography', grade: 'A+', url: 'computational-photography'}
 - {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', grade: 'A0', url: 'sports-engineering-and-ict-convergence'}
 
+language_skills:
+- {language: '🇰🇷 Korean', skill: 'Native language'}
+- {language: '🇺🇸 English', skill: 'Fluent (reading), Intermediate (listening, speaking, writing)'}
+
 social:
 - {icon: 'github', link: 'https://github.com/JaeyoonSSim'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/jaeyoon-sim-86a4aa185/'}

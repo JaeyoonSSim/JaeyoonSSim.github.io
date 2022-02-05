@@ -1,58 +1,88 @@
-- title: '56th College Student Business Management Online Camp'
-- description: '🥇 1st Place(1/10)'
-- description: '🏢 DB Foundation'
-- location: '🇰🇷 Online, Republic of Korea'
-- period: '📆 Jan. 2022 ~ Jan. 2022'
-- url: 'https://www.dbfoundation.or.kr/business/experience_camp'
+activity:
+- {title: '56th College Student Business Management Online Camp',
+description: '🏢 DB Foundation 🥇 1st Place(1/10)',
+location: '🇰🇷 Online, Republic of Korea',
+period: '📆 Jan. 2022 ~ Jan. 2022',
+flag: 'utp',
+url: 'https://www.dbfoundation.or.kr/business/experience_camp',
+testimonial: '/experiences/images/picture_Businesscamp.jpg',
+picture: '/experiences/images/picture_Businesscamp.jpg'}
 
-- title: 'Student Adviser(SA) President'
-- description: '🏢 Pohang University of Science and Technology (POSTECH)'
-- location: '🇰🇷 Pohang, Republic of Korea'
-- period: '📆 Jan. 2020 ~ Dec. 2020'
+- {title: 'Student Adviser(SA) President',
+description: '🏢 Pohang University of Science and Technology (POSTECH)',
+location: '🇰🇷 Pohang, Republic of Korea',
+period: '📆 Jan. 2020 ~ Dec. 2020'}
 
-- title: 'Student Adviser(SA) for freshmen'
-- description: '🏢 Pohang University of Science and Technology (POSTECH)'
-- location: '🇰🇷 Pohang, Republic of Korea'
-- period: '📆 Jan. 2020 ~ Dec. 2020'
+- {title: 'Student Adviser(SA) for Freshmen',
+description: '🏢 Pohang University of Science and Technology (POSTECH)',
+location: '🇰🇷 Pohang, Republic of Korea',
+period: '📆 Jan. 2020 ~ Dec. 2020',
+flag: 'utp',
+url: 'https://freshman.postech.ac.kr',
+testimonial: '/experiences/images/testimonial_SA.jpg',
+picture: '/experiences/images/picture_SA.jpg'}
 
-- title: 'Exchange Student'
-- description: '🏢 National University of Arts (K.Arts)'
-- location: '🇰🇷 Seoul, Republic of Korea'
-- period: '📆 Dec. 2019 ~ Jan. 2020'
+- {title: 'Exchange Student - 2019 Winter Semester',
+description: '🏢 National University of Arts (K.Arts)',
+location: '🇰🇷 Seoul, Republic of Korea',
+period: '📆 Dec. 2019 ~ Jan. 2020'}
 
-- title: 'Exchange Student'
-- description: '🏢 Stony Brook University of New York (SBU)'
-- location: '🇺🇸 NewYork, USA'
-- period: '📆 Aug. 2019 ~ Dec. 2019'
+- {title: 'Exchange Student - 2019 Fall Semester',
+description: '🏢 Stony Brook University of New York (SBU)',
+location: '🇺🇸 NewYork, USA',
+period: '📆 Aug. 2019 ~ Dec. 2019'}
 
-- title: 'Exchange Student'
-- description: '🏢 University of California Berkeley (UCB)'
-- location: '🇺🇸 California, USA'
-- period: '📆 Jun. 2019 ~ Aug. 2019'
+- {title: 'Exchange Student - 2019 Summer Semester',
+description: '🏢 University of California Berkeley (UCB)',
+location: '🇺🇸 California, USA',
+period: '📆 Jun. 2019 ~ Aug. 2019'}
 
-- title: 'University Frestival Management Committee Planning Team Leader'
-- description: '🏢 Pohang University of Science and Technology (POSTECH)'
-- location: '🇰🇷 Pohang, Republic of Korea'
-- period: '📆 Apr. 2019 ~ May 2019'
+- {title: 'POSTECH Festival Management Committee Planning Team Leader',
+description: '🏢 Pohang University of Science and Technology (POSTECH)',
+location: '🇰🇷 Pohang, Republic of Korea',
+period: '📆 Apr. 2019 ~ May 2019',
+flag: 'p',
+picture: '/experiences/images/picture_Festival.jpg'}
 
-- title: '10th Einstein Class College Student Mentor'
-- description: '🏢 KOREA HYDRO & NUCLEAR POWER Co., Ltd. (KHNP)'
-- location: '🇰🇷 Yeonggwang, Republic of Korea'
-- period: '📆 Dec. 2018 ~ Feb. 2019'
-- url: 'http://www.kucss.or.kr/page/sub0302'
+- {title: '10th Einstein Class College Student Mentor',
+description: '🏢 KOREA HYDRO & NUCLEAR POWER Co., Ltd. (KHNP)',
+location: '🇰🇷 Yeonggwang, Republic of Korea',
+period: '📆 Dec. 2018 ~ Feb. 2019',
+flag: 'utp',
+url: 'http://www.kucss.or.kr/page/sub0302',
+testimonial: '/experiences/images/testimonial_Einstein.jpg',
+picture: '/experiences/images/picture_Einstein.jpg'}
 
-- title: 'Exchange Student'
-- description: '🏢 Seoul National University (SNU)'
-- location: '🇰🇷 Seoul, Republic of Korea'
-- period: '📆 Jun. 2018 ~ Jul. 2018'
+- {title: '1st POSTECH Essay Competition',
+description: '🏢 Pohang University of Science and Technology (POSTECH) 🥇 1st Place',
+location: '🇰🇷 Pohang, Republic of Korea',
+period: '📆 Oct. 2018 ~ Nov 2018',
+flag: 'up',
+url: 'http://peace.postech.ac.kr/main.php',
+picture: '/experiences/images/picture_Essay.jpg'}
 
-- title: 'Football Club, Kickoff'
-- description: '🏢 Pohang University of Science and Technology (POSTECH)'
-- location: '🇰🇷 Pohang, Republic of Korea'
-- period: '📆 Mar. 2017 ~ Jun. 2019'
+- {title: 'Exchange Student - 2018 Summer Semester',
+description: '🏢 Seoul National University (SNU)',
+location: '🇰🇷 Seoul, Republic of Korea',
+period: '📆 Jun. 2018 ~ Jul. 2018'}
 
-- title: 'Charitable Fund Sponsorship'
-- description: '🏢 Save the Children'
-- location: '🇰🇷 Seoul, Republic of Korea'
-- period: '📆 Mar. 2017 ~ Present'
-- url: 'https://www.sc.or.kr/participate/campaignView.do?NO=29043&utm_source=google_pc&utm_medium=brand_search&utm_campaign=sa_bs&utm_content=브랜드&utm_term=%5BSAVETHECHILDREN%5D&gclid=Cj0KCQiA6NOPBhCPARIsAHAy2zCWYRKOKfT9jAeUFhvRPNFFROiEMY59uu7d-gfRh4Wjh29yyFRKOe0aAozoEALw_wcB'
+- {title: 'POSTECH Freshmen Guide Mentor',
+description: '🏢 Pohang University of Science and Technology (POSTECH)',
+location: '🇰🇷 Pohang, Republic of Korea',
+period: '📆 Jan. 2018 ~ Feb 2018',
+flag: 'p',
+picture: '/experiences/images/picture_Freshmenmentor.jpg'}
+
+- {title: '10th POSTECH InCiTE, ExCiTE Camp Mentor',
+description: '🏢 Pohang University of Science and Technology (POSTECH)',
+location: '🇰🇷 Pohang, Republic of Korea',
+period: '📆 Dec. 2017 ~ Jan. 2018',
+flag: 'p',
+picture: '/experiences/images/picture_Citecamp.jpg'}
+
+- {title: 'Charitable Fund Sponsorship',
+description: '🏢 Save the Children',
+location: '🇰🇷 Seoul, Republic of Korea',
+period: '📆 Mar. 2017 ~ Present',
+flag: 'u',
+url: 'https://www.sc.or.kr/participate/campaignView.do?NO=29043&utm_source=google_pc&utm_medium=brand_search&utm_campaign=sa_bs&utm_content=브랜드&utm_term=%5BSAVETHECHILDREN%5D&gclid=Cj0KCQiA6NOPBhCPARIsAHAy2zCWYRKOKfT9jAeUFhvRPNFFROiEMY59uu7d-gfRh4Wjh29yyFRKOe0aAozoEALw_wcB'}

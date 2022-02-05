@@ -20,10 +20,10 @@ layout: default
           <p>{{ section.description }}</p>
           <p>{{ section.location }}</p>
           <p>{{ section.period }}</p>
-          {% if section.poster != None %}
+          {% if section.poster != None%}
           <a href= {{ section.poster }} style="margin-bottom:10px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">poster</a>
           {% endif %}
-          {% if section.des != None %}
+          {% if section.des != None%}
           <a href= {{ section.des }} style="margin-bottom:10px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">description</a>
           {% endif %}
         {% endfor %}
