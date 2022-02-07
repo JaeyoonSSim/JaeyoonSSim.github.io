@@ -11,15 +11,14 @@ layout: default
 
 <!-- Activity -->
 <div class="row g-5 mb-5">
-  <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
-    <h5>Activity</h5>
+  <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+    <h5><i class="fas fa-snowboarding"></i> Activity</h5>
   </div>
-  <div class="col-md-10" style="line-height:0.5em; font-size:0.8em;">
+  <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
     {% for section in site.data.cv.activities.activity %}
       <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
       <p>{{ section.description }}</p>
-      <p>{{ section.location }}</p>
-      <p>{{ section.period }}</p>
+      <p>{{ section.location }} {{ section.period }}</p>
       {% if section.flag == 'u' %}
       <a href= {{ section.url }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
       {% endif %}
@@ -48,19 +47,18 @@ layout: default
 
 <!-- Academic Project-->
     <div class="row g-5 mb-5">
-      <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
-        <h5>Academic Project</h5>
+      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+        <h5><i class="fas fa-laptop"></i> Academic Project</h5>
       </div>
-      <div class="col-md-10" style="line-height:0.5em; font-size:0.8em;">
-        {% for section in site.data.cv.academic-experience %}
+      <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
+        {% for section in site.data.cv.academic-experience.experience %}
           <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
           <p>{{ section.description }}</p>
-          <p>{{ section.location }}</p>
-          <p>{{ section.period }}</p>
-          {% if section.poster != None%}
+          <p>{{ section.location }} {{ section.period }}</p>
+          {% if section.poster != None %}
           <a href= {{ section.poster }} style="margin-bottom:10px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">poster</a>
           {% endif %}
-          {% if section.des != None%}
+          {% if section.des != None %}
           <a href= {{ section.des }} style="margin-bottom:10px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">description</a>
           {% endif %}
         {% endfor %}

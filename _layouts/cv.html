@@ -11,16 +11,15 @@ layout: default
 
 <!-- Education -->
     <div class="row g-5 mb-5">
-      <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
-        <h5>Education</h5>
+      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+        <h5><i class="fas fa-user-graduate"></i> Education</h5>
       </div>
-      <div class="col-md-10" style="line-height:0.5em; font-size:0.8em;">
-          {% for section in site.data.cv.education %}
+      <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
+          {% for section in site.data.cv.education.education %}
             <div>
               <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
               <p>{{ section.degree }}</p>
-              <p>{{ section.location }}</p>
-              <p>{{ section.period }}</p>
+              <p>{{ section.location }} {{ section.period }}</p>
             </div>
           {% endfor %}
       </div>
@@ -28,58 +27,108 @@ layout: default
 
 <!-- Work Experience -->
     <div class="row g-5 mb-5">
-      <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
-        <h5>Work Experience</h5>
+      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+        <h5><i class="far fa-building"></i> Work Experience</h5>
       </div>
-      <div class="col-md-10" style="line-height:0.5em; font-size:0.8em;">
-          {% for section in site.data.cv.work-experience %}
+      <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
+          {% for section in site.data.cv.work-experience.work %}
             <div>
               <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
               <p>{{ section.advisor }}</p>
               <p>{{ section.description }}</p>
-              <p>{{ section.location }}</p>
-              <p>{{ section.period }}</p>
+              <p>{{ section.location }} {{ section.period }}</p>
             </div>
           {% endfor %}
       </div>
     </div>
+        
 <!-- Honors and Awards -->
-<div class="row g-5 mb-5">
-  <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
-    <h5>Honors &#38 Awards</h5>
-  </div>
-  <div class="col-md-10" style="line-height:0.5em; font-size:0.8em;">
-    {% for section in site.data.settings.honors_awards %}
-        <div>
-          <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.name }}</p></h6>
-          <p>🏢  {{ section.from }}</p>
-          <p>📆  {{ section.period }}</p>
-        </div>
-    {% endfor %}
-  </div>
-</div>
+    <div class="row g-5 mb-5">
+      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+        <h5><i class="fas fa-award"></i> Honors &#38 Awards (2017~)</h5>
+      </div>
+      <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
+        {% for section in site.data.settings.honors_awards %}
+            <div>
+              <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.name }}</p></h6>
+              <p>🏢 {{ section.from }} 📆 {{ section.period }}</p>
+            </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="row g-5 mb-5">
+      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+        <h5><i class="fas fa-award"></i> Honors &#38 Awards (~2017)</h5>
+      </div>
+      <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
+          <div>
+            <h6><p class="fw-bold" style="background-color:#DDE5EF;">Computer Dreamer Commendation</p></h6>
+            <p>🎖 Superintendent of Education Award</p>
+            <p>🏢  Seoul Metropolitan Office 📆  Dec. 2010</p>
+
+            <h6><p class="fw-bold" style="background-color:#DDE5EF;">12th Information Research Contest</p></h6>
+            <p>Education Office Competition - 🥈 2nd Place(Silver Award)</p>
+            <p>Seoul Competition - 🥉 3rd Place(Bronze Award)</p>
+            <p>🏢  Seoul Jungbu District Office of Education 📆  Sep. 2010 ~ Oct. 2010</p>
+
+            <h6><p class="fw-bold" style="background-color:#DDE5EF;">12th International Robot Olympiad (Transporter)</p></h6>
+            <p>Seoul Competition - 🥇 2rd Place(Gold Award)</p>
+            <p>National Competition - 🏆 1st Place(Grand Award)</p>
+            <p>International Competition - 🥉 4th Place(Special Award)</p>
+            <p>🏢  International Robot Olympiad Committe(IROC) 📆  Jul. 2010 ~ Dec. 2010</p>
+
+            <h6><p class="fw-bold" style="background-color:#DDE5EF;">Scout Commendation for Good Deed</p></h6>
+            <p>🎖 Scout President Award</p>
+            <p>🏢  Korea Scout Association 📆  May. 2010</p>
+
+            <h6><p class="fw-bold" style="background-color:#DDE5EF;">Science Day Commendation</p></h6>
+            <p>🎖 Minister Award</p>
+            <p>🏢  Ministry of Education, Science and Technology(MEST) 📆  Apr. 2010</p>
+
+            <h6><p class="fw-bold" style="background-color:#DDE5EF;">28th Youth Science Exploration Contest, Robot Science (Line Tracer)</p></h6>
+            <p>Education Office Competition - 🥇 2nd Place(Gold Award)</p>
+            <p>Seoul Competition - 🥉 4th Place(Bronze Award)</p>
+            <p>🏢  Seoul Jungbu District Office of Education 📆  Apr. 2009 ~ May. 2009</p>
+
+            <h6><p class="fw-bold" style="background-color:#DDE5EF;">11th International Robot Olympiad (Transporter)</p></h6>
+            <p>Seoul Competition - 6th Place</p>
+            <p>National Competition - 🥈 3rd Place(Silver Award)</p>
+            <p>🏢  International Robot Olympiad Committe(IROC) 📆  Jul. 2009 ~ Dec. 2009</p>
+
+            <h6><p class="fw-bold" style="background-color:#DDE5EF;">Youth Robot National Competition (Gift Delivery)</p></h6>
+            <p>Seoul Competition - 🥈 3rd Place(Silver award)</p>
+            <p>National Competition - 5th Place</p>
+            <p>🏢  Intelligent Robot Education Research Society 📆  Aug. 2009 ~ Sep. 2009</p>
+
+            <h6><p class="fw-bold" style="background-color:#DDE5EF;">27th Youth Science Exploration Contest, Robot Science (Line Tracer)</p></h6>
+            <p>Education Office Competition - 🥈 3rd Place(Silver Award)</p>
+            <p>🏢  Seoul Jungbu District Office of Education 📆  Apr. 2009 ~ May. 2009</p>
+          </div>
+      </div>
+    </div>
 
 <!-- Language Skills -->
-<div class="row g-5 mb-5">
-  <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
-    <h5>Language Skills</h5>
-  </div>
-  <div class="col-md-10" style="line-height:0.5em; font-size:0.8em;">
-    {% for language in site.data.settings.language_skills %}
-        <div>
-          <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ language.language }}</p></h6>
-          <p> {{language.skill}}</p>
-        </div>
-    {% endfor %}
-  </div>
-</div>
+    <div class="row g-5 mb-5">
+      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+        <h5><i class="fas fa-language"></i> Language Skills</h5>
+      </div>
+      <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
+        {% for language in site.data.settings.language_skills %}
+            <div>
+              <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ language.language }}</p></h6>
+              <p> {{language.skill}}</p>
+            </div>
+        {% endfor %}
+      </div>
+    </div>
 
 <!-- Interest -->
     <div class="row g-5 mb-5">
-      <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
-        <h5>Interest</h5>
+      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+        <h5><i class="fas fa-chess-rook"></i> Interest</h5>
       </div>
-      <div class="col-md-10" style="line-height:0.5em; font-size:0.8em;">
+      <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
         {% for section in site.data.cv.interests %}
           <div>
             <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
@@ -91,10 +140,10 @@ layout: default
 
 <!-- Curriculum Vitae -->
     <div class="row g-5 mb-5">
-      <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);" >
-        <h5>Curriculum Vitae</h5>
+      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);" >
+        <h5><i class="fas fa-eye"></i> Curriculum Vitae</h5>
       </div>
-      <div class="col-md-10" style="line-height:0.5em; font-size:0.8em;">
+      <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
         (Download my cv) <a href="cv_jaeyoon_sim.pdf" target="_blank">cv_jaeyoon_sim.pdf</a>
       </div>
   </div>

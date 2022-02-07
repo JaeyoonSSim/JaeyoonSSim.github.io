@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
 body { background: linear-gradient(to right, #9c9c9c 0%, white 30%, #e6f5e0 70%, #cdf7e3 100%); color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-body a { color: #212529 !important; text-decoration: none; }
+body a { color: #212529 !important; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -48,6 +48,10 @@ body a { color: #212529 !important; text-decoration: none; }
 .navbar_header { display: flex; justify-content: space-between; align-items: center; }
 
 .navbar_header_logo { color: goldenrod; }
+
+.main_title_1 { color: #000000; }
+
+.main_title_2 { color: #686868; }
 
 .navbar_header_menu { display: flex; list-style: none; padding-left: 0; }
 

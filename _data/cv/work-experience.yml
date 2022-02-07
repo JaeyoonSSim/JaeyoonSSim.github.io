@@ -1,17 +1,18 @@
-- title: 'Undergraduate Research Intern'
-- advisor: '👨‍💼 Advisor: Prof. Wonhwa Kim'
-- description: '🏢 POSTECH - Artificial Intelligence and Medical Imaging (AIMI) Lab'
-- location: '🇰🇷 Pohang, Republic of Korea'
-- period: '📆 Sep. 2021 ~ Dec. 2021'
+work:
+- {title: 'Undergraduate Research Intern',
+advisor: '👨‍💼 Advisor: Prof. Wonhwa Kim',
+description: '🏢 POSTECH - Artificial Intelligence and Medical Imaging (AIMI) Lab',
+location: '🇰🇷 Pohang, Republic of Korea',
+period: '📆 Sep. 2021 ~ Dec. 2021'}
 
-- title: 'Development and Research Intern' 
-- advisor: '👨‍💼 Mentor: Leader. Taekyu Han, Sanghun Han'
-- description: '🏢 4DREPLAY - Multimedia Group'
-- location: '🇰🇷 Seoul, Republic of Korea'  
-- period: '📆 Jun. 2021 ~ Aug. 2021'
+- {title: 'Development and Research Intern',
+advisor: '👨‍💼 Mentor: Leader. Taekyu Han, Sanghun Han',
+description: '🏢 4DREPLAY - Multimedia Group',
+location: '🇰🇷 Seoul, Republic of Korea',
+period: '📆 Jun. 2021 ~ Aug. 2021'}
 
-- title: 'Undergraduate Research Intern'
-- advisor: '👨‍💼 Advisor: Prof. Jaesik Park'
-- description: '🏢 POSTECH - Computer Vision (CV) Lab'
-- location: '🇰🇷 Pohang, Republic of Korea'
-- period: '📆 Jun. 2020 ~ Feb. 2021'
+- {title: 'Undergraduate Research Intern',
+advisor: '👨‍💼 Advisor: Prof. Jaesik Park',
+description: '🏢 POSTECH - Computer Vision (CV) Lab',
+location: '🇰🇷 Pohang, Republic of Korea',
+period: '📆 Jun. 2020 ~ Feb. 2021'}

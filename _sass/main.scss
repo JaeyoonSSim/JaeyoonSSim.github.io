@@ -12,7 +12,7 @@ body {
 
 body a {
   color: $linkColor;
-  text-decoration: none;
+  //text-decoration: none;
 }
 
 
@@ -182,6 +182,14 @@ body a {
 
 .navbar_header_logo {
 	color: goldenrod;
+}
+
+.main_title_1 {
+	color: #000000;
+}
+
+.main_title_2 {
+	color: #686868;
 }
 
 .navbar_header_menu {
