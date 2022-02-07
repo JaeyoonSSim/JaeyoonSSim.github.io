@@ -62,12 +62,10 @@ body a { color: #212529 !important; text-decoration: none; }
 @keyframes sheen { 0% { transform: skewY(-45deg) translateX(0); }
   100% { transform: skewY(-45deg) translateX(12.5em); } }
 
-.btn { padding: 0.2em 1.5em; text-align: center; text-decoration: none; color: black; border: 2px solid black; font-size: 12px; display: inline-block; border-radius: 0.3em; transition: all 0.2s ease-in-out; position: relative; overflow: hidden; }
+.btn { padding: 0.5em 1.5em; text-align: center; text-decoration: none; color: gray; border: 2px solid gray; font-size: 12px; display: inline-block; border-radius: 0.3em; transition: all 0.2s ease-in-out; position: relative; overflow: hidden; }
 
-.btn:before { content: ""; background-color: white; height: 100%; width: 3em; display: block; position: absolute; top: 0; left: -4.5em; transform: skewX(-45deg) translateX(0); transition: none; }
+.btn:before { content: ""; background-color: rgba(255, 255, 255, 0.5); height: 100%; width: 3em; display: block; position: absolute; top: 0; left: -4.5em; transform: skewX(-45deg) translateX(0); transition: none; }
 
-.btn:hover { background-color: black; color: #fff; border-bottom: 4px solid black; }
+.btn:hover { background-color: gray; color: #fff; border-bottom: 4px solid #676767; }
 
 .btn:hover:before { transform: skewX(-45deg) translateX(13.5em); transition: all 0.5s ease-in-out; }
-
-/*# sourceMappingURL=main.css.map */
