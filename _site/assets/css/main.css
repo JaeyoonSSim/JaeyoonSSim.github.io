@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
 body { background: linear-gradient(to right, #9c9c9c 0%, white 30%, #e6f5e0 70%, #cdf7e3 100%); color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-body a { color: #212529 !important; }
+body a { color: #212529 !important; text-decoration: none; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -44,5 +44,19 @@ body a { color: #212529 !important; }
   50% { transform: translateY(0vh) translateX(90vw) scale(0.45); }
   51% { transform: translateY(0vh) translateX(110vw) scale(0.45); }
   100% { transform: translateY(0vh) translateX(110vw) scale(0.45); } }
+
+.navbar_header { display: flex; justify-content: space-between; align-items: center; }
+
+.navbar_header_logo { color: #a0a0a0; }
+
+.navbar_header_menu { display: flex; list-style: none; padding-left: 0; }
+
+.navbar_header_menu li { padding: 12px; }
+
+.navbar_header_menu li:hover { background-color: #FAFAD2; border-radius: 10px; }
+
+.navbar_header_toggleBtn { display: none; position: absolute; right: 32px; font-size: fs-4; color: #a0a0a0; }
+
+@media screen and (max-width: 768px) { .navbar_header { flex-direction: column; align-items: flex-start; padding: 8px 24px; } .navbar_header_menu { display: none; flex-direction: column; align-items: center; width: 100%; } .navbar_header_menu li { width: 100%; text-align: center; } .navbar_header_toggleBtn { display: block; } .navbar_header_menu.active { display: flex; } }
 
 /*# sourceMappingURL=main.css.map */

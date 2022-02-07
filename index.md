@@ -8,6 +8,7 @@ title: "Home"
 
 ##### **Interesting Fields**
 - Computer Vision
-- Deep Learning(DL) and Machine Learning(ML)
+- Deep Learning(DL)
+- Machine Learning(ML)
 - Image and Video Processing
-- Artificial Intelligence and Medical Imaging 
+- Medical Imaging 

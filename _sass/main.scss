@@ -3,6 +3,7 @@ $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $linkColor: #212529 !important;
 
+// 전체 배경
 body {
   background: $backgroundColor;
   color: $bodyColor;
@@ -10,9 +11,12 @@ body {
 }
 
 body a {
-  color: $linkColor
+  color: $linkColor;
+  text-decoration: none;
 }
 
+
+// 날아다니는 새
 @import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300');
 
 *,
@@ -165,4 +169,69 @@ body a {
 		transform: translateY(0vh) translateX(110vw) scale(0.45);
 	}
 	
+}
+
+
+
+//헤더
+.navbar_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar_header_logo {
+	color: #a0a0a0;
+}
+
+.navbar_header_menu {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+
+.navbar_header_menu li{
+	padding: 12px;
+}
+
+.navbar_header_menu li:hover {
+	background-color: #FAFAD2;
+	border-radius:10px;
+}
+
+.navbar_header_toggleBtn {
+	display: none;
+	position: absolute;
+	right: 32px;
+	font-size:fs-4;
+	color: #a0a0a0;
+}
+
+
+@media screen and (max-width: 768px){
+	.navbar_header {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 8px 24px;
+	}
+
+	.navbar_header_menu {
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.navbar_header_menu li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.navbar_header_toggleBtn {
+		display: block;
+	}
+
+	.navbar_header_menu.active {
+		display: flex;
+	}
 }

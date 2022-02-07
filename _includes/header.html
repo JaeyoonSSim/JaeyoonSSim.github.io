@@ -1,5 +1,6 @@
+<header class="pb-3 mb-5 border-bottom">
+<!--
 <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
-  
   <div>
     <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
       <span class="fs-4 fw-bold" target="_blank">{{ site.title }}</span>
@@ -8,12 +9,34 @@
       <span>{{ site.description }}</span>
     </a>
   </div>
+
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto" >
     {% for item in site.data.settings.menu %}
       <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}"><kbd>{{ item.name }}</kbd></a>
     {% endfor %}
   </nav>
-  
+  -->
+
+  <script src="https://kit.fontawesome.com/b5e768b1dd.js" crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
+  <nav class="navbar_header">
+    
+    <div class="navbar_header_logo">
+      <i class="fab fa-accusoft fs-4"></i>
+      <a href="{{ site.github.url}}/">
+        <span class="fs-4 fw-bold" target="_blank">{{ site.title }}</span>
+      </a>
+    </div>
+
+    <ul class="navbar_header_menu fw-bold">
+      {% for item in site.data.settings.menu %}
+      <li><a href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <a href="#" class="navbar_header_toggleBtn">
+      <i class="fas fa-bars"></i>
+    </a>
+
+  </nav>
 </header>
-
-
