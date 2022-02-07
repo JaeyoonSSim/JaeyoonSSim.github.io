@@ -59,43 +59,6 @@ layout: default
   </div>
 </div>
 
-<!-- Activity -->
-    <div class="row g-5 mb-5">
-      <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
-        <h5>Activity</h5>
-      </div>
-      <div class="col-md-10" style="font-size:0.8em;">
-        {% for section in site.data.cv.activities.activity %}
-          <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
-          <p>{{ section.description }}</p>
-          <p>{{ section.location }}</p>
-          <p>{{ section.period }}</p>
-          {% if section.flag == 'u' %}
-          <a href= {{ section.url }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
-          {% endif %}
-          {% if section.flag == 't' %}
-          <a href= {{ section.testimonial }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial<a>
-          {% endif %}
-          {% if section.flag == 'p' %}
-          <a href= {{ section.picture }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
-          {% endif %}
-          {% if section.flag == 'ut' %}
-          <a href= {{ section.url }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
-          <a href= {{ section.testimonial }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial<a>
-          {% endif %}
-          {% if section.flag == 'up' %}
-          <a href= {{ section.url }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
-          <a href= {{ section.picture }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture<a>
-          {% endif %}
-          {% if section.flag == 'utp' %}
-          <a href= {{ section.url }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
-          <a href= {{ section.testimonial }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial<a>
-          <a href= {{ section.picture }} style="margin-bottom:12px;" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture<a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-
 <!-- Interest -->
     <div class="row g-5 mb-5">
       <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
