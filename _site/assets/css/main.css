@@ -59,4 +59,15 @@ body a { color: #212529 !important; text-decoration: none; }
 
 @media screen and (max-width: 768px) { .navbar_header { flex-direction: column; align-items: flex-start; padding: 8px 24px; } .navbar_header_menu { display: none; flex-direction: column; align-items: center; width: 100%; } .navbar_header_menu li { width: 100%; text-align: center; } .navbar_header_toggleBtn { display: block; } .navbar_header_menu.active { display: flex; } }
 
+@keyframes sheen { 0% { transform: skewY(-45deg) translateX(0); }
+  100% { transform: skewY(-45deg) translateX(12.5em); } }
+
+.btn { padding: 0.2em 1.5em; text-align: center; text-decoration: none; color: black; border: 2px solid black; font-size: 12px; display: inline-block; border-radius: 0.3em; transition: all 0.2s ease-in-out; position: relative; overflow: hidden; }
+
+.btn:before { content: ""; background-color: white; height: 100%; width: 3em; display: block; position: absolute; top: 0; left: -4.5em; transform: skewX(-45deg) translateX(0); transition: none; }
+
+.btn:hover { background-color: black; color: #fff; border-bottom: 4px solid black; }
+
+.btn:hover:before { transform: skewX(-45deg) translateX(13.5em); transition: all 0.5s ease-in-out; }
+
 /*# sourceMappingURL=main.css.map */
