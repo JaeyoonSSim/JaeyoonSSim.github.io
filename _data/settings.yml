@@ -66,6 +66,11 @@ language_skills:
 - {language: '🇰🇷 Korean', skill: 'Native language'}
 - {language: '🇺🇸 English', skill: 'Fluent (reading), Intermediate (listening, speaking, writing)'}
 
+honors_awards:
+- {name: 'National Science & Technology Scholarship I, II', from: 'Korea Student Aid Foundation (KOSAF)', period: 'Feb.2020 ~ Dec.2021'}
+- {name: 'Student Advisior(SA) Scholarship', from: 'Pohang University of Science and Technology (POSTECH)', period: 'Feb.2020 ~ Dec.2020'}
+- {name: 'Full CiTE Scholarship', from: 'Ministry of Science and ICT(MSIT)', period: 'Feb.2017 ~ Dec.2019'}
+
 social:
 - {icon: 'github', link: 'https://github.com/JaeyoonSSim'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/jaeyoon-sim-86a4aa185/'}

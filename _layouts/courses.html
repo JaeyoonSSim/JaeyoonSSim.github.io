@@ -14,7 +14,7 @@ layout: default
       <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
         <h5>Graduate Course</h5>
       </div>
-      <div class="col-lg-10" style="font-size:0.8em;">
+      <div class="col-lg-10" style="line-height:0.5em; font-size:0.8em;">
         {% for course in site.data.settings.graduate_courses %}
           <p><kbd>{{ course.number }}</kbd> <a style="text-align:center; border-radius:2px; background-color:gray;">{{ course.grade }}</a> <a href="{{ site.github.url }}/courses/{{ course.url}}">{{ course.name }}</a></p>
         {% endfor %}
@@ -26,7 +26,7 @@ layout: default
       <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
         <h5>Undergraduate Course</h5>
       </div>
-      <div class="col-lg-10" style="font-size:0.8em;">
+      <div class="col-lg-10" style="line-height:0.5em; font-size:0.8em;">
         {% for course in site.data.settings.undergraduate_courses %}
           <!--<p><kbd>{{ course.number }}</kbd> <a href="{{ site.github.url }}/courses/{{ course.url}}">{{ course.name }}</a></p>-->
           <p><kbd>{{ course.number }}</kbd> {{ course.name }}</a></p>

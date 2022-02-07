@@ -14,7 +14,7 @@ layout: default
   <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
     <h5>Activity</h5>
   </div>
-  <div class="col-md-10" style="font-size:0.8em;">
+  <div class="col-md-10" style="line-height:0.5em; font-size:0.8em;">
     {% for section in site.data.cv.activities.activity %}
       <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
       <p>{{ section.description }}</p>
@@ -51,7 +51,7 @@ layout: default
       <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
         <h5>Academic Project</h5>
       </div>
-      <div class="col-md-10" style="font-size:0.8em;">
+      <div class="col-md-10" style="line-height:0.5em; font-size:0.8em;">
         {% for section in site.data.cv.academic-experience %}
           <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
           <p>{{ section.description }}</p>
