@@ -16,7 +16,7 @@ layout: default
       </div>
       <div class="col-lg-10" style="line-height:1.0em; font-size:0.8em;">
         {% for course in site.data.settings.graduate_courses %}
-          <p><kbd>{{ course.number }}</kbd> <a style="text-align:center; border-radius:2px; background-color:gray;">{{ course.grade }}</a> <a href="{{ site.github.url }}/courses/{{ course.url}}" style="text-decoration:none">{{ course.name }}</a></p>
+          <p><kbd>{{ course.number }}</kbd> <a href="{{ site.github.url }}/courses/{{ course.url}}" style="text-decoration:none">{{ course.name }}</a></p>
         {% endfor %}
       </div>
     </div>
