@@ -12,14 +12,14 @@ html {
 }
 
 body {
-    background: $light_backgroundColor;
-	color: $light_bodyColor;
+    background: $dark_backgroundColor;
+	color: $dark_bodyColor;
     font-family: $bodyFont;
 	transition: 0.5s;
 }
 
 body a {
-	color: $light_linkColor;
+	color: $dark_linkColor;
 }
 
 body.active_dark {
@@ -27,6 +27,11 @@ body.active_dark {
 	color: $dark_bodyColor;
 	font-family: $bodyFont;
 	transition: 0.5s;
+}
+
+.thing {
+	color:rgb(0, 0, 0);
+	padding-left: 5px;
 }
 
 
@@ -151,7 +156,8 @@ body.active_dark {
 }
 
 .main_title_1 {
-	color: #000000;
+	//color: #000000;
+	color: rgb(182, 182, 182);
 }
 .main_title_1.active_dark {
 	color: #fff;
@@ -172,7 +178,8 @@ body.active_dark {
 }
 
 .navbar_header_menu li:hover {
-	background-color: #FAFAD2;
+	//background-color: #FAFAD2;
+	background-color: #fff;
 	border-radius:10px;
 }
 .navbar_header_menu.active_dark li:hover {
@@ -327,7 +334,8 @@ $btn_color: gray;
 	height: 10px;
 	background: rgb(0, 0, 0);
 	border-radius: 50%;
-	box-shadow: 0 0 0 3px rgba(34, 126, 57, 0.2);
+	//box-shadow: 0 0 0 3px rgba(34, 126, 57, 0.2);
+	box-shadow: 0 0 0 3px rgba(128, 255, 159, 0.2);
 }
 .timeline ul li:nth-child(even) {
 	float: right;
@@ -343,7 +351,8 @@ $btn_color: gray;
 	height: 10px;
 	background: rgb(0, 0, 0);
 	border-radius: 50%;
-	box-shadow: 0 0 0 3px rgba(34, 126, 57, 0.2);
+	//box-shadow: 0 0 0 3px rgba(34, 126, 57, 0.2);
+	box-shadow: 0 0 0 3px rgba(128, 255, 159, 0.2);
 }
 
 .timeline ul li h5 {
@@ -366,7 +375,8 @@ $btn_color: gray;
 	background: rgb(0, 0, 0);
 	color: #fff;
 	border-radius: 18px;
-	box-shadow: 0 0 0 3px rgba(59, 59, 59, 0.3);
+	//box-shadow: 0 0 0 3px rgba(59, 59, 59, 0.3);
+	box-shadow: 0 0 0 3px rgba(194, 194, 194, 0.3);
 }
 .timeline ul li:nth-child(even) .timeline_time {
 	position: absolute;
@@ -377,7 +387,8 @@ $btn_color: gray;
 	background: rgb(0, 0, 0);
 	color: #fff;
 	border-radius: 18px;
-	box-shadow: 0 0 0 3px rgba(59, 59, 59, 0.3);
+	//box-shadow: 0 0 0 3px rgba(59, 59, 59, 0.3);
+	box-shadow: 0 0 0 3px rgba(194, 194, 194, 0.3);
 }
 
 .timeline_content {

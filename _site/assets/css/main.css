@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
 html { scroll-behavior: smooth; }
 
-body { background: linear-gradient(to right, #9c9c9c 0%, white 30%, #e6f5e0 70%, #cdf7e3 100%); color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; transition: 0.5s; }
+body { background: linear-gradient(to right, #534848 0%, black 30%, #10110f 70%, #3d4e46 100%); color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; transition: 0.5s; }
 
-body a { color: #212529 !important; }
+body a { color: #fdf7d6; }
 
 body.active_dark { background: linear-gradient(to right, #534848 0%, black 30%, #10110f 70%, #3d4e46 100%); color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; transition: 0.5s; }
+
+.thing { color: black; padding-left: 5px; }
 
 #toggle_mode { position: relative; display: block; width: 32px; height: 16px; border-radius: 8px; background: #222; transition: 0.5s; cursor: pointer; box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1), inset 0 8px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 4px rgba(0, 0, 0, 0.1); }
 
@@ -38,7 +40,7 @@ body.active_dark { background: linear-gradient(to right, #534848 0%, black 30%, 
 
 .navbar_header_logo_image { color: goldenrod; }
 
-.main_title_1 { color: #000000; }
+.main_title_1 { color: #b6b6b6; }
 
 .main_title_1.active_dark { color: #fff; }
 
@@ -48,7 +50,7 @@ body.active_dark { background: linear-gradient(to right, #534848 0%, black 30%, 
 
 .navbar_header_menu li { padding: 12px; }
 
-.navbar_header_menu li:hover { background-color: #FAFAD2; border-radius: 10px; }
+.navbar_header_menu li:hover { background-color: #fff; border-radius: 10px; }
 
 .navbar_header_menu.active_dark li:hover { background-color: #ffffff; border-radius: 10px; }
 
@@ -79,19 +81,19 @@ body.active_dark { background: linear-gradient(to right, #534848 0%, black 30%, 
 
 .timeline ul li:nth-child(odd) { float: left; text-align: right; clear: both; }
 
-.timeline ul li:nth-child(odd):before { content: ''; position: absolute; top: 24px; right: -6px; width: 10px; height: 10px; background: black; border-radius: 50%; box-shadow: 0 0 0 3px rgba(34, 126, 57, 0.2); }
+.timeline ul li:nth-child(odd):before { content: ''; position: absolute; top: 24px; right: -6px; width: 10px; height: 10px; background: black; border-radius: 50%; box-shadow: 0 0 0 3px rgba(128, 255, 159, 0.2); }
 
 .timeline ul li:nth-child(even) { float: right; text-align: left; clear: both; }
 
-.timeline ul li:nth-child(even):before { content: ''; position: absolute; top: 24px; left: -4px; width: 10px; height: 10px; background: black; border-radius: 50%; box-shadow: 0 0 0 3px rgba(34, 126, 57, 0.2); }
+.timeline ul li:nth-child(even):before { content: ''; position: absolute; top: 24px; left: -4px; width: 10px; height: 10px; background: black; border-radius: 50%; box-shadow: 0 0 0 3px rgba(128, 255, 159, 0.2); }
 
 .timeline ul li h5 { margin: 0; padding: 0; font-weight: 600; font-size: 14px; }
 
 .timeline ul li .timeline_time h4 { margin: 0; padding: 0; font-size: 12px; }
 
-.timeline ul li:nth-child(odd) .timeline_time { position: absolute; top: 12px; right: -165px; margin: 0; padding: 8px 16px; background: black; color: #fff; border-radius: 18px; box-shadow: 0 0 0 3px rgba(59, 59, 59, 0.3); }
+.timeline ul li:nth-child(odd) .timeline_time { position: absolute; top: 12px; right: -165px; margin: 0; padding: 8px 16px; background: black; color: #fff; border-radius: 18px; box-shadow: 0 0 0 3px rgba(194, 194, 194, 0.3); }
 
-.timeline ul li:nth-child(even) .timeline_time { position: absolute; top: 12px; left: -165px; margin: 0; padding: 8px 16px; background: black; color: #fff; border-radius: 18px; box-shadow: 0 0 0 3px rgba(59, 59, 59, 0.3); }
+.timeline ul li:nth-child(even) .timeline_time { position: absolute; top: 12px; left: -165px; margin: 0; padding: 8px 16px; background: black; color: #fff; border-radius: 18px; box-shadow: 0 0 0 3px rgba(194, 194, 194, 0.3); }
 
 .timeline_content { padding-bottom: 10px; }
 

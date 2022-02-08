@@ -16,7 +16,7 @@ layout: default
   </div>
   <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
     {% for section in site.data.cv.activities.activity %}
-      <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
+      <h6><p class="thing fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
       <p>{{ section.description }}</p>
       <p>{{ section.location }} {{ section.period }}</p>
       {% if section.flag == 'u' %}
@@ -52,7 +52,7 @@ layout: default
       </div>
       <div class="col-lg-10" style="line-height:1em; font-size:0.8em;">
         {% for section in site.data.cv.academic-experience.experience %}
-          <h6><p class="fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
+          <h6><p class="thing fw-bold" style="background-color:#DDE5EF;">{{ section.title }}</p></h6>
           <p>{{ section.description }}</p>
           <p>{{ section.location }} {{ section.period }}</p>
           {% if section.poster != None %}
