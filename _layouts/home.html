@@ -33,16 +33,16 @@ layout: default
 
 <!-- Update Information -->
 <div class="row g-5 mb-3">
-  <div class="timeline col-md-12">
-      <ul>
-        {% for post in site.posts %}
-        <li>
-          <div class="timeline_content">
-            <h5><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a></h5>
-          </div>
-          <div class="timeline_time"><h4>{{ post.date | date: "%B %-d, %Y" }}</h4><div>
-        </li>
-        {% endfor %}
-      </ul>
+  <div class="timeline col-md-12" style="overflow:auto;height:225px">
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <div class="timeline_content">
+          <h5><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a></h5>
+        </div>
+        <div class="timeline_time"><h4>{{ post.date | date: "%B %-d, %Y" }}</h4><div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>

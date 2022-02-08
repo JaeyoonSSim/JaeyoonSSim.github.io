@@ -166,8 +166,27 @@
 
       <footer class="pt-5 my-5 text-muted border-top">
   <div class="row">
-    <a class="home_name">Seize the day, Carpe diem!</a>
+    <a class="home_name" style="text-decoration:none">Seize the day, Carpe diem!</a>
+
     <div class="col-md-12 text-end social-media-icons">
+
+      <div id="toggle_mode">
+        <i class="indicator"></i>
+      </div>
+      <script>
+        const toggleMode = document.getElementById('toggle_mode');
+        const bodyMode = document.querySelector('body');
+        const maintitle1Mode = document.querySelector('.main_title_1');
+        const navbarheadermenuMode = document.querySelector('.navbar_header_menu');
+
+        toggleMode.onclick = function(){
+          toggleMode.classList.toggle('active_dark');
+          bodyMode.classList.toggle('active_dark');
+          maintitle1Mode.classList.toggle('active_dark');
+          navbarheadermenuMode.classList.toggle('active_dark');
+        }
+      </script>
+
       
         <a href="https://github.com/JaeyoonSSim" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
       
@@ -176,9 +195,11 @@
       <a href="https://velog.io/@claude_ssim" class="ms-3 fs-5"><i class="fas fa-blog"></i></a>
       <p class="copyright text-center">&copy; Jaeyoon Sim 2021-2022</p>
     </div>
+
   </div>
 </footer>
 
     </div>
+
   </body>
 </html>
