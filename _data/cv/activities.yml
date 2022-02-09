@@ -5,8 +5,8 @@ location: '🇰🇷 Online, Republic of Korea',
 period: '📆 Jan. 2022',
 flag: 'utp',
 url: 'https://www.dbfoundation.or.kr/business/experience_camp',
-testimonial: '/experiences/images/testimonial_DB.jpg',
-picture: '/experiences/images/picture_Businesscamp.jpg'}
+testimonial: '/experiences/images_html/testimonial_DB.html',
+picture: '/experiences/images_html/picture_DB.html'}
 
 - {title: 'Student Adviser(SA) President',
 description: '🏢 Pohang University of Science and Technology (POSTECH)',
@@ -19,8 +19,8 @@ location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Jan. 2020 ~ Dec. 2020',
 flag: 'utp',
 url: 'https://freshman.postech.ac.kr',
-testimonial: '/experiences/images/testimonial_SA.jpg',
-picture: '/experiences/images/picture_SA.jpg'}
+testimonial: '/experiences/images_html/testimonial_SA.html',
+picture: '/experiences/images_html/picture_SA.html'}
 
 - {title: 'Exchange Student - 2019 Winter Semester',
 description: '🏢 National University of Arts (K.Arts)',
@@ -42,7 +42,7 @@ description: '🏢 Pohang University of Science and Technology (POSTECH)',
 location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Apr. 2019 ~ May 2019',
 flag: 'p',
-picture: '/experiences/images/picture_Festival.jpg'}
+picture: '/experiences/images_html/picture_Festival.html'}
 
 - {title: '10th Einstein Class College Student Mentor',
 description: '🏢 KOREA HYDRO & NUCLEAR POWER Co., Ltd. (KHNP)',
@@ -50,8 +50,8 @@ location: '🇰🇷 Yeonggwang, Republic of Korea',
 period: '📆 Dec. 2018 ~ Feb. 2019',
 flag: 'utp',
 url: 'http://www.kucss.or.kr/page/sub0302',
-testimonial: '/experiences/images/testimonial_Einstein.jpg',
-picture: '/experiences/images/picture_Einstein.jpg'}
+testimonial: '/experiences/images_html/testimonial_Einstein.html',
+picture: '/experiences/images_html/picture_Einstein.html'}
 
 - {title: '1st POSTECH Essay Competition',
 description: '🏢 Pohang University of Science and Technology (POSTECH) 🏆 1st Place',
@@ -59,14 +59,14 @@ location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Oct. 2018 ~ Nov 2018',
 flag: 'up',
 url: 'http://peace.postech.ac.kr/main.php',
-picture: '/experiences/images/picture_Essay.jpg'}
+picture: '/experiences/images_html/picture_Essay.html'}
 
 - {title: 'POSTECH RC Volunteer Corps Mentor',
 description: '🏢 Pohang University of Science and Technology (POSTECH)',
 location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Sep. 2018 ~ Dec. 2018',
 flag: 'p',
-picture: '/experiences/images/picture_RCvolunteer.jpg'}
+picture: '/experiences/images_html/picture_RCvolunteer.html'}
 
 - {title: 'Exchange Student - 2018 Summer Semester',
 description: '🏢 Seoul National University (SNU)',
@@ -78,28 +78,28 @@ description: '🏢 Pohang University of Science and Technology (POSTECH)',
 location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Jan. 2018 ~ Feb 2018',
 flag: 'p',
-picture: '/experiences/images/picture_Freshmenmentor.jpg'}
+picture: '/experiences/images_html/picture_Freshmenmentor.html'}
 
 - {title: '10th POSTECH InCiTE, ExCiTE Camp Mentor',
 description: '🏢 Pohang University of Science and Technology (POSTECH)',
 location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Dec. 2017 ~ Jan. 2018',
 flag: 'p',
-picture: '/experiences/images/picture_Citecamp.jpg'}
+picture: '/experiences/images_html/picture_Citecamp.html'}
 
 - {title: '23th Seoul National University Data Mining Camp',
 description: '🏢 Korea Data Mining Society(KDMS)',
 location: '🇰🇷 Seoul, Republic of Korea',
 period: '📆 Jan. 2016',
 flag: 't',
-testimonial: '/experiences/images/testimonial_SNUdataminingcamp.jpg'}
+testimonial: '/experiences/images_html/testimonial_SNUdataminingcamp.html'}
 
 - {title: 'International Environmental Council on Greenism',
 description: '🏢 Association Internationale des Etudiants en Sciences Economiques et Commerciale(AIESEC)',
 location: '🇰🇷 Seoul, Republic of Korea',
 period: '📆 Jul. 2014',
 flag: 't',
-testimonial: '/experiences/images/testimonial_Greenism.jpg'}
+testimonial: '/experiences/images_html/testimonial_Greenism.html'}
 
 - {title: 'Charitable Fund Sponsorship',
 description: '🏢 Save the Children',
