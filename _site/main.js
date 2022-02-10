@@ -19,9 +19,16 @@ function zoomOut(event) {
     event.target.style.transition = "all 0.5s";
 }
 
+
 // 아코디언 메뉴
-$(".content_title").click(function() {
-    $(this).next(".content_description").stop().slideToggle(300);
+$(".activity_content_title").click(function() {
+    $(this).next(".activity_content_description").stop().slideToggle(300);
     $(this).toggleClass('on').siblings().removeClass('on');
-    $(this).next(".content_description").siblings(".content_description").slideUp(300); // 1개씩 펼치기
+    $(this).next(".activity_content_description").siblings(".activity_content_description").slideUp(300); // 1개씩 펼치기
+});
+
+$(".project_content_title").click(function() {
+    $(this).next(".project_content_description").stop().slideToggle(300);
+    $(this).toggleClass('on').siblings().removeClass('on');
+    $(this).next(".project_content_description").siblings(".project_content_description").slideUp(300); // 1개씩 펼치기
 });

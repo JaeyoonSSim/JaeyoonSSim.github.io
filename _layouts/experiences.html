@@ -5,6 +5,7 @@ layout: default
 {{ content }}
 
 <!-- Experiences -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="/main.js" defer></script>
 <div class="row g-5 mb-5">
   <div>
@@ -17,31 +18,35 @@ layout: default
       </div>
       <div class="detail col-lg-10">
         {% for section in site.data.cv.activities.activity %}
-          <h6><p class="thing">{{ section.title }}</p></h6>
-          <p>{{ section.description }}</p>
-          <p>{{ section.location }} {{ section.period }}</p>
-          {% if section.flag == 'u' %}
-          <a href= {{ section.url }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
-          {% endif %}
-          {% if section.flag == 't' %}
-          <a href= {{ section.testimonial }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial<a>
-          {% endif %}
-          {% if section.flag == 'p' %}
-          <a href= {{ section.picture }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
-          {% endif %}
-          {% if section.flag == 'ut' %}
-          <a href= {{ section.url }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
-          <a href= {{ section.testimonial }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial<a>
-          {% endif %}
-          {% if section.flag == 'up' %}
-          <a href= {{ section.url }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
-          <a href= {{ section.picture }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture<a>
-          {% endif %}
-          {% if section.flag == 'utp' %}
-          <a href= {{ section.url }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
-          <a href= {{ section.testimonial }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial<a>
-          <a href= {{ section.picture }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture<a>
-          {% endif %}
+          <div class="activity_content_title">
+            <h6><p class="thing">{{ section.title }}</p></h6> 
+          </div>
+          <div class="activity_content_description">
+            <p>{{ section.description }}</p>
+            <p>{{ section.location }} {{ section.period }}</p>
+            {% if section.flag == 'u' %}
+            <a href= {{ section.url }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
+            {% endif %}
+            {% if section.flag == 't' %}
+            <a href= {{ section.testimonial }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial</a>
+            {% endif %}
+            {% if section.flag == 'p' %}
+            <a href= {{ section.picture }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+            {% endif %}
+            {% if section.flag == 'ut' %}
+            <a href= {{ section.url }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
+            <a href= {{ section.testimonial }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial</a>
+            {% endif %}
+            {% if section.flag == 'up' %}
+            <a href= {{ section.url }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
+            <a href= {{ section.picture }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+            {% endif %}
+            {% if section.flag == 'utp' %}
+            <a href= {{ section.url }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
+            <a href= {{ section.testimonial }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial</a>
+            <a href= {{ section.picture }} target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+            {% endif %}
+          </div>
         {% endfor %}
       </div>
     </div>
@@ -53,10 +58,10 @@ layout: default
       </div>
       <div class="detail col-lg-10">
         {% for section in site.data.cv.academic-experience.experience %}
-          <div class="content_title">
+          <div class="project_content_title">
             <h6><p class="thing">{{ section.title }}</p></h6>
           </div>
-          <div class="content_description">
+          <div class="project_content_description">
             <p>{{ section.description }}</p>
             <p>{{ section.location }} {{ section.period }}</p>
             {% if section.poster != None %}

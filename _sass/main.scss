@@ -35,7 +35,7 @@ body a {
 	color:rgb(0, 0, 0);
 	padding-left: 5px;
 	border-radius: 0 10px 10px 0;
-	background-color:#DDE5EF;
+	background: white;
 }
 
 // 메인 페이지 타이틀
@@ -46,10 +46,11 @@ body a {
 
 // 세부 카테고리바
 .categorybar {
-	text-align:center; 
-	border-radius:10px; 
-	color:#FFFFFF;
-	background:linear-gradient(to right, black, silver);
+	text-align: center; 
+	border-radius: 10px; 
+	color: #FFFFFF;
+	background: linear-gradient(to right, black, silver);
+	margin-bottom: 10px;
 }
 
 // 자세한 내용들
@@ -136,19 +137,49 @@ body a {
 	margin-top: 10px;
 }
 
+
 // 아코디언 메뉴
-.content_title {
+.activity_content_title {
 	position: relative;
 	cursor: pointer;
 }
-.content_title::before{
+.activity_content_title::before{
 	display: inline-block;
 }
-.content_description {
+.activity_content_title > h6 > p:hover{
+	color: #6b6bfa;
+}
+.activity_content_title.on > h6 > p{
+	font-weight:900;
+	color: gray; 
+}
+.activity_content_description {
 	display: none;
 	overflow: hidden;
 }
-.content_description::before {
+.activity_content_description::before {
+	display: inline-block;
+}
+
+.project_content_title {
+	position: relative;
+	cursor: pointer;
+}
+.project_content_title::before{
+	display: inline-block;
+}
+.project_content_title > h6 > p:hover{
+	color: #6b6bfa;
+}
+.project_content_title.on > h6 > p{
+	font-weight:900;
+	color: gray; 
+}
+.project_content_description {
+	display: none;
+	overflow: hidden;
+}
+.project_content_description::before {
 	display: inline-block;
 }
 
