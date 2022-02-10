@@ -7,14 +7,14 @@ layout: default
 <!-- Courses -->
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Courses</h3>
+    <h3 class="main_title pb-3 mb-5">Courses</h3>
 
 <!-- Graudate Course-->
     <div class="row g-5 mb-5">
-      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+      <div class="categorybar col-lg-2">
         <h5><i class="fas fa-book"></i> Graduate Course</h5>
       </div>
-      <div class="col-lg-10" style="line-height:1.0em; font-size:0.8em;">
+      <div class="detail col-lg-10">
         {% for course in site.data.settings.graduate_courses %}
           <p><kbd>{{ course.number }}</kbd> <a href="{{ site.github.url }}/courses/{{ course.url}}" style="text-decoration:none">{{ course.name }}</a></p>
         {% endfor %}
@@ -23,12 +23,11 @@ layout: default
 
 <!-- Undergraduate Course -->
     <div class="row g-5 mb-5">
-      <div class="col-lg-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+      <div class="categorybar col-lg-2">
         <h5><i class="fas fa-book"></i> Undergraduate Course</h5>
       </div>
-      <div class="col-lg-10" style="line-height:1.0em; font-size:0.8em;">
+      <div class="detail col-lg-10">
         {% for course in site.data.settings.undergraduate_courses %}
-          <!--<p><kbd>{{ course.number }}</kbd> <a href="{{ site.github.url }}/courses/{{ course.url}}">{{ course.name }}</a></p>-->
           <p><kbd>{{ course.number }}</kbd> {{ course.name }}</a></p>
         {% endfor %}
       </div>

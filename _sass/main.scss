@@ -10,45 +10,59 @@ $dark_linkColor: rgb(253, 247, 214);
 html {
 	scroll-behavior: smooth;
 }
-
 body {
     background: $dark_backgroundColor;
 	color: $dark_bodyColor;
     font-family: $bodyFont;
 	transition: 0.5s;
 }
-
 body a {
 	color: $dark_linkColor;
 }
 
-body.active_dark {
-	background: $dark_backgroundColor;
-	color: $dark_bodyColor;
-	font-family: $bodyFont;
-	transition: 0.5s;
-}
-
-// 제목
-.thing {
-	color:rgb(0, 0, 0);
-	padding-left: 5px;
-	border-radius: 0 10px 10px 0;
-	background-color:#DDE5EF;
-}
-
-
 // 스크롤바
 ::-webkit-scrollbar {
-	width: 12px;
+	width: 6px;
 }
 ::-webkit-scrollbar-thumb {
 	background: linear-gradient(black, silver);
 	border-radius: 6px;
 }
 
+// 제목
+.thing {
+	font-weight: 700;
+	color:rgb(0, 0, 0);
+	padding-left: 5px;
+	border-radius: 0 10px 10px 0;
+	background-color:#DDE5EF;
+}
 
-// 배지
+// 메인 페이지 타이틀
+.main_title {
+	font-weight: 600;
+	border-bottom: 1px solid;
+}
+
+// 세부 카테고리바
+.categorybar {
+	text-align:center; 
+	border-radius:10px; 
+	color:#FFFFFF;
+	background:linear-gradient(to right, black, silver);
+}
+
+// 자세한 내용들
+.detail {
+	line-height:1em; 
+	font-size:0.8em;
+}
+.detail_publication {
+	font-size:0.8em;
+}
+
+
+// About me 배지
 .intern_badge {
 	background-color: #fad192;
 	vertical-align: middle;
@@ -57,7 +71,6 @@ body.active_dark {
 	font-size: 0.8em;
 	border-radius: 0 10px 10px 0;
 }
-
 .commendation_badge {
 	background-color: #ffaaaa;
 	vertical-align: middle;
@@ -66,7 +79,6 @@ body.active_dark {
 	font-size: 0.8em;
 	border-radius: 0 10px 10px 0;
 }
-
 .competition_badge {
 	background-color: #aaaaff;
 	vertical-align: middle;
@@ -75,7 +87,6 @@ body.active_dark {
 	font-size: 0.8em;
 	border-radius: 0 10px 10px 0;
 }
-
 .scholarship_badge {
 	background-color: #7fe088;
 	vertical-align: middle;
@@ -85,6 +96,61 @@ body.active_dark {
 	border-radius: 0 10px 10px 0;
 }
 
+// Home 이미지
+#home_image {
+	border: 5px solid rgb(0, 0, 0); 
+	border-radius: 50px;
+}
+
+// Home 제목 
+#home_title {
+	font-weight: 700;
+}
+
+// Education 마크
+#education_mark {
+	margin-left: 30px;
+	width: 70%;
+	height: 70%;
+	background: silver;
+	border-radius: 50%;
+}
+
+// Publication 제목
+.publication_title {
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+// Contact 이미지
+#contact_image {
+	border: 3px solid black;
+	border-radius: 10px;
+	width: 100%;
+}
+
+// Contact 지도
+#contact_map {
+	border: 0;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+// 아코디언 메뉴
+.content_title {
+	position: relative;
+	cursor: pointer;
+}
+.content_title::before{
+	display: inline-block;
+}
+.content_description {
+	display: none;
+	overflow: hidden;
+}
+.content_description::before {
+	display: inline-block;
+}
 
 
 // Header 화면 크기에 따른 메뉴바
@@ -93,7 +159,6 @@ body.active_dark {
 	justify-content: space-between;
 	align-items: center;
 }
-
 .navbar_header_logo:hover {
 	float: left;
 	color: #fff;
@@ -102,7 +167,6 @@ body.active_dark {
 	text-shadow: 0 1px 0 #d8d8d8, 0 2px 0 #d8d8d8, 0 3px 0 #d8d8d8;
 	animation: animate_logo 1s linear infinite;
 }
-
 @keyframes animate_logo {
 	0% {
 		transform: translateY(0px);
@@ -120,33 +184,30 @@ body.active_dark {
 		0 2px 5px rgba(0, 0, 0, 0.2);
 	}
 }
-
 .navbar_header_logo_image {
 	color: goldenrod;
 }
-
-.main_title_1 {
+.main_logo_1 {
 	//color: #000000;
 	color: rgb(182, 182, 182);
+	font-weight: 700;
 }
-.main_title_1.active_dark {
+.main_logo_1.active_dark {
 	color: #fff;
 }
-
-.main_title_2 {
+.main_logo_2 {
 	color: #686868;
+	font-weight: 700;
 }
-
 .navbar_header_menu {
 	display: flex;
 	list-style: none;
 	padding-left: 0;
+	font-weight: 700;
 }
-
 .navbar_header_menu li{
 	padding: 12px;
 }
-
 .navbar_header_menu li:hover {
 	//background-color: #FAFAD2;
 	background-color: #fff;
@@ -156,7 +217,6 @@ body.active_dark {
 	background-color: #ffffff;
 	border-radius:10px;
 }
-
 .navbar_header_toggleBtn {
 	display: none;
 	position: absolute;
@@ -165,28 +225,29 @@ body.active_dark {
 }
 
 @media screen and (max-width: 768px){
+	#education_mark {
+		width: 50px;
+		height: 50px;
+		margin-bottom: 10px;
+	}
 	.navbar_header {
 		flex-direction: column;
 		align-items: flex-start;
 		padding: 8px 24px;
 	}
-
 	.navbar_header_menu {
 		display: none;
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
 	}
-
 	.navbar_header_menu li {
 		width: 100%;
 		text-align: center;
 	}
-
 	.navbar_header_toggleBtn {
 		display: block;
 	}
-
 	.navbar_header_menu.active {
 		display: flex;
 	}
@@ -232,6 +293,8 @@ $btn_color: gray;
 	font-size: 12px;
 	display: inline-block;
 	border-radius: 0.3em;
+	margin-top: -5px;
+	margin-bottom: 10px;
 	transition: all 0.2s ease-in-out;
 	position: relative;
 	overflow: hidden;
@@ -269,6 +332,8 @@ $btn_color: gray;
 	padding: 10px 0;
 	width: 100%;
 	box-sizing: border-box;
+	overflow:auto;
+	height:225px
 }
 .timeline:before {
 	content: '';

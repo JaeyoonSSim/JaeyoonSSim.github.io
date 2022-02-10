@@ -37,19 +37,19 @@
       <header class="mb-4 border-bottom">
 
   <script src="https://kit.fontawesome.com/b5e768b1dd.js" crossorigin="anonymous"></script>
-  <script src="main.js" defer></script>
+  <script src="/main.js" defer></script>
 
   <nav class="navbar_header">
     
     <div class="navbar_header_logo">
       <a href="/" style="text-decoration:none">
-        <span class="main_title_1 fs-4 fw-bold" target="_blank">JAEYOON</span>
-        <span class="main_title_2 fs-4 fw-bold" target_"_blank">SIM</span>
+        <span class="main_logo_1 fs-4">JAEYOON</span>
+        <span class="main_logo_2 fs-4">SIM</span>
       </a>
       <i class="navbar_header_logo_image fab fa-accusoft fs-4"></i>
     </div>
 
-    <ul class="navbar_header_menu fw-bold">
+    <ul class="navbar_header_menu">
       
       <li><a href="/cv" style="text-decoration:none">ABOUT ME</a></li>
       
@@ -71,28 +71,17 @@
 </header>
 
       <!-- Home -->
+<script src="/main.js" defer></script>
 <div class="row g-5 mb-3">
   <div class="col-md-4">
-    <img style="border:5px solid black; border-radius:50px" src="/assets/img/home1.jpg" 
+    <img id="home_image" src="/assets/img/home1.jpg" 
     onmouseover="this.src='/assets/img/home2.jpg'" 
     onmouseout="this.src='/assets/img/home1.jpg'" 
     onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hiehgt="100%">
   </div>
-  <script>
-    function zoomIn(event) {
-      event.target.style.transform = "scale(1.2)";
-      event.target.style.zIndex = 1;
-      event.target.style.transition = "all 0.5s";
-    }
-    function zoomOut(event) {
-      event.target.style.transform = "scale(1)";
-      event.target.style.zIndex = 0;
-      event.target.style.transition = "all 0.5s";
-    }
-  </script>
 
   <div class="col-md-8">
-    <h3 class="fw-bold">Jaeyoon Sim </h3>
+    <h3 class="home_title">Jaeyoon Sim </h3>
       <div style="text-align:justify">
         <p>▶︎ Hello, I am a M.S./Ph.D. integrated graduate student of Pohang University of Science and Technology(<strong>POSTECH</strong>) where I belong to graduate school of artificial intelligence(<strong>GSAI</strong>). Also I am a member of artificial intelligence and medical imaging lab<a href="http://aimi.postech.ac.kr">(<strong>AIMI LAB</strong>)</a> at POSTECH under <strong>Prof. Won H. Kim</strong>. I am interested in and mainly study computer engineering, especially vision and machine learning field. 
 <br /></p>
@@ -112,7 +101,7 @@
 
 <!-- Update Information -->
 <div class="row g-5 mb-3">
-  <div class="timeline col-md-12" style="overflow:auto;height:225px">
+  <div class="timeline col-md-12">
     <ul>
       
       <li>

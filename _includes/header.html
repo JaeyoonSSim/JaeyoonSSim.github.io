@@ -1,19 +1,19 @@
 <header class="mb-4 border-bottom">
 
   <script src="https://kit.fontawesome.com/b5e768b1dd.js" crossorigin="anonymous"></script>
-  <script src="main.js" defer></script>
+  <script src="/main.js" defer></script>
 
   <nav class="navbar_header">
     
     <div class="navbar_header_logo">
       <a href="{{ site.github.url}}/" style="text-decoration:none">
-        <span class="main_title_1 fs-4 fw-bold" target="_blank">JAEYOON</span>
-        <span class="main_title_2 fs-4 fw-bold" target_"_blank">SIM</span>
+        <span class="main_logo_1 fs-4">JAEYOON</span>
+        <span class="main_logo_2 fs-4">SIM</span>
       </a>
       <i class="navbar_header_logo_image fab fa-accusoft fs-4"></i>
     </div>
 
-    <ul class="navbar_header_menu fw-bold">
+    <ul class="navbar_header_menu">
       {% for item in site.data.settings.menu %}
       <li><a href="{{ site.github.url }}{{ item.url }}" style="text-decoration:none">{{ item.name }}</a></li>
       {% endfor %}

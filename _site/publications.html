@@ -37,19 +37,19 @@
       <header class="mb-4 border-bottom">
 
   <script src="https://kit.fontawesome.com/b5e768b1dd.js" crossorigin="anonymous"></script>
-  <script src="main.js" defer></script>
+  <script src="/main.js" defer></script>
 
   <nav class="navbar_header">
     
     <div class="navbar_header_logo">
       <a href="/" style="text-decoration:none">
-        <span class="main_title_1 fs-4 fw-bold" target="_blank">JAEYOON</span>
-        <span class="main_title_2 fs-4 fw-bold" target_"_blank">SIM</span>
+        <span class="main_logo_1 fs-4">JAEYOON</span>
+        <span class="main_logo_2 fs-4">SIM</span>
       </a>
       <i class="navbar_header_logo_image fab fa-accusoft fs-4"></i>
     </div>
 
-    <ul class="navbar_header_menu fw-bold">
+    <ul class="navbar_header_menu">
       
       <li><a href="/cv" style="text-decoration:none">ABOUT ME</a></li>
       
@@ -74,36 +74,26 @@
 
 
 <!-- Publications -->
+<script src="/main.js" defer></script>
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
+    <h3 class="main_title pb-3 mb-5">Publications</h3>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <!-- International Conference -->
     <div class="row g-5 mb-5">
-      <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+      <div class="categorybar col-md-2">
         <h5><i class="far fa-bookmark"></i> International Publication</h5>
       </div>
-      <div class="col-md-10" style="font-size:0.8em;">
+      <div class="detail_publication col-md-10">
         <div class="row g-5 mb-5">
           
             <div class="col-lg-4 text-center">
               <img src="publications/data/2.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
             </div>
-            <script>
-              function zoomIn(event) {
-                event.target.style.transform = "scale(1.2)";
-                event.target.style.zIndex = 1;
-                event.target.style.transition = "all 0.5s";
-              }
-              function zoomOut(event) {
-                event.target.style.transform = "scale(1)";
-                event.target.style.zIndex = 0;
-                event.target.style.transition = "all 0.5s";
-              }
-            </script>
-            <div class="col-lg-8 text_center">
-              <h5><p class="fw-bold">Title1</h5>
+          
+            <div class="col-lg-8">
+              <h5><p class="publication_title">Title1</h5>
               <p class="text-muted">Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim. International Conference on Learning Representations (ICLR), 2020</p>
               <p><a href="/publications/1501.07274.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>
             </div>
@@ -114,29 +104,18 @@
 
   <!-- International Journal -->
     <div class="row g-5 mb-5">
-      <div class="col-md-2" style="text-align:center; border-radius:10px; color:#FFFFFF; background:linear-gradient(to right, black, silver);">
+      <div class="categorybar col-md-2">
         <h5><i class="far fa-bookmark"></i> Domestic Publication</h5>
       </div>
-      <div class="col-md-10" style="font-size:0.8em;">
+      <div class="detail_publication col-md-10">
         <div class="row g-5 mb-5">
           
-          <div class="col-lg-4 text-center">
-            <img src="publications/data/3.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
-          </div>
-          <script>
-            function zoomIn(event) {
-              event.target.style.transform = "scale(1.2)";
-              event.target.style.zIndex = 1;
-              event.target.style.transition = "all 0.5s";
-            }
-            function zoomOut(event) {
-              event.target.style.transform = "scale(1)";
-              event.target.style.zIndex = 0;
-              event.target.style.transition = "all 0.5s";
-            }
-          </script>
-            <div class="col-lg-8 text_center">
-              <h5><p class="fw-bold">Title2</h5>
+            <div class="col-lg-4 text-center">
+              <img src="publications/data/3.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+            </div>
+
+            <div class="col-lg-8">
+              <h5><p class="publication_title">Title2</h5>
               <p class="text-muted">Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim. International Conference on Learning Representations (ICLR), 2070</p>
               <p><a href="/publications/1501.07274.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>
             </div>
