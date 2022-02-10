@@ -29,56 +29,13 @@ body.active_dark {
 	transition: 0.5s;
 }
 
+// 제목
 .thing {
 	color:rgb(0, 0, 0);
 	padding-left: 5px;
 	border-radius: 0 10px 10px 0;
 	background-color:#DDE5EF;
 }
-
-
-// 다크모드 버튼
-#toggle_mode {
-	position: relative;
-	display: block;
-	width: 32px;
-	height: 16px;
-	border-radius: 8px;
-	background: #222;
-	transition: 0.5s;
-	cursor: pointer;
-	box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
-				inset 0 8px 8px rgba(0, 0, 0, 0.1),
-				inset 0 -4px 4px rgba(0, 0, 0, 0.1);
-}
-#toggle_mode.active_dark {
-	background-color: #fff;
-	box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
-				inset 0 2px 8px rgba(0, 0, 0, 0.1),
-				inset 0 -4px 4px rgba(0, 0, 0, 0.05);
-}
-#toggle_mode .indicator {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 16px;
-	height: 16px;
-	background: linear-gradient(to bottom, #888 , #222);
-	border-radius: 50%;
-	transform: scale(0.9);
-	box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5),
-				inset 0 4px 4px rgba(255, 255, 255, 0.2),
-				inset 0 -4px 4px rgba(255, 255, 255, 0.2);
-	transition: 0.5s;
-}
-#toggle_mode.active_dark .indicator{
-	left: 16px;
-	background: linear-gradient(to bottom, #111 , #f9f9f9);
-	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1),
-				inset 0 4px 4px rgba(255, 255, 255, 1),
-				inset 0 -4px 4px rgba(255, 255, 255, 1);
-}
-
 
 
 // 스크롤바
@@ -89,8 +46,6 @@ body.active_dark {
 	background: linear-gradient(black, silver);
 	border-radius: 6px;
 }
-
-
 
 
 // 배지
@@ -132,7 +87,7 @@ body.active_dark {
 
 
 
-// 헤더
+// Header 화면 크기에 따른 메뉴바
 .navbar_header {
 	display: flex;
 	justify-content: space-between;
@@ -239,7 +194,7 @@ body.active_dark {
 
 
 
-// 좌우명
+// Footer 좌우명 
 .home_name {
 	position: relative;
 	text-transform: uppercase;
@@ -265,7 +220,7 @@ body.active_dark {
 
 
 
-// 버튼
+// 설명 버튼
 $btn_color: gray;
 
 .btn {
@@ -307,7 +262,7 @@ $btn_color: gray;
 
 
 
-// 업데이트 뉴스
+// 홈 화면 업데이트 뉴스
 .timeline {
 	position: relative;
 	margin: 50px 0px 0px auto;
@@ -440,6 +395,49 @@ $btn_color: gray;
 		left: 50px;
 		right: inherit;
 	}
+}
+
+
+// 다크모드 버튼
+#toggle_mode {
+	position: relative;
+	display: block;
+	width: 32px;
+	height: 16px;
+	border-radius: 8px;
+	background: #222;
+	transition: 0.5s;
+	cursor: pointer;
+	box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
+				inset 0 8px 8px rgba(0, 0, 0, 0.1),
+				inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+}
+#toggle_mode.active_dark {
+	background-color: #fff;
+	box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
+				inset 0 2px 8px rgba(0, 0, 0, 0.1),
+				inset 0 -4px 4px rgba(0, 0, 0, 0.05);
+}
+#toggle_mode .indicator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	background: linear-gradient(to bottom, #888 , #222);
+	border-radius: 50%;
+	transform: scale(0.9);
+	box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5),
+				inset 0 4px 4px rgba(255, 255, 255, 0.2),
+				inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+	transition: 0.5s;
+}
+#toggle_mode.active_dark .indicator{
+	left: 16px;
+	background: linear-gradient(to bottom, #111 , #f9f9f9);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1),
+				inset 0 4px 4px rgba(255, 255, 255, 1),
+				inset 0 -4px 4px rgba(255, 255, 255, 1);
 }
 
 
