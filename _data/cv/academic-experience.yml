@@ -1,43 +1,43 @@
 
 experience:
-- {title: 'Software Development Project',
-description: '☑️ Title: Panorama Stitching and Camera Moving by Gimbal Control',
+- {title: 'Panorama Stitching and Camera Moving by Gimbal Control',
+description: '☑️ Software Development Project',
 location: '🇰🇷 4DReplay, Seoul, Republic of Korea',
 period: '📆 Jun. 2021 ~ Aug. 2021',
 des: '/experiences/description_Panorama_Stitching_and_Camera_Moving_by_Gimbal_Control.pdf'}
 
-- {title: 'Software Research Project',
-description: '☑️ Title: Multi-Modal Object Detection in Thermal Imagery using Saliency Map',
+- {title: 'Multi-Modal Object Detection in Thermal Imagery using Saliency Map',
+description: '☑️ Software Research Project',
 location: '🇰🇷 POSTECH, Pohang, Republic of Korea',
 period: '📆 Sep. 2020 ~ Dec. 2020',
 des: '/experiences/description_Multi-Modal_Object_Detectioin_in_Thermal_Imagery_using_Saliency_Map.pdf'}
 
-- {title: 'Hardware Development Project',
-description: '☑️ Title: Ergonomic Wheelchair Model for Disabled Bowlers',
+- {title: 'Ergonomic Wheelchair Model for Disabled Bowlers',
+description: '☑️ Hardware Development Project',
 location: '🇰🇷 POSTECH, Pohang, Republic of Korea',
 period: '📆 Sep. 2020 ~ Dec. 2020',
 poster: '/experiences/poster_Ergonomic_Wheelchair_Model_for_Disabled_Bowlers.pdf'}
 
-- {title: 'Software Development Project',
-description: '☑️ Title: Designing Sensor Model for Autonomous Driving on the Roads at Night',
+- {title: 'Sensor Model for Autonomous Driving on the Roads at Night',
+description: '☑️ Software Development Project',
 location: '🇰🇷 POSTECH, Pohang, Republic of Korea',
 period: '📆 Mar. 2020 ~ Jun. 2020',
 poster: '/experiences/poster_Designing_Sensor_Model_for_Autonomous_Driving_on_the_Roads_at_Night.pdf'}
 
-- {title: 'Hardware Development Project',
-description: '☑️ Title: Raising Animals through Affection',
+- {title: 'Raising Animals through Affection',
+description: '☑️ Hardware Development Project',
 location: '🇰🇷 POSTECH, Pohang, Republic of Korea',
 period: '📆 Apr. 2019 ~ Jun. 2019',
 des: '/experiences/description_Raising_Animals_through_Affection.pdf'}
 
-- {title: 'Software Development Project',
-description: '☑️ Title: Rating System for Visual Media by Bio-signal Measurement',
+- {title: 'Rating System for Visual Media by Bio-signal Measurement',
+description: '☑️ Software Development Project',
 location: '🇰🇷 POSTECH, Pohang, Republic of Korea',
 period: '📆 Aug. 2018 ~ Dec. 2018',
 poster: '/experiences/poster_Rating_System_for_Visual_Media_by_Biosignal_Measurement.pdf'}
 
-- {title: 'Software Development Project',
-description: '☑️ Title: Docx 2 Pptx',
+- {title: 'Docx 2 Pptx',
+description: '☑️ Software Development Project',
 location: '🇰🇷 POSTECH, Pohang, Republic of Korea',
 period: '📆 Mar. 2018 ~ Jun. 2018', 
 des: '/experiences/description_Docx_2_Pptx.pdf'}
