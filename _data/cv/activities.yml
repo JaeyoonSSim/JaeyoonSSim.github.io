@@ -8,12 +8,12 @@ url: 'https://www.dbfoundation.or.kr/business/experience_camp',
 testimonial: '/experiences/images_html/testimonial_DB.html',
 picture: '/experiences/images_html/picture_DB.html'}
 
-- {title: 'Student Adviser(SA) President',
+- {title: 'POSTECH Student Adviser(SA) President',
 description: '🏢 Pohang University of Science and Technology (POSTECH)',
 location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Jan. 2020 ~ Dec. 2020'}
 
-- {title: 'Student Adviser(SA) for Freshmen',
+- {title: 'POSTECH Student Adviser(SA) for Freshmen',
 description: '🏢 Pohang University of Science and Technology (POSTECH)',
 location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Jan. 2020 ~ Dec. 2020',
@@ -22,17 +22,17 @@ url: 'https://freshman.postech.ac.kr',
 testimonial: '/experiences/images_html/testimonial_SA.html',
 picture: '/experiences/images_html/picture_SA.html'}
 
-- {title: 'Exchange Student - 2019 Winter Semester',
+- {title: 'K.Arts Exchange Student - 2019 Winter Semester',
 description: '🏢 National University of Arts (K.Arts)',
 location: '🇰🇷 Seoul, Republic of Korea',
 period: '📆 Dec. 2019 ~ Jan. 2020'}
 
-- {title: 'Exchange Student - 2019 Fall Semester',
+- {title: 'SBU Exchange Student - 2019 Fall Semester',
 description: '🏢 Stony Brook University of New York (SBU)',
 location: '🇺🇸 NewYork, USA',
 period: '📆 Aug. 2019 ~ Dec. 2019'}
 
-- {title: 'Exchange Student - 2019 Summer Semester',
+- {title: 'UCB Exchange Student - 2019 Summer Semester',
 description: '🏢 University of California Berkeley (UCB)',
 location: '🇺🇸 California, USA',
 period: '📆 Jun. 2019 ~ Aug. 2019'}
@@ -68,7 +68,7 @@ period: '📆 Sep. 2018 ~ Dec. 2018',
 flag: 'p',
 picture: '/experiences/images_html/picture_RCvolunteer.html'}
 
-- {title: 'Exchange Student - 2018 Summer Semester',
+- {title: 'SNU Exchange Student - 2018 Summer Semester',
 description: '🏢 Seoul National University (SNU)',
 location: '🇰🇷 Seoul, Republic of Korea',
 period: '📆 Jun. 2018 ~ Jul. 2018'}
