@@ -11,7 +11,194 @@ layout: default
   <div>
     <h3 class="main_title pb-3 mb-5">Experiences</h3>
 
+<!-- Study -->
+<div class="row g-5 mb-5">
+  <div class="categorybar col-lg-2">
+    <h6>Study</h6>
+  </div>
+  <div class="detail col-lg-10">
+    {% for section in site.data.cv.activities.study %}
+      <div class="activity_content_title">
+        <h6><p class="thing">{{ section.title }}</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>{{ section.description }}</p>
+        <p>{{ section.location }}</p> 
+        <p>{{ section.period }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Mentoring -->
+<div class="row g-5 mb-5">
+  <div class="categorybar col-lg-2">
+    <h6>Mentoring</h6>
+  </div>
+  <div class="detail col-lg-10">
+
+      <div class="activity_content_title">
+        <h6><p class="thing">Career Counseling Mentoring Program Mentor</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏢 Uni-Diary</p>
+        <p>🇰🇷 Online, Republic of Korea</p>
+        <p>📆 Feb. 2022 ~ Current</p>
+      </div>
+
+      <div class="activity_content_title">
+        <h6><p class="thing">POSTECH Student Adviser(SA) President</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏢 Pohang University of Science and Technology (POSTECH)</p>
+        <p>🇰🇷 Pohang, Republic of Korea</p>
+        <p>📆 Jan. 2020 ~ Dec. 2020</p>
+      </div>
+
+      <div class="activity_content_title">
+        <h6><p class="thing">POSTECH Student Adviser(SA) for Freshmen</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏢 Pohang University of Science and Technology (POSTECH)</p>
+        <p>🇰🇷 Pohang, Republic of Korea</p>
+        <p>📆 Jan. 2020 ~ Dec. 2020</p>
+        <a href= "https://freshman.postech.ac.kr" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
+        <a href= "/experiences/images_html/testimonial_SA.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial</a>
+        <a href= "/experiences/images_html/picture_SA.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+      </div>
+
+      <div class="activity_content_title">
+        <h6><p class="thing">10th Einstein Class College Student Mentor</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏢 KOREA HYDRO & NUCLEAR POWER Co., Ltd. (KHNP)</p>
+        <p>🇰🇷 Yeonggwang, Republic of Korea</p>
+        <p>📆 Dec. 2018 ~ Feb. 2019</p>
+        <a href= "http://www.kucss.or.kr/page/sub0302" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
+        <a href= "/experiences/images_html/testimonial_Einstein.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial</a>
+        <a href= "/experiences/images_html/picture_Einstein.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+      </div>
+
+      <div class="activity_content_title">
+        <h6><p class="thing">POSTECH RC Volunteer Corps Mentor</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏢 Pohang University of Science and Technology (POSTECH)</p>
+        <p>🇰🇷 Pohang, Republic of Korea</p>
+        <p>📆 Sep. 2018 ~ Dec. 2018</p>
+        <a href= "/experiences/images_html/picture_RCvolunteer.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+      </div>
+
+      <div class="activity_content_title">
+        <h6><p class="thing">POSTECH Freshmen Guide Mentor</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏢 Pohang University of Science and Technology (POSTECH)</p>
+        <p>🇰🇷 Pohang, Republic of Korea</p>
+        <p>📆 Jan. 2018 ~ Feb 2018</p>
+        <a href= "/experiences/images_html/picture_Freshmenmentor.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+      </div>
+
+      <div class="activity_content_title">
+        <h6><p class="thing">10th POSTECH InCiTE, ExCiTE Camp Mentor</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏢 Pohang University of Science and Technology (POSTECH)</p>
+        <p>🇰🇷 Pohang, Republic of Korea</p>
+        <p>📆 Dec. 2017 ~ Jan. 2018</p>
+        <a href= "/experiences/images_html/picture_Citecamp.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+      </div>
+
+  </div>
+</div>
+
 <!-- Activity -->
+<div class="row g-5 mb-5">
+  <div class="categorybar col-lg-2">
+    <h6>Activity</h6>
+  </div>
+  <div class="detail col-lg-10">
+
+      <div class="activity_content_title">
+        <h6><p class="thing">56th College Student Business Management Online Camp</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏆 1st Place(1/10)</p>
+        <p>🏢 DB Foundation</p>
+        <p>🇰🇷 Online, Republic of Korea</p>
+        <p>📆 Jan. 2022</p>
+        <a href= "https://www.dbfoundation.or.kr/business/experience_camp" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
+        <a href= "/experiences/images_html/testimonial_DB.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial</a>
+        <a href= "/experiences/images_html/picture_DB.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+      </div>
+
+      <div class="activity_content_title">
+        <h6><p class="thing">POSTECH Festival Management Committee Planning Team Leader</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏢 Pohang University of Science and Technology (POSTECH)</p>
+        <p>🇰🇷 Pohang, Republic of Korea</p>
+        <p>📆 Apr. 2019 ~ May 2019</p>
+        <a href= "/experiences/images_html/picture_Festival.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+      </div>
+
+      <div class="activity_content_title">
+        <h6><p class="thing">1st POSTECH Essay Competition</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏆 1st Place</p>
+        <p>🏢 Pohang University of Science and Technology (POSTECH)</p>
+        <p>🇰🇷 Pohang, Republic of Korea</p>
+        <p>📆 Oct. 2018 ~ Nov 2018</p>
+        <a href= "http://peace.postech.ac.kr/main.php" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
+        <a href= "/experiences/images_html/picture_Essay.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">picture</a>
+      </div>
+
+      <div class="activity_content_title">
+        <h6><p class="thing">23th Seoul National University Data Mining Camp</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏢 Korea Data Mining Society(KDMS)</p>
+        <p>🇰🇷 Seoul, Republic of Korea</p>
+        <p>📆 Jan. 2016</p>
+        <a href= "/experiences/images_html/testimonial_SNUdataminingcamp.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial</a>
+      </div>
+
+      <div class="activity_content_title">
+        <h6><p class="thing">International Environmental Council on Greenism</p></h6> 
+      </div>
+      <div class="activity_content_description">
+        <p>🏢 Association Internationale des Etudiants en Sciences Economiques et Commerciale(AIESEC)</p>
+        <p>🇰🇷 Seoul, Republic of Korea</p>
+        <p>📆 Jul. 2014</p>
+        <a href= "/experiences/images_html/testimonial_Greenism.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">testimonial</a>
+      </div>
+
+  </div>
+</div>
+
+<!-- Support -->
+<div class="row g-5 mb-5">
+  <div class="categorybar col-lg-2">
+    <h6>Support</h6>
+  </div>
+  <div class="detail col-lg-10">
+    
+    <div class="activity_content_title">
+      <h6><p class="thing">Charitable Fund Sponsorship</p></h6> 
+    </div>
+    <div class="activity_content_description">
+      <p>🏢 Save the Children</p>
+      <p>🇰🇷 Seoul, Republic of Korea</p>
+      <p>📆 Mar. 2017 ~ Present</p>
+      <a href= "https://www.sc.or.kr/participate/campaignView.do?NO=29043&utm_source=google_pc&utm_medium=brand_search&utm_campaign=sa_bs&utm_content=브랜드&utm_term=%5BSAVETHECHILDREN%5D&gclid=Cj0KCQiA6NOPBhCPARIsAHAy2zCWYRKOKfT9jAeUFhvRPNFFROiEMY59uu7d-gfRh4Wjh29yyFRKOe0aAozoEALw_wcB" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">link</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Activity -->
+<!--
     <div class="row g-5 mb-5">
       <div class="categorybar col-lg-2">
         <h6>Activity</h6>
@@ -50,7 +237,7 @@ layout: default
         {% endfor %}
       </div>
     </div>
-    
+-->
 
 <!-- Academic Project-->
 <!--
