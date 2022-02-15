@@ -92,7 +92,9 @@ body a { color: #fdf7d6; }
 
 .navbar_header_toggleBtn { display: none; position: absolute; right: 32px; color: #a0a0a0; }
 
-@media screen and (max-width: 768px) { #education_mark { width: 50px; height: 50px; margin-bottom: 10px; } .navbar_header { flex-direction: column; align-items: flex-start; padding: 8px 24px; } .navbar_header_menu { display: none; flex-direction: column; align-items: center; width: 100%; } .navbar_header_menu li { width: 100%; text-align: center; } .navbar_header_toggleBtn { display: block; } .navbar_header_menu.active { display: flex; } }
+@media screen and (max-width: 1000px) { #education_mark { margin-left: 30px; width: 50px; height: 50px; background: silver; border-radius: 50%; margin-bottom: 10px; } }
+
+@media screen and (max-width: 768px) { .navbar_header { flex-direction: column; align-items: flex-start; padding: 8px 24px; } .navbar_header_menu { display: none; flex-direction: column; align-items: center; width: 100%; } .navbar_header_menu li { width: 100%; text-align: center; } .navbar_header_toggleBtn { display: block; } .navbar_header_menu.active { display: flex; } }
 
 .home_name { position: relative; text-transform: uppercase; font-size: 1em; letter-spacing: 4px; overflow: hidden; background: linear-gradient(90deg, #000, #fff, #000); background-repeat: no-repeat; background-size: 80%; animation: animate_home_name 5s linear infinite; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: rgba(255, 255, 255, 0.1); }
 
