@@ -63,7 +63,7 @@ graduate_courses:
 - {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', grade: 'A0', url: 'sports-engineering-and-ict-convergence'}
 
 language_skills:
-- {language: '🇰🇷 Korean', skill: 'Native language'}
+- {language: '🇰🇷 Korean', skill: 'Native Language'}
 - {language: '🇺🇸 English', skill: 'Fluent (reading), Intermediate (listening, speaking, writing)'}
 
 social:
