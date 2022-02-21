@@ -58,9 +58,12 @@ undergraduate_courses:
 
 graduate_courses:
 - {number: 'CSED515/AIGS515', name: 'Machine Learning', grade: 'A0', url: 'machine-learning'}
+- {number: 'CSED537/AIGS537', name: 'Artificial Intelligence & Data Science', grade: 'A0', url: '#'}
+- {number: 'CSED538/AIGS538', name: 'Deep Learning', grade: 'A0', url: '#'}
 - {number: 'CSED539/AIGS539', name: 'Computer Vision', grade: 'A0', url: 'computer-vision'}
 - {number: 'CSED551/AIGS551', name: 'Computational Photography', grade: 'A+', url: 'computational-photography'}
 - {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', grade: 'A0', url: 'sports-engineering-and-ict-convergence'}
+
 
 language_skills:
 - {language: '🇰🇷 Korean', skill: 'Native Language'}
@@ -71,4 +74,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/jaeyoon-sim-86a4aa185/'}
 
 contacts:
-- {name: 'Jaeyoon Sim', title: 'Graduate Student', department: 'Graduate School of Artificial Intelligence(GSAI)', institution: 'POSTECH AIMI LAB', institution_address: 'Pohang, Korea', email: 'simjy98[at]postech[dot]ac[dot]kr', building: 'Rist 4', image: 'assets/img/contact.jpeg'}
+- {name: 'Jaeyoon Sim', title: 'Graduate Student', department: 'Graduate School of Artificial Intelligence(GSAI)', institution: 'POSTECH MIV LAB', institution_address: 'Pohang, Korea', email: 'simjy98[at]postech[dot]ac[dot]kr', building: 'Rist 4', image: 'assets/img/contact.jpeg'}
