@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Artificial Intelligence & Data Science"
+title: "Deep learning"
 ---
 #### Professor
 - Daejin Kim (POSTECH)
