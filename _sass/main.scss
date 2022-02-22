@@ -1,5 +1,5 @@
 $light_backgroundColor: linear-gradient(to right, rgb(156, 156, 156) 0%, white 30%, rgb(230, 245, 224) 70%, rgb(205, 247, 227) 100%);
-$dark_backgroundColor: linear-gradient(to right, black 0%, black 80%, white 100%);;
+$dark_backgroundColor: black;
 $light_bodyColor: #000000;
 $dark_bodyColor: #ffffff;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -49,7 +49,7 @@ body a {
 	text-align: center; 
 	border-radius: 10px; 
 	color: #FFFFFF;
-	background: linear-gradient(to right, black, silver);
+	background: linear-gradient(to right, gray, silver);
 	margin-bottom: 10px;
 }
 
