@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Deep learning"
+title: "Deep Learning"
 ---
 #### Professor
 - Daejin Kim (POSTECH)
