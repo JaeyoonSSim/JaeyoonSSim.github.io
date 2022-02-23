@@ -58,6 +58,7 @@ undergraduate_courses:
 
 graduate_courses:
 - {number: 'CSED515/AIGS515', name: 'Machine Learning', grade: 'A0', url: 'machine-learning'}
+- {number: 'CSED526/AIGS526', name: 'Data Mining', grade: 'A0', url: 'data-mining'}
 - {number: 'CSED537/AIGS537', name: 'Artificial Intelligence & Data Science', grade: 'A0', url: 'artificial-intelligence-and-data-science'}
 - {number: 'CSED538/AIGS538', name: 'Deep Learning', grade: 'A0', url: 'deep-learning'}
 - {number: 'CSED539/AIGS539', name: 'Computer Vision', grade: 'A0', url: 'computer-vision'}
