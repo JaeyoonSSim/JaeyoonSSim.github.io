@@ -24,5 +24,9 @@ title: "Computer Vision"
 - 3D Geometry
 
 #### Assignments
+- [Report](/courses/computer-vision/AIGS539_PROJECT.pdf)
 
-- [Report](/courses/computer-vision/AIGS539_FINAL.pdf)
+#### Exams
+- [Mid](/courses/computer-vision/AIGS539_MID.pdf)
+
+- [Final](/courses/computer-vision/AIGS539_FINAL.pdf)
