@@ -11,4 +11,4 @@ title: "Home"
 - Deep Learning
 - Machine Learning
 - Image and Video Processing
-- Medical Imaging 
+- Graph Neural Network (All About Graph)
