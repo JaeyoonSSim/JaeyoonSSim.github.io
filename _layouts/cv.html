@@ -40,6 +40,7 @@ layout: default
           {% for section in site.data.cv.work-experience.work %}
             <div>
               <h6><p class="thing">♛ {{ section.title }}<kbd class="{{ section.badge }}" style="float:right;">{{ section.category }}</kbd></p></h6>
+              <p>{{ section.task}}</p>
               <p>{{ section.advisor }}</p>
               <p>{{ section.description }}</p>
               <p>{{ section.location }} {{ section.period }}</p>

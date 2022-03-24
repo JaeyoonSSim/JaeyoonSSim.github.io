@@ -1,5 +1,6 @@
 work:
 - {title: 'Undergraduate Research Intern',
+task: '📚 Research Task: [ Brain Tumor Segmentation ]',
 advisor: '👨‍💼 Advisor: Prof. Wonhwa Kim',
 description: '🏢 POSTECH - Artificial Intelligence and Medical Imaging (AIMI) Lab',
 location: '🇰🇷 Pohang, Republic of Korea',
@@ -8,6 +9,7 @@ badge: 'intern_badge',
 category: 'Intern'}
 
 - {title: 'Development and Research Intern',
+task: '📚 Research Task: [ Image / Video Processing ]',
 advisor: '👨‍💼 Mentor: Leader. Taekyu Han, Sanghun Han',
 description: '🏢 4DREPLAY - Multimedia Group',
 location: '🇰🇷 Seoul, Republic of Korea',
@@ -16,6 +18,7 @@ badge: 'intern_badge',
 category: 'Intern'}
 
 - {title: 'Undergraduate Research Intern',
+task: '📚 Research Task: [ 6D Object Pose Estimation ]',
 advisor: '👨‍💼 Advisor: Prof. Jaesik Park',
 description: '🏢 POSTECH - Computer Vision (CV) Lab',
 location: '🇰🇷 Pohang, Republic of Korea',
