@@ -28,15 +28,6 @@ title: "Data Mining"
 - Image Classification
 
 ### Assignments(Update Later)
-- [Assignment 1 - camera ISP and JPEG development](/courses/computational-photography/AIGS551_Report1.pdf)
-
-- [Assignment 2 - image filtering](/courses/computational-photography/AIGS551_Report2.pdf)
-
-- [Assignment 3 - panorama image generation](/courses/computational-photography/AIGS551_Report3.pdf)
-
-- [Assignment 4 - deconvolution](/courses/computational-photography/AIGS551_Report4.pdf)
+- [Assignment 1 - How to use Weka](/courses/data-mining/AIGS526_ASSN1_20222421pdf)
 
 #### Exams(Update Later)
-- [Mid](/courses/computational-photography/AIGS551_MID.pdf)
-
-- [Final](/courses/computational-photography/AIGS551_FINAL.pdf)
