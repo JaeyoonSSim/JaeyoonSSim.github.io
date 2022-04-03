@@ -123,16 +123,25 @@ body a {
 	font-size: 1.2em;
 }
 
+// Course 이미지
+#course_image {
+	border: 3px solid white;
+	border-radius: 10px;
+	width: 160%;
+	height: auto;
+	margin-top: 10px;
+}
+
 // Contact 이미지
 #contact_image {
-	border: 3px solid black;
+	border: 3px solid white;
 	border-radius: 10px;
 	width: 100%;
 }
 
 // Contact 지도
 #contact_map {
-	border: 0;
+	border: 3px solid white;
 	border-radius: 10px;
 	margin-top: 10px;
 }

@@ -27,7 +27,7 @@ title: "Data Mining"
 - Artificial Neural Network
 - Image Classification
 
-### Assignments(Update Later)
-- [Assignment 1 - How to use Weka](/courses/data-mining/AIGS526_ASSN1_20222421pdf)
+### Assignments
+- [Assignment 1 - How to use Weka](/courses/data-mining/AIGS526_ASSN1_20222421.pdf)
 
-#### Exams(Update Later)
+#### Exams

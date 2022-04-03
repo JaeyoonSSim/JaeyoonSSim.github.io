@@ -5,6 +5,9 @@ title: "Computational Photography"
 #### Professor
 - Sunghyun Cho (POSTECH)
 
+#### Grade
+- A+
+
 #### Course Information
 
 - Computational photography is a field to study computational algorithms to overcome limitations of traditional cameras and to provide users new imaging applications. This field is a relatively new field emerged by the convergence of computer vision, image processing, and computer graphics. In this course, we first cover basic concepts to understand computational photography, and then several different topics as well as recent trends in computational photography. Topics will include cameras and optics, image formation, image and video processing, image restoration, image manipulation, image synthesis and so on. We will cover recent research papers in each topic and implement some of them to the degree that is possible.
@@ -27,15 +30,15 @@ title: "Computational Photography"
 
 #### Assignments
 
-- [Assignment 1 - camera ISP and JPEG development](/courses/computational-photography/AIGS551_Report1.pdf)
+- [Assignment 1 - Camera ISP and JPEG development](/courses/computational-photography/AIGS551_Report1.pdf) (100 / 100)
 
-- [Assignment 2 - image filtering](/courses/computational-photography/AIGS551_Report2.pdf)
+- [Assignment 2 - Image filtering](/courses/computational-photography/AIGS551_Report2.pdf) (100 / 100)
 
-- [Assignment 3 - panorama image generation](/courses/computational-photography/AIGS551_Report3.pdf)
+- [Assignment 3 - Panorama image generation](/courses/computational-photography/AIGS551_Report3.pdf) (100 / 100)
 
-- [Assignment 4 - deconvolution](/courses/computational-photography/AIGS551_Report4.pdf)
+- [Assignment 4 - Deconvolution](/courses/computational-photography/AIGS551_Report4.pdf) (100 / 100)
 
 #### Exams
-- [Mid](/courses/computational-photography/AIGS551_MID.pdf)
+- [Midterm exam](/courses/computational-photography/AIGS551_MID.pdf) (98 / 100)
 
-- [Final](/courses/computational-photography/AIGS551_FINAL.pdf)
+- [Final exam](/courses/computational-photography/AIGS551_FINAL.pdf) (97 / 100)

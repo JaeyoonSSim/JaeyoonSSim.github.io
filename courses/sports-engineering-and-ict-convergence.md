@@ -5,6 +5,9 @@ title: "Sports Engineering and ICT Convergence"
 #### Professor
 - Youngseok Kim (POSTECH)
 
+#### Grade
+- A0
+
 #### Course Information
 
 - According to UN Educational, Scientific and Cultural Organization, 

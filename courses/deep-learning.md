@@ -32,13 +32,13 @@ title: "Deep Learning"
 - Deep Generative Models
 
 
-#### Assignments(Update Later)
+#### Assignments
 
-- [Programming Assignment 1 - Simple Neural Networks](/courses/deep-learning/AIGS538_PA1_20222421.pdf)
+- [Programming Assignment 1 - Simple neural networks](/courses/deep-learning/AIGS538_PA1_20222421.pdf)
 
-- [Homework Assignment 1 - Simple Questions](/courses/deep-learning/AIGS538_HW1_20222421.pdf)
+- [Homework Assignment 1 - Simple questions](/courses/deep-learning/AIGS538_HW1_20222421.pdf)
 
-- [Homework Assignment 2 - Convolutional Neural Networks for Visual Recognition](/courses/deep-learning/AIGS538_HW2_20222421.pdf)
+- [Homework Assignment 2 - Convolutional neural networks for visual recognition](/courses/deep-learning/AIGS538_HW2_20222421.pdf)
 
 
-#### Exams(Update Later)
+#### Exams

@@ -35,9 +35,11 @@ body a { color: #fdf7d6; }
 
 .publication_title { font-weight: 700; font-size: 1.2em; }
 
-#contact_image { border: 3px solid black; border-radius: 10px; width: 100%; }
+#course_image { border: 3px solid white; border-radius: 10px; width: 160%; height: auto; margin-top: 10px; }
 
-#contact_map { border: 0; border-radius: 10px; margin-top: 10px; }
+#contact_image { border: 3px solid white; border-radius: 10px; width: 100%; }
+
+#contact_map { border: 3px solid white; border-radius: 10px; margin-top: 10px; }
 
 .activity_content_title { position: relative; cursor: pointer; }
 

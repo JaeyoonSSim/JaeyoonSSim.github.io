@@ -5,6 +5,9 @@ title: "Computer Vision"
 #### Professor
 - Suha Kwak (POSTECH)
 
+#### Grade
+- A0
+
 #### Course Information
 
 - This course introduces fundamental problems in computer vision and possible solutions to them. For most of the topics, classical methods and their deep learning counterparts are presented together. Since this is an introductory course, more emphasis will be given on practical solutions rather than theoretical ones.
@@ -27,6 +30,6 @@ title: "Computer Vision"
 - [Report](/courses/computer-vision/AIGS539_PROJECT.pdf)
 
 #### Exams
-- [Mid](/courses/computer-vision/AIGS539_MID.pdf)
+- [Midterm exam](/courses/computer-vision/AIGS539_MID.pdf)
 
-- [Final](/courses/computer-vision/AIGS539_FINAL.pdf)
+- [Final exam](/courses/computer-vision/AIGS539_FINAL.pdf)
