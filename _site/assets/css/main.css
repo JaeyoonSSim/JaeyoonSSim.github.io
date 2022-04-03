@@ -35,7 +35,7 @@ body a { color: #fdf7d6; }
 
 .publication_title { font-weight: 700; font-size: 1.2em; }
 
-#course_image { border: 3px solid white; border-radius: 10px; width: 160%; height: auto; margin-top: 10px; }
+#course_image { border: 3px solid white; border-radius: 10px; width: 100%; }
 
 #contact_image { border: 3px solid white; border-radius: 10px; width: 100%; }
 
