@@ -40,5 +40,7 @@ title: "Deep Learning"
 
 - [Homework Assignment 2 - Convolutional neural networks for visual recognition](/courses/deep-learning/AIGS538_HW2_20222421.pdf)
 
+- [Homework Assignment 3 - Object detection](/courses/deep-learning/AIGS538_HW3_20222421.pdf)
+
 
 #### Exams
