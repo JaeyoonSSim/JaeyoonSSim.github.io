@@ -36,9 +36,11 @@ title: "Deep Learning"
 
 - [Programming Assignment 1 - Simple neural networks](/courses/deep-learning/AIGS538_PA1_20222421.pdf)
 
-- [Programming Assignment 2 - Convolutional neural Networks](/courses/deep-learning/AIGS538_PA2_20222421.pdf)
+- [Programming Assignment 2 - Convolutional neural networks](/courses/deep-learning/AIGS538_PA2_20222421.pdf)
 
-- [Homework Assignment 1 - Simple questions](/courses/deep-learning/AIGS538_HW1_20222421.pdf)
+- [Programming Assignment 3 - Object detection](/courses/deep-learning/AIGS538_PA3_20222421.pdf)
+
+- [Homework Assignment 1 - Simple questions](/courses/deep-learning/AIGS538_HW1_20222421.pdf) (100 / 100)
 
 - [Homework Assignment 2 - Convolutional neural networks for visual recognition](/courses/deep-learning/AIGS538_HW2_20222421.pdf)
 
