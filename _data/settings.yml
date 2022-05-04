@@ -58,13 +58,11 @@ undergraduate_courses:
 
 graduate_courses:
 - {number: 'CSED515/AIGS515', name: 'Machine Learning', grade: 'A0', url: 'machine-learning'}
-- {number: 'CSED524/AIGS524', name: 'Probability Graph Model(L)'}
 - {number: 'CSED526/AIGS526', name: 'Data Mining(N)', grade: 'A0', url: 'data-mining'}
 - {number: 'CSED537/AIGS537', name: 'Artificial Intelligence & Data Science(L)', url: 'artificial-intelligence-and-data-science'}
 - {number: 'CSED538/AIGS538', name: 'Deep Learning(N)', grade: 'A0', url: 'deep-learning'}
 - {number: 'CSED539/AIGS539', name: 'Computer Vision', grade: 'A0', url: 'computer-vision'}
 - {number: 'CSED551/AIGS551', name: 'Computational Photography', grade: 'A+', url: 'computational-photography'}
-- {number: 'CSED703F/AIGS703F', name: '3D Vision(L)'}
 - {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', grade: 'A0', url: 'sports-engineering-and-ict-convergence'}
 - {number: 'CSED490F', name: 'Signal Processing(L)', url: 'signal-processing'}
 

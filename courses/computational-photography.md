@@ -30,15 +30,15 @@ title: "Computational Photography"
 
 #### Assignments
 
-- [Assignment 1 - Camera ISP and JPEG development](/courses/computational-photography/AIGS551_Report1.pdf) (100 / 100)
+- [Assignment 1 - Camera ISP and JPEG Development](/courses/computational-photography/AIGS551_Report1.pdf) (100 / 100)
 
-- [Assignment 2 - Image filtering](/courses/computational-photography/AIGS551_Report2.pdf) (100 / 100)
+- [Assignment 2 - Image Filtering](/courses/computational-photography/AIGS551_Report2.pdf) (100 / 100)
 
-- [Assignment 3 - Panorama image generation](/courses/computational-photography/AIGS551_Report3.pdf) (100 / 100)
+- [Assignment 3 - Panorama Image Generation](/courses/computational-photography/AIGS551_Report3.pdf) (100 / 100)
 
 - [Assignment 4 - Deconvolution](/courses/computational-photography/AIGS551_Report4.pdf) (100 / 100)
 
 #### Exams
-- [Midterm exam](/courses/computational-photography/AIGS551_MID.pdf) (98 / 100)
+- [Midterm Exam](/courses/computational-photography/AIGS551_MID.pdf) (98 / 100)
 
-- [Final exam](/courses/computational-photography/AIGS551_FINAL.pdf) (97 / 100)
+- [Final Exam](/courses/computational-photography/AIGS551_FINAL.pdf) (97 / 100)

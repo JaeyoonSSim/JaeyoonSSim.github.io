@@ -38,16 +38,17 @@ title: "Machine Learning"
 
 #### Assignments
 
-- [Assignment 1 - Probability and basic math skills](/courses/machine-learning/AIGS515_ASSN1_20170243.pdf) (33 / 38)
+- [Assignment 1 - Probability and Basic Math Skills](/courses/machine-learning/AIGS515_ASSN1_20170243.pdf) (33 / 38)
 
-- [Assignment 2 - Regression and classification](/courses/machine-learning/AIGS515_ASSN2_20170243.pdf) (56 / 57)
+- [Assignment 2 - Regression and Classification](/courses/machine-learning/AIGS515_ASSN2_20170243.pdf) (56 / 57)
 
-- [Assignment 3 - Neural networks](/courses/machine-learning/AIGS515_ASSN3_20170243.pdf) (27 / 28)
+- [Assignment 3 - Neural Networks](/courses/machine-learning/AIGS515_ASSN3_20170243.pdf) (27 / 28)
 
-- [Assignment 4 - Graphical model](/courses/machine-learning/AIGS515_ASSN4_20170243.pdf) (29.5 / 33)
+- [Assignment 4 - Graphical Model](/courses/machine-learning/AIGS515_ASSN4_20170243.pdf) (29.5 / 33)
 
-- [Assignment 5 - Generative model and reinforcement learning](/courses/machine-learning/AIGS515_ASSN5_20170243.pdf) (23 / 23)
+- [Assignment 5 - Generative Model and Reinforcement Learning](/courses/machine-learning/AIGS515_ASSN5_20170243.pdf) (23 / 23)
 
 #### Exams
+- Midterm Exam (49 / 70)
 
-- [Final exam](/courses/machine-learning/AIGS515_FINAL_20170243.pdf) (63.5 / 72)
+- [Final Exam](/courses/machine-learning/AIGS515_FINAL_20170243.pdf) (63.5 / 72)

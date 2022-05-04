@@ -30,6 +30,6 @@ title: "Computer Vision"
 - [Report](/courses/computer-vision/AIGS539_PROJECT.pdf)
 
 #### Exams
-- [Midterm exam](/courses/computer-vision/AIGS539_MID.pdf)
+- [Midterm Exam](/courses/computer-vision/AIGS539_MID.pdf)
 
-- [Final exam](/courses/computer-vision/AIGS539_FINAL.pdf)
+- [Final Exam](/courses/computer-vision/AIGS539_FINAL.pdf)

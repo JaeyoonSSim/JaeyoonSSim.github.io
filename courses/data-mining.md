@@ -30,5 +30,7 @@ title: "Data Mining"
 ### Assignments
 - [Assignment 1 - How to use Weka](/courses/data-mining/AIGS526_ASSN1_20222421.pdf) (95 / 100)
 
+- [Assignment 2 - K-means Clustering and Kernel Density Estimation(KDE)](/courses/data-mining/AIGS526_ASSN2_20222421.pdf) ( / 100)
+
 #### Exams
 - [Midterm exam](/courses/data-mining/AIGS526_MID_20222421.pdf) (91 / 100)
