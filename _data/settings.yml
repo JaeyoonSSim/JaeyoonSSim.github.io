@@ -57,15 +57,16 @@ undergraduate_courses:
 - {number: 'PHYS106', name: 'Physics II'}
 
 graduate_courses:
-- {number: 'CSED515/AIGS515', name: 'Machine Learning', grade: 'A0', url: 'machine-learning'}
-- {number: 'CSED526/AIGS526', name: 'Data Mining(N)', grade: 'A0', url: 'data-mining'}
+- {number: 'CSED515/AIGS515', name: 'Machine Learning', url: 'machine-learning'}
+- {number: 'CSED526/AIGS526', name: 'Data Mining(N)', url: 'data-mining'}
 - {number: 'CSED537/AIGS537', name: 'Artificial Intelligence & Data Science(L)', url: 'artificial-intelligence-and-data-science'}
-- {number: 'CSED538/AIGS538', name: 'Deep Learning(N)', grade: 'A0', url: 'deep-learning'}
-- {number: 'CSED539/AIGS539', name: 'Computer Vision', grade: 'A0', url: 'computer-vision'}
-- {number: 'CSED551/AIGS551', name: 'Computational Photography', grade: 'A+', url: 'computational-photography'}
-- {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', grade: 'A0', url: 'sports-engineering-and-ict-convergence'}
+- {number: 'CSED538/AIGS538', name: 'Deep Learning(N)', url: 'deep-learning'}
+- {number: 'CSED539/AIGS539', name: 'Computer Vision', url: 'computer-vision'}
+- {number: 'CSED551/AIGS551', name: 'Computational Photography', url: 'computational-photography'}
+- {number: 'CSED703I', name: 'Machine Learning for Graph Analysis(L)', url: 'machine-learning-for-graph-analysis'}
 - {number: 'CSED490F', name: 'Signal Processing(L)', url: 'signal-processing'}
-
+- {number: 'EECE490U', name: 'Visual Intelligence(L)', url: 'visual-intelligence'}
+- {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', url: 'sports-engineering-and-ict-convergence'}
 
 language_skills:
 - {language: '🇰🇷 Korean', skill: 'Native Language'}
