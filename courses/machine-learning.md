@@ -49,6 +49,6 @@ title: "Machine Learning"
 - [Assignment 5 - Generative Model and Reinforcement Learning](/courses/machine-learning/AIGS515_ASSN5_20170243.pdf) (23 / 23)
 
 #### Exams
-- Midterm Exam (49 / 70)
+- Midterm Exam (49 / 76)
 
 - [Final Exam](/courses/machine-learning/AIGS515_FINAL_20170243.pdf) (63.5 / 72)
