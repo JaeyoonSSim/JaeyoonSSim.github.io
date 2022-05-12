@@ -46,5 +46,7 @@ title: "Deep Learning"
 
 - [Homework Assignment 3 - Object Detection](/courses/deep-learning/AIGS538_HW3_20222421.pdf)
 
+- [Homework Assignment 4 - Image Captioning](/courses/deep-learning/AIGS538_HW4_20222421.pdf)
+
 
 #### Exams
