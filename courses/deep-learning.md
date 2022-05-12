@@ -31,7 +31,6 @@ title: "Deep Learning"
 - Approximate Inference 
 - Deep Generative Models
 
-
 #### Assignments
 
 - [Programming Assignment 1 - Simple Neural Networks](/courses/deep-learning/AIGS538_PA1_20222421.pdf)
