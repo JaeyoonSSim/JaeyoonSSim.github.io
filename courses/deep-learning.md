@@ -39,6 +39,8 @@ title: "Deep Learning"
 
 - [Programming Assignment 3 - Object Detection](/courses/deep-learning/AIGS538_PA3_20222421.pdf)
 
+- [Programming Assignment 4 - Image Captioning](/courses/deep-learning/AIGS538_PA4_20222421.pdf)
+
 - [Homework Assignment 1 - Simple Neural Networks](/courses/deep-learning/AIGS538_HW1_20222421.pdf) (100 / 100)
 
 - [Homework Assignment 2 - Convolutional Neural Networks for Visual Recognition](/courses/deep-learning/AIGS538_HW2_20222421.pdf)
@@ -49,3 +51,4 @@ title: "Deep Learning"
 
 
 #### Exams
+- [Final exam](/courses/deep-learning/AIGS538_FINAL_20222421.pdf) ( / 100)
