@@ -36,7 +36,7 @@ description: '🏢 Pohang University of Science and Technology (POSTECH)',
 location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Jan. 2020 ~ Dec. 2020',
 flag: 'utp',
-url: 'https://freshman.postech.ac.kr',
+#url: 'https://freshman.postech.ac.kr',
 testimonial: '/experiences/images_html/testimonial_SA.html',
 picture: '/experiences/images_html/picture_SA.html'}
 
@@ -45,7 +45,7 @@ description: '🏢 KOREA HYDRO & NUCLEAR POWER Co., Ltd. (KHNP)',
 location: '🇰🇷 Yeonggwang, Republic of Korea',
 period: '📆 Dec. 2018 ~ Feb. 2019',
 flag: 'utp',
-url: 'http://www.kucss.or.kr/page/sub0302',
+#url: 'http://www.kucss.or.kr/page/sub0302',
 testimonial: '/experiences/images_html/testimonial_Einstein.html',
 picture: '/experiences/images_html/picture_Einstein.html'}
 
@@ -77,7 +77,7 @@ description: '🏢 DB Foundation 🏆 1st Place(1/10)',
 location: '🇰🇷 Online, Republic of Korea',
 period: '📆 Jan. 2022',
 flag: 'utp',
-url: 'https://www.dbfoundation.or.kr/business/experience_camp',
+#url: 'https://www.dbfoundation.or.kr/business/experience_camp',
 testimonial: '/experiences/images_html/testimonial_DB.html',
 picture: '/experiences/images_html/picture_DB.html'}
 
@@ -93,7 +93,7 @@ description: '🏢 Pohang University of Science and Technology (POSTECH) 🏆 1s
 location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Oct. 2018 ~ Nov 2018',
 flag: 'up',
-url: 'http://peace.postech.ac.kr/main.php',
+#url: 'http://peace.postech.ac.kr/main.php',
 picture: '/experiences/images_html/picture_Essay.html'}
 
 - {title: '23th Seoul National University Data Mining Camp',
@@ -115,4 +115,4 @@ description: '🏢 Save the Children',
 location: '🇰🇷 Seoul, Republic of Korea',
 period: '📆 Mar. 2017 ~ Present',
 flag: 'u',
-url: 'https://www.sc.or.kr/participate/campaignView.do?NO=29043&utm_source=google_pc&utm_medium=brand_search&utm_campaign=sa_bs&utm_content=브랜드&utm_term=%5BSAVETHECHILDREN%5D&gclid=Cj0KCQiA6NOPBhCPARIsAHAy2zCWYRKOKfT9jAeUFhvRPNFFROiEMY59uu7d-gfRh4Wjh29yyFRKOe0aAozoEALw_wcB'}
+#url: 'https://www.sc.or.kr/participate/campaignView.do?NO=29043&utm_source=google_pc&utm_medium=brand_search&utm_campaign=sa_bs&utm_content=브랜드&utm_term=%5BSAVETHECHILDREN%5D&gclid=Cj0KCQiA6NOPBhCPARIsAHAy2zCWYRKOKfT9jAeUFhvRPNFFROiEMY59uu7d-gfRh4Wjh29yyFRKOe0aAozoEALw_wcB'}
