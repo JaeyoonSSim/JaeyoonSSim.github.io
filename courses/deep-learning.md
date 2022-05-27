@@ -33,25 +33,25 @@ title: "Deep Learning"
 
 #### Assignments
 
-- [Programming Assignment 1 - Simple Neural Networks](/courses/deep-learning/AIGS538_PA1_20222421.pdf)
+- [Programming Assignment 1 - Simple Neural Networks](/courses/deep-learning/AIGS538_PA1_20222421.pdf) (100 / 100)
 
-- [Programming Assignment 2 - Convolutional Neural Networks](/courses/deep-learning/AIGS538_PA2_20222421.pdf)
+- [Programming Assignment 2 - Convolutional Neural Networks](/courses/deep-learning/AIGS538_PA2_20222421.pdf) ( / 100)
 
-- [Programming Assignment 3 - Object Detection](/courses/deep-learning/AIGS538_PA3_20222421.pdf)
+- [Programming Assignment 3 - Object Detection](/courses/deep-learning/AIGS538_PA3_20222421.pdf) (100 / 100)
 
-- [Programming Assignment 4 - Image Captioning](/courses/deep-learning/AIGS538_PA4_20222421.pdf)
+- [Programming Assignment 4 - Image Captioning](/courses/deep-learning/AIGS538_PA4_20222421.pdf) ( / 100)
 
-- [Programming Assignment 5 - Generative Adversarial Networks](/courses/deep-learning/AIGS538_PA5_20222421.pdf)
+- [Programming Assignment 5 - Generative Adversarial Networks](/courses/deep-learning/AIGS538_PA5_20222421.pdf) ( / 100)
 
 - [Homework Assignment 1 - Simple Neural Networks](/courses/deep-learning/AIGS538_HW1_20222421.pdf) (100 / 100)
 
-- [Homework Assignment 2 - Convolutional Neural Networks for Visual Recognition](/courses/deep-learning/AIGS538_HW2_20222421.pdf)
+- [Homework Assignment 2 - Convolutional Neural Networks for Visual Recognition](/courses/deep-learning/AIGS538_HW2_20222421.pdf) (100 / 100)
 
-- [Homework Assignment 3 - Object Detection](/courses/deep-learning/AIGS538_HW3_20222421.pdf)
+- [Homework Assignment 3 - Object Detection](/courses/deep-learning/AIGS538_HW3_20222421.pdf) (100 / 100)
 
-- [Homework Assignment 4 - Image Captioning](/courses/deep-learning/AIGS538_HW4_20222421.pdf)
+- [Homework Assignment 4 - Image Captioning](/courses/deep-learning/AIGS538_HW4_20222421.pdf) (100 / 100)
 
-- [Homework Assignment 5 - Generative Adversarial Networks](/courses/deep-learning/AIGS538_HW5_20222421.pdf)
+- [Homework Assignment 5 - Generative Adversarial Networks](/courses/deep-learning/AIGS538_HW5_20222421.pdf) (/ 100)
 
 
 #### Exams
