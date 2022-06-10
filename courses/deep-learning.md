@@ -58,4 +58,4 @@ title: "Deep Learning"
 
 
 #### Exams
-- [Final exam](/courses/deep-learning/AIGS538_FINAL_20222421.pdf) ( / 100)
+- Final exam ( / 100)
