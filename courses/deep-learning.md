@@ -5,6 +5,9 @@ title: "Deep Learning"
 #### Professor
 - Daejin Kim (POSTECH)
 
+#### Grade
+- A0
+
 #### Course Information
 
 - This goal of this class is to study basic theory and practice of deep learning, a branch of machine learning concerned with modern neural networks, which is behind many recent advances in AI. We will cover a range of topics from basic neural network models, training techniques, and some of representative applications, focusing on standard models of deep learning. 

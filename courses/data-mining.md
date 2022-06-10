@@ -5,6 +5,9 @@ title: "Data Mining"
 #### Professor
 - Wonhwa Kim (POSTECH)
 
+#### Grade
+- A0
+
 #### Course Information
 
 - This is an introductory course on data mining. Data Mining refers to the process of automatic discovery of patterns and knowledge from large data repositories, including databases, data warehouses, Web, document collections, and data streams. We will study the basic topics of data mining, including data pre-processing, frequent pattern mining, correlation analysis, machine learning methods for classification, prediction and clustering.
