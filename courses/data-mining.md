@@ -32,11 +32,11 @@ title: "Data Mining"
 
 - [Assignment 2 - K-means Clustering and Kernel Density Estimation(KDE)](/courses/data-mining/AIGS526_ASSN2_20222421.pdf) (108 / 110)
 
-- [Assignment 3 - Naive Bayes and Logistic Regression](/courses/data-mining/AIGS526_ASSN3_20222421.pdf) ( / 100)
+- [Assignment 3 - Naive Bayes and Logistic Regression](/courses/data-mining/AIGS526_ASSN3_20222421.pdf) (100 / 100)
 
 - [Assignment 4 - Artificial Neural Network](/courses/data-mining/AIGS526_ASSN4_20222421.pdf) ( / 100)
 
 #### Exams
 - [Midterm exam](/courses/data-mining/AIGS526_MID_20222421.pdf) (91 / 100)
 
-- [Final exam](/courses/data-mining/AIGS526_FINAL_20222421.pdf) ( / 100)
+- Final exam (90 / 100)
