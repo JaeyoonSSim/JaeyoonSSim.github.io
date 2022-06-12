@@ -6,7 +6,7 @@ title: "Data Mining"
 - Wonhwa Kim (POSTECH)
 
 #### Grade
-- A0
+- A+
 
 #### Course Information
 

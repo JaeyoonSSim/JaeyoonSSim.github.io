@@ -6,7 +6,7 @@ title: "Deep Learning"
 - Daejin Kim (POSTECH)
 
 #### Grade
-- A0
+- A+
 
 #### Course Information
 
