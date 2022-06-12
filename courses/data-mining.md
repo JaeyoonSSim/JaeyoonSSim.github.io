@@ -12,7 +12,6 @@ title: "Data Mining"
 
 - This is an introductory course on data mining. Data Mining refers to the process of automatic discovery of patterns and knowledge from large data repositories, including databases, data warehouses, Web, document collections, and data streams. We will study the basic topics of data mining, including data pre-processing, frequent pattern mining, correlation analysis, machine learning methods for classification, prediction and clustering.
 
-
 #### Schedule
 
 - Course overview
@@ -40,6 +39,6 @@ title: "Data Mining"
 - [Assignment 4 - Artificial Neural Network](/courses/data-mining/AIGS526_ASSN4_20222421.pdf) ( / 100)
 
 #### Exams
-- [Midterm exam](/courses/data-mining/AIGS526_MID_20222421.pdf) (91 / 100)
+- [Midterm Exam](/courses/data-mining/AIGS526_MID_20222421.pdf) (91 / 100)
 
-- Final exam (90 / 100)
+- Final Exam (90 / 100)

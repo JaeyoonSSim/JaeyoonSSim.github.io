@@ -3,7 +3,7 @@ html { scroll-behavior: smooth; }
 
 body { background: black; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; transition: 0.5s; }
 
-body a { color: #fdf7d6; }
+body a { color: #fffeb5; }
 
 ::-webkit-scrollbar { width: 6px; }
 
@@ -45,7 +45,7 @@ body a { color: #fdf7d6; }
 
 .activity_content_title::before { display: inline-block; }
 
-.activity_content_title > h6 > p:hover { color: #6b6bfa; }
+.activity_content_title > h6 > p:hover { color: #00ff66; }
 
 .activity_content_title.on > h6 > p { font-weight: 900; color: gray; }
 
@@ -57,7 +57,7 @@ body a { color: #fdf7d6; }
 
 .project_content_title::before { display: inline-block; }
 
-.project_content_title > h6 > p:hover { color: #6b6bfa; }
+.project_content_title > h6 > p:hover { color: #00ff66; }
 
 .project_content_title.on > h6 > p { font-weight: 900; color: gray; }
 
@@ -76,7 +76,7 @@ body a { color: #fdf7d6; }
   100% { transform: translateY(0px);
     text-shadow: 0 1px 0 #d8d8d8, 0 2px 0 #d8d8d8, 0 3px 0 #d8d8d8, 0 2px 5px rgba(0, 0, 0, 0.2); } }
 
-.navbar_header_logo_image { color: goldenrod; }
+.navbar_header_logo_image { color: #cdf7e3; }
 
 .main_logo_1 { color: #b6b6b6; font-weight: 700; }
 
