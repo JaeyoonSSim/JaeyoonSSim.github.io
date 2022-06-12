@@ -1,12 +1,14 @@
 education:
 - {title: 'Pohang University of Science and Technology (POSTECH)',
 advisor: '👨‍💼 Advisor: Prof. Wonhwa Kim',
+gpa : '📓 GPA: 4.3 / 4.3',
 degree: '👨‍🎓 M.S. / Ph.D. Integrated degree, Graduate School of Artificial Intelligence (GSAI)',
 location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Feb. 2022 ~ Current'}
 
 - {title: 'Pohang University of Science and Technology (POSTECH)',
 advisor: '👨‍💼 Advisor: Prof. Changki Baek',
+gpa : '📓 GPA: 3.55 / 4.3',
 degree: '👨‍🎓 B.S. degree, Dept. of Convergence IT Engineering (CiTE)',
 location: '🇰🇷 Pohang, Republic of Korea',
 period: '📆 Feb. 2017 ~ Feb. 2022'}
