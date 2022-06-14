@@ -38,11 +38,11 @@ title: "Deep Learning"
 
 - [Programming Assignment 1 - Simple Neural Networks](/courses/deep-learning/AIGS538_PA1_20222421.pdf) (100 / 100)
 
-- [Programming Assignment 2 - Convolutional Neural Networks](/courses/deep-learning/AIGS538_PA2_20222421.pdf) ( / 100)
+- [Programming Assignment 2 - Convolutional Neural Networks](/courses/deep-learning/AIGS538_PA2_20222421.pdf) (100 / 100)
 
 - [Programming Assignment 3 - Object Detection](/courses/deep-learning/AIGS538_PA3_20222421.pdf) (100 / 100)
 
-- [Programming Assignment 4 - Image Captioning](/courses/deep-learning/AIGS538_PA4_20222421.pdf) ( / 100)
+- [Programming Assignment 4 - Image Captioning](/courses/deep-learning/AIGS538_PA4_20222421.pdf) (75 / 100)
 
 - [Programming Assignment 5 - Generative Adversarial Networks](/courses/deep-learning/AIGS538_PA5_20222421.pdf) (100 / 100)
 
