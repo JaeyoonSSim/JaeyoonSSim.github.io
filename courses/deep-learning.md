@@ -58,4 +58,4 @@ title: "Deep Learning"
 
 
 #### Exams
-- Final Exam ( / 100)
+- Final Exam (297 / 365)
