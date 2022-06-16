@@ -22,8 +22,9 @@ layout: default
                 <img id="education_mark" src="/assets/postech.png">
               </div>
               <div class="col-lg-8">
-                <p>{{ section.advisor }} {{ section.gpa }}</p>
+                <p>{{ section.advisor }}</p>
                 <p>{{ section.degree }}</p>
+                <p>{{ section.gpa }}</p>
                 <p>{{ section.location }} {{ section.period }}</p>
               </div>
             </div>
@@ -38,12 +39,17 @@ layout: default
       </div>
       <div class="detail col-lg-10">
           {% for section in site.data.cv.work-experience.work %}
-            <div>
-              <h6><p class="thing">♛ {{ section.title }}<kbd class="{{ section.badge }}" style="float:right;">{{ section.category }}</kbd></p></h6>
-              <p>{{ section.task}}</p>
-              <p>{{ section.advisor }}</p>
-              <p>{{ section.description }}</p>
-              <p>{{ section.location }} {{ section.period }}</p>
+            <h6><p class="thing">♛ {{ section.title }}<kbd class="{{ section.badge }}" style="float:right;">{{ section.category }}</kbd></p></h6>
+            <div class="row">
+              <div class="col-lg-2">
+                <img id="education_mark" src= {{ section.icon }}>
+              </div>
+              <div class="col-lg-8">
+                <p>{{ section.advisor }}</p>
+                <p>{{ section.task}}</p>
+                <p>{{ section.description }}</p>
+                <p>{{ section.location }} {{ section.period }}</p>
+              </div>
             </div>
           {% endfor %}
       </div>
