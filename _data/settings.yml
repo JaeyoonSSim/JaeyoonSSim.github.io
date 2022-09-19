@@ -65,7 +65,7 @@ graduate_courses:
 - {number: 'CSED551/AIGS551', name: 'Computational Photography', url: 'computational-photography'}
 #- {number: 'CSED703I', name: 'Machine Learning for Graph Analysis(L)', url: 'machine-learning-for-graph-analysis'}
 #- {number: 'CSED490F', name: 'Signal Processing(L)', url: 'signal-processing'}
-#- {number: 'EECE490U', name: 'Visual Intelligence(L)', url: 'visual-intelligence'}
+- {number: 'EECE490U', name: 'Visual Intelligence', url: 'visual-intelligence'}
 - {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', url: 'sports-engineering-and-ict-convergence'}
 
 language_skills:
