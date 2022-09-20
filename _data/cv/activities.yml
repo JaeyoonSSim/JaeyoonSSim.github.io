@@ -1,20 +1,20 @@
 study:
-- {title: 'K.Arts Exchange Student - 2019 Winter Semester',
+- {title: 'K.Arts - 2019 Winter Semester',
 description: '🏢 National University of Arts (K.Arts)',
 location: '🇰🇷 Seoul, Republic of Korea',
 period: '📆 Dec. 2019 ~ Jan. 2020'}
 
-- {title: 'SBU Exchange Student - 2019 Fall Semester',
+- {title: 'SBU - 2019 Fall Semester',
 description: '🏢 Stony Brook University of New York (SBU)',
 location: '🇺🇸 NewYork, USA',
 period: '📆 Aug. 2019 ~ Dec. 2019'}
 
-- {title: 'UCB Exchange Student - 2019 Summer Semester',
+- {title: 'UCB - 2019 Summer Semester',
 description: '🏢 University of California Berkeley (UCB)',
 location: '🇺🇸 California, USA',
 period: '📆 Jun. 2019 ~ Aug. 2019'}
 
-- {title: 'SNU Exchange Student - 2018 Summer Semester',
+- {title: 'SNU - 2018 Summer Semester',
 description: '🏢 Seoul National University (SNU)',
 location: '🇰🇷 Seoul, Republic of Korea',
 period: '📆 Jun. 2018 ~ Jul. 2018'}

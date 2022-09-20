@@ -1,7 +1,7 @@
 menu:
 - {name: 'ABOUT ME', url: '/cv'}
 - {name: 'EXPERIENCES', url: '/experiences'}
-#- {name: 'PUBLICATIONS', url: '/publications'}
+- {name: 'PUBLICATIONS', url: '/publications'}
 - {name: 'COURSES', url: '/courses'}
 - {name: 'CONTACT', url: '/contact'}
 
@@ -64,7 +64,7 @@ graduate_courses:
 - {number: 'CSED539/AIGS539', name: 'Computer Vision', url: 'computer-vision'}
 - {number: 'CSED551/AIGS551', name: 'Computational Photography', url: 'computational-photography'}
 #- {number: 'CSED703I', name: 'Machine Learning for Graph Analysis(L)', url: 'machine-learning-for-graph-analysis'}
-#- {number: 'CSED490F', name: 'Signal Processing(L)', url: 'signal-processing'}
+- {number: 'CSED490F', name: 'Signal Processing', url: 'signal-processing'}
 - {number: 'EECE490U', name: 'Visual Intelligence', url: 'visual-intelligence'}
 - {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', url: 'sports-engineering-and-ict-convergence'}
 

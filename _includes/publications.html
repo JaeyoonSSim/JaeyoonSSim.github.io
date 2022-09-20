@@ -19,7 +19,8 @@
           
             <div class="col-lg-8">
               <h5><p class="publication_title">{{ paper.title }}</h5>
-              <p class="text-muted">{{ paper.author }}. {{ paper.accept }}, {{ paper.year }}</p>
+              <p class="text-muted">{{ paper.author }}</p>
+              <p class="text-muted">{{ paper.accept }}, {{ paper.year }}</p>
               <p><a href="{{ paper.url }}" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>
             </div>
           {% endfor %}

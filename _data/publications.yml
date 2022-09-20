@@ -1,9 +1,9 @@
 international:
 - {img: 'publications/data/2.jpg', 
-title: 'Title1', 
+title: 'In progress', 
 author: 'Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim, Jaeyoon Sim', 
-accept: 'International Conference', 
-year: '0000', 
+accept: 'IEEE Conference on Computer Vision and Pattern Recognition (CVPR)', 
+year: '2023', 
 url: '/publications/1501.07274.pdf'}
 
 domestic:
