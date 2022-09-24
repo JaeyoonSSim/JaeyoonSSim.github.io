@@ -8,7 +8,5 @@ title: "Home"
 
 ##### **Interesting Fields**
 - Computer Vision
-- Deep Learning
 - Machine Learning
-- Image and Video Processing
-- Graph Neural Network (All About Graph)
+- Medical Imaging
