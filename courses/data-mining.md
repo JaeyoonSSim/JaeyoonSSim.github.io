@@ -29,7 +29,7 @@ title: "Data Mining"
 - Artificial Neural Network
 - Image Classification
 
-### Assignments
+#### Assignments
 - [Assignment 1 - How to use Weka](/courses/data-mining/AIGS526_ASSN1_20222421.pdf) (95 / 100)
 
 - [Assignment 2 - K-means Clustering and Kernel Density Estimation(KDE)](/courses/data-mining/AIGS526_ASSN2_20222421.pdf) (98 / 100)

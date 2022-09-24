@@ -28,16 +28,3 @@ title: "Signal Processing"
 - Graph Signal Processing
 - Autoencoder
 
-### Assignments
-- [Assignment 1 - How to use Weka](/courses/data-mining/AIGS526_ASSN1_20222421.pdf) (95 / 100)
-
-- [Assignment 2 - K-means Clustering and Kernel Density Estimation(KDE)](/courses/data-mining/AIGS526_ASSN2_20222421.pdf) (98 / 100)
-
-- [Assignment 3 - Naive Bayes and Logistic Regression](/courses/data-mining/AIGS526_ASSN3_20222421.pdf) (100 / 100)
-
-- [Assignment 4 - Artificial Neural Network](/courses/data-mining/AIGS526_ASSN4_20222421.pdf) (98 / 100)
-
-#### Exams
-- [Midterm Exam](/courses/data-mining/AIGS526_MID_20222421.pdf) (91 / 100)
-
-- Final Exam (90 / 100)
