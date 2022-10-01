@@ -27,4 +27,3 @@ title: "Signal Processing"
 - Continuous Wavelet Transform
 - Graph Signal Processing
 - Autoencoder
-
