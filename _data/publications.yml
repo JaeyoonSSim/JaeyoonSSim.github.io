@@ -1,5 +1,5 @@
 international:
-- {img: 'publications/data/2.jpg', 
+- {img: 'publications/data/cvpr2023.png', 
 title: 'Learning Adaptive Heat Kernel Convolution on Graphs and Its Approximations', 
 author: 'Jaeyoon Sim, Injun Choi, Guorong Wu, Won Wha Kim', 
 accept: 'IEEE Conference on Computer Vision and Pattern Recognition (CVPR) - Under Review', 
