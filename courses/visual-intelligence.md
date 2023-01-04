@@ -5,6 +5,9 @@ title: "Visual Intelligence"
 #### Professor
 - Taehyun Oh (POSTECH)
 
+#### Grade
+- S
+
 #### Course Information
 
 - Understand the theories and principles for dealing with problems using visual data.
