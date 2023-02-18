@@ -71,7 +71,7 @@ picture: '/experiences/images_html/picture_Citecamp.html'}
 
 activity:
 - {title: '56th College Student Business Management Online Camp',
-description: '🏢 DB Foundation 🏆 1st Place(1/10)',
+description: '🏢 DB Foundation 🏆 1st Place (1/10)',
 location: '🇰🇷 Online, Republic of Korea',
 period: '📆 Jan. 2022',
 flag: 'tp',
@@ -93,14 +93,14 @@ flag: 'p',
 picture: '/experiences/images_html/picture_Essay.html'}
 
 - {title: '23th Seoul National University Data Mining Camp',
-description: '🏢 Korea Data Mining Society(KDMS)',
+description: '🏢 Korea Data Mining Society (KDMS)',
 location: '🇰🇷 Seoul, Republic of Korea',
 period: '📆 Jan. 2016',
 flag: 't',
 testimonial: '/experiences/images_html/testimonial_SNUdataminingcamp.html'}
 
 - {title: 'International Environmental Council on Greenism',
-description: '🏢 Association Internationale des Etudiants en Sciences Economiques et Commerciale(AIESEC)',
+description: '🏢 Association Internationale des Etudiants en Sciences Economiques et Commerciale (AIESEC)',
 location: '🇰🇷 Seoul, Republic of Korea',
 period: '📆 Jul. 2014',
 flag: 't',
