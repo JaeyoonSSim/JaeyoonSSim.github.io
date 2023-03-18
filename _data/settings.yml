@@ -1,6 +1,6 @@
 menu:
 - {name: 'ABOUT ME', url: '/cv'}
-- {name: 'EXPERIENCES', url: '/experiences'}
+#- {name: 'EXPERIENCES', url: '/experiences'}
 - {name: 'PUBLICATIONS', url: '/publications'}
 - {name: 'COURSES', url: '/courses'}
 - {name: 'CONTACT', url: '/contact'}
