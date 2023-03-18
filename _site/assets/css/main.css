@@ -21,6 +21,8 @@ body a { color: #bbffb8; }
 
 .intern_badge { background-color: #fad192; vertical-align: middle; text-align: center; padding: 2px 35px; font-size: 0.8em; border-radius: 0 0 10px 0; }
 
+.ta_badge { background-color: #92dbfa; vertical-align: middle; text-align: center; padding: 2px 50px; font-size: 0.8em; border-radius: 0 0 10px 0; }
+
 .commendation_badge { background-color: #ffaaaa; vertical-align: middle; text-align: center; padding: 2px 11px; font-size: 0.8em; border-radius: 0 0 10px 0; }
 
 .competition_badge { background-color: #aaaaff; vertical-align: middle; text-align: center; padding: 2px 15px; font-size: 0.8em; border-radius: 0 0 10px 0; }
