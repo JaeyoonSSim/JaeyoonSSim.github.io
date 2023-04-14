@@ -27,5 +27,7 @@ title: "Artificial Intelligence & Data Science"
 #### Assignments
 - [Assignment](/courses/artificial-intelligence-and-data-science/20222421_JaeyoonSim.pdf) (100 / 100)
 
-#### Exams(Update Later)
+#### Exams
 - Midterm Exam (67 / 110)
+
+- Final Exam
