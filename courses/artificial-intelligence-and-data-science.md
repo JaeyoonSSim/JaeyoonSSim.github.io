@@ -3,7 +3,7 @@ layout: page
 title: "Artificial Intelligence & Data Science"
 ---
 #### Professor
-- Minsoo Cho (POSTECH)
+- Namhoon Lee (POSTECH)
 
 #### Course Information
 
@@ -13,17 +13,19 @@ title: "Artificial Intelligence & Data Science"
 
 - Course Logistics and Introduction 
 - Panel discussion #1: How to study AI? 
-- Data Mining (DM)   
-- Machine Learning (ML)  
-- Computing Systems (CS) 
-- Computer Vision (CV)  
-- Medical Imaging (MI) 
+- Algorithm (Algo)
 - Computer Graphics (CG) 
+- Computer Vision (CV)  
+- Computing Systems (CS) 
+- Data Mining (DM)   
+- Machine Learning (ML)
+- Medical Imaging (MI)
 - Natural Language Processing (NLP) 
 - Panel discussion #2: How to do AI research?
 
 
-#### Assignments(Update Later)
-
+#### Assignments
+- [Assignment](/courses/artificial-intelligence-and-data-science/20222421_JaeyoonSim.pdf) (100 / 100)
 
 #### Exams(Update Later)
+- Midterm Exam (67 / 110)

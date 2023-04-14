@@ -59,7 +59,7 @@ undergraduate_courses:
 graduate_courses:
 - {number: 'CSED515/AIGS515', name: 'Machine Learning', url: 'machine-learning'}
 - {number: 'CSED526/AIGS526', name: 'Data Mining', url: 'data-mining'}
-#- {number: 'CSED537/AIGS537', name: 'Artificial Intelligence & Data Science(L)', url: 'artificial-intelligence-and-data-science'}
+- {number: 'CSED537/AIGS537', name: 'Artificial Intelligence & Data Science(L)', url: 'artificial-intelligence-and-data-science'}
 - {number: 'CSED538/AIGS538', name: 'Deep Learning', url: 'deep-learning'}
 - {number: 'CSED539/AIGS539', name: 'Computer Vision', url: 'computer-vision'}
 - {number: 'CSED551/AIGS551', name: 'Computational Photography', url: 'computational-photography'}
