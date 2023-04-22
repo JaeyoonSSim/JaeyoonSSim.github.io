@@ -1,4 +1,15 @@
 work:
+- {title: 'PKG Solder Joint Failure Detection Algorithm',
+task: '📚 Research Task: [ Image Classification ]',
+advisor: '👨‍💼 Advisor: Prof. Won Hwa Kim',
+description: '🏢 SK hynix AICC',
+location: '🇰🇷 Pohang, Republic of Korea',
+period: '📆 Mar. 2023 ~ Sep. 2023',
+icon: '/assets/skhynix.png',
+badge: 'intern_badge',
+category: 'Intern'}
+
+work:
 - {title: 'Undergraduate Research Intern',
 task: '📚 Research Task: [ Brain Tumor Segmentation ]',
 advisor: '👨‍💼 Advisor: Prof. Won Hwa Kim',
