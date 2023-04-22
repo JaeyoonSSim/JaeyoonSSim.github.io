@@ -19,9 +19,11 @@ body a { color: #bbffb8; }
 
 .detail_publication { font-size: 0.8em; }
 
+.project_badge { background-color: #f8bae9; vertical-align: middle; text-align: center; padding: 2px 33px; font-size: 0.8em; border-radius: 0 0 10px 0; }
+
 .intern_badge { background-color: #fad192; vertical-align: middle; text-align: center; padding: 2px 35px; font-size: 0.8em; border-radius: 0 0 10px 0; }
 
-.ta_badge { background-color: #92dbfa; vertical-align: middle; text-align: center; padding: 2px 50px; font-size: 0.8em; border-radius: 0 0 10px 0; }
+.ta_badge { background-color: #92dbfa; vertical-align: middle; text-align: center; padding: 2px 48px; font-size: 0.8em; border-radius: 0 0 10px 0; }
 
 .commendation_badge { background-color: #ffaaaa; vertical-align: middle; text-align: center; padding: 2px 11px; font-size: 0.8em; border-radius: 0 0 10px 0; }
 
@@ -33,7 +35,7 @@ body a { color: #bbffb8; }
 
 #home_title { font-weight: 700; }
 
-#education_mark { margin-left: 30px; width: 70%; height: 70%; background: silver; border-radius: 50%; }
+#education_mark { margin-left: 30px; width: 70%; height: 70%; background: white; border-radius: 20%; }
 
 .publication_title { font-weight: 700; font-size: 1.2em; }
 

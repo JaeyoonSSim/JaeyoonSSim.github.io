@@ -64,6 +64,14 @@ body a {
 
 
 // About me 배지
+.project_badge {
+	background-color: #f8bae9;
+	vertical-align: middle;
+	text-align: center;
+	padding: 2px 33px;
+	font-size: 0.8em;
+	border-radius: 0 0 10px 0;
+}
 .intern_badge {
 	background-color: #fad192;
 	vertical-align: middle;
@@ -121,8 +129,8 @@ body a {
 	margin-left: 30px;
 	width: 70%;
 	height: 70%;
-	background: silver;
-	border-radius: 50%;
+	background: white;
+	border-radius: 20%;
 }
 
 // Publication 제목
