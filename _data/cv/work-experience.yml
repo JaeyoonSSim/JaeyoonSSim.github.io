@@ -1,6 +1,6 @@
 work:
 - {title: 'POSTECH & SK hynix Research Project',
-task: '📚 Research Task: [ Image Classification ]',
+task: '📚 Research Task: [ Image Classification & Object Detection ]',
 advisor: '📂 PKG Solder Joint Failure Detection Algorithm',
 description: '🏢 SK hynix - Artificial Intelligence Collaboration Center (AICC)',
 location: '🇰🇷 Pohang, Republic of Korea',
