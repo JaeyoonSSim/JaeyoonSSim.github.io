@@ -5,6 +5,9 @@ title: "Artificial Intelligence & Data Science"
 #### Professor
 - Namhoon Lee (POSTECH)
 
+#### Grade
+- A+
+
 #### Course Information
 
 - This course will introduce the history of artificial intelligence research and recent trends, exploring different topics between active research areas in AI: Data Mining (DM), Machine Learning (ML), Computing Systems (CS), Computer Vision (CV), Computer Graphics (CG), and Natural Language Processing (NLP). In this course, professors in these areas together will present the relevant core subjects and discuss interdisciplinary topics to form an integrated viewpoint on AI research.  
@@ -30,4 +33,4 @@ title: "Artificial Intelligence & Data Science"
 #### Exams
 - Midterm Exam (67 / 110)
 
-- Final Exam
+- Final Exam (80 / 120)
