@@ -9,4 +9,5 @@ title: "Home"
 ##### **Research Interest**
 - Computer Vision
 - Machine Learning
-- Medical Imaging
+- Signal Processing
+- Graph Neural Network
