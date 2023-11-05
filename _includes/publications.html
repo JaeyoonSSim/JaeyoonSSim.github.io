@@ -8,7 +8,7 @@
 <!-- International Conference -->
     <div class="row g-5 mb-5">
       <div class="categorybar col-md-2">
-        <h6>International Conference</h6>
+        <h6>International</h6>
       </div>
       <div class="detail_publication col-md-10">
         <div class="row g-5 mb-5">
@@ -19,7 +19,7 @@
           <div class="col-lg-8">
             <h6><p class="publication_title">Learning to Approximate Adaptive Kernel Convolution on Graphs</h6>
             <p class="text-muted"><b>Jaeyoon Sim</b>, Sooyeon Jeon, Injun Choi, Guorong Wu, Won Hwa Kim</p>
-            <p class="text-muted">Association for the Advancement of Artificial Intelligence (AAAI), 2024 - Under Review</p>
+            <p class="text-muted">Association for the Advancement of Artificial Intelligence (AAAI), Vancouver, Canada, 2024 - Under Review</p>
             <p>
             <a href="/publications/xx.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
             <a href="/publications/cvpr2023/xx.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> BibTeX</a>
@@ -29,6 +29,34 @@
           
           
           
+          <div class="col-lg-4 text-center">
+            <img src="publications/isbi2024/ieie2023_figure.png" class="img-fluid rounded float-center img-thumbnail shadow mb-3" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+          </div>
+          <div class="col-lg-8">
+            <h6><p class="publication_title">AI-Driven BGA Solder Joint Failure Detection  of PCB Assembly</h6>
+            <p class="text-muted">Seunghun Baek, <b>Jaeyoon Sim</b>, Siyeon Park, Cheolung Yang, Songyi Jeon, Jongho Song, Won Hwa Kim</p>
+            <p class="text-muted">Autumn Annual Conference of the Institute of Electronics and Information Engineers (IEIE), Siheung, Korea, 2023</p>
+            <!--
+            <p>
+            <a href="/publications/xx.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
+            <a href="/publications/cvpr2023/xx.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> BibTeX</a>
+            <a href="/publications/cvpr2023/CVPR2023_supplementary/xx.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Supplementary</a>
+            </p>
+            -->
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  <!-- International Journal -->
+    <div class="row g-5 mb-5">
+      <div class="categorybar col-md-2">
+        <h6>Domestic</h6>
+      </div>
+      <div class="detail_publication col-md-10">
+        <div class="row g-5 mb-5">
+
           <div class="col-lg-4 text-center">
             <img src="publications/isbi2024/isbi2024_figure.png" class="img-fluid rounded float-center img-thumbnail shadow mb-3" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
           </div>
@@ -42,33 +70,10 @@
             <a href="/publications/cvpr2023/CVPR2023_supplementary/xx.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Supplementary</a>
             </p>
           </div>
-          
+
         </div>
       </div>
     </div>
-
-  <!-- International Journal -->
-  <!--
-    <div class="row g-5 mb-5">
-      <div class="categorybar col-md-2">
-        <h6>Domestic Publication</h6>
-      </div>
-      <div class="detail_publication col-md-10">
-        <div class="row g-5 mb-5">
-          {% for paper in site.data.publications.domestic %}
-            <div class="col-lg-4 text-center">
-              <img src="{{ paper.img }}" class="img-fluid rounded float-center img-thumbnail shadow mb-3" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
-            </div>
-
-            <div class="col-lg-8">
-              <h5><p class="publication_title">{{ paper.title }}</h5>
-              <p class="text-muted">{{ paper.author }}. {{ paper.accept }}, {{ paper.year }}</p>
-              <p><a href="{{ paper.url }}" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  -->
+  
   </div>
 </div>
