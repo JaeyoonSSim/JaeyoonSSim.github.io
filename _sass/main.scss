@@ -393,14 +393,14 @@ $btn_color: gray;
 	width: 100%;
 	box-sizing: border-box;
 	overflow:auto;
-	height:225px
+	height:270px
 }
 .timeline:before {
 	content: '';
 	position: absolute;
 	left: 50%;
-	width: 2px;
-	height: 100%;
+	width: 3px;
+	height: 120%;
 	background: #c5c5c5;
 }
 .timeline ul {
@@ -464,7 +464,7 @@ $btn_color: gray;
 .timeline ul li:nth-child(odd) .timeline_time {
 	position: absolute;
 	top: 12px;
-	right: -165px;
+	right: -150px;
 	margin: 0;
 	padding: 8px 16px;
 	background: rgb(0, 0, 0);
@@ -476,7 +476,7 @@ $btn_color: gray;
 .timeline ul li:nth-child(even) .timeline_time {
 	position: absolute;
 	top: 12px;
-	left: -165px;
+	left: -150px;
 	margin: 0;
 	padding: 8px 16px;
 	background: rgb(0, 0, 0);
