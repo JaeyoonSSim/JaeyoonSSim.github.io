@@ -5,6 +5,9 @@ title: "Signal Processing"
 #### Professor
 - Wonhwa Kim (POSTECH)
 
+#### Grade
+- Audit
+
 #### Course Information
 
 - The objective of this course is to make students understand fundamental characteristics of continuous and discrete signals and techniques in handling them.
@@ -12,7 +15,6 @@ title: "Signal Processing"
 #### Schedule
 
 - Introduction
-- Signal and Systems Concepts and Properties
 - Signal and Systems Concepts and Properties
 - Linear Systems and Convolution
 - Systems represented by differential and difference equations
