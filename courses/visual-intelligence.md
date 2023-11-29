@@ -30,11 +30,11 @@ title: "Visual Intelligence"
 - Multi-modal learning
 
 #### Assignments
-- Quiz 1
+- Quiz 1 (28 / 30)
 
-- Quiz 2
+- Quiz 2 (88.33 / 100)
 
 #### Exams
-- Midterm Exam
+- Midterm Exam (29 / 40)
 
-- Final Exam 
+- Final Exam (54 / 100)
