@@ -13,7 +13,7 @@
         <p>🏢 Building: {{ contact.building }}</p>
       </div>
       <div class="col-md-6">
-        <img id="contact_image" src="{{ site.github.url }}/{{ contact.image }}" alt="Contact">
+        <img id="contact_image" src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
       </div>
     </div>
     {% endfor %}

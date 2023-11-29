@@ -3,7 +3,7 @@ layout: page
 title: "Computer Vision"
 ---
 #### Professor
-- Suha Kwak (POSTECH)
+- [Suha Kwak](https://suhakwak.github.io/) (POSTECH)
 
 #### Grade
 - A0

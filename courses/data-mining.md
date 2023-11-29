@@ -3,7 +3,7 @@ layout: page
 title: "Data Mining"
 ---
 #### Professor
-- Wonhwa Kim (POSTECH)
+- [Wonhwa Kim](https://miv.postech.ac.kr/members/) (POSTECH)
 
 #### Grade
 - A+

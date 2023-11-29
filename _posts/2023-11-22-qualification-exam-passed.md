@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qualification Exam Passed"
+title: "Qualification Exam Pass"
 ---
 
 I passed my qualification exam 😎

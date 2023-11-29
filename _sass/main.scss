@@ -22,7 +22,7 @@ body a {
 
 // 스크롤바
 ::-webkit-scrollbar {
-	width: 6px;
+	width: 3px;
 }
 ::-webkit-scrollbar-thumb {
 	background: linear-gradient(black, silver);
@@ -31,6 +31,8 @@ body a {
 
 // 제목
 .thing {
+	border: 0px solid rgb(198, 198, 198);
+	border-bottom-width: 2px;
 	font-weight: 700;
 	color:rgb(0, 0, 0);
 	padding-left: 5px;
@@ -46,8 +48,9 @@ body a {
 
 // 세부 카테고리바
 .categorybar {
+	border: 1.5px solid rgb(101, 101, 101);
 	text-align: center; 
-	border-radius: 10px; 
+	border-radius: 5px; 
 	color: #FFFFFF;
 	background: linear-gradient(to right, gray, silver);
 	margin-bottom: 10px;
@@ -65,15 +68,15 @@ body a {
 
 // About me 배지
 .project_badge {
-	background-color: #f8bae9;
+	background-color: #ffafeb;
 	vertical-align: middle;
 	text-align: center;
-	padding: 2px 33px;
+	padding: 2px 31px;
 	font-size: 0.8em;
 	border-radius: 0 0 10px 0;
 }
 .intern_badge {
-	background-color: #fad192;
+	background-color: #ffcf88;
 	vertical-align: middle;
 	text-align: center;
 	padding: 2px 35px;
@@ -81,15 +84,15 @@ body a {
 	border-radius: 0 0 10px 0;
 }
 .ta_badge {
-	background-color: #92dbfa;
+	background-color: #8eddff;
 	vertical-align: middle;
 	text-align: center;
-	padding: 2px 48px;
+	padding: 2px 50px;
 	font-size: 0.8em;
 	border-radius: 0 0 10px 0;
 }
 .commendation_badge {
-	background-color: #ffaaaa;
+	background-color: #ff9191;
 	vertical-align: middle;
 	text-align: center;
 	padding: 2px 11px;
@@ -97,25 +100,25 @@ body a {
 	border-radius: 0 0 10px 0;
 }
 .competition_badge {
-	background-color: #aaaaff;
+	background-color: #9898ff;
 	vertical-align: middle;
 	text-align: center;
-	padding: 2px 15px;
+	padding: 2px 16px;
 	font-size: 0.8em;
 	border-radius: 0 0 10px 0;
 }
 .scholarship_badge {
-	background-color: #7fe088;
+	background-color: #74dc7ece;
 	vertical-align: middle;
 	text-align: center;
-	padding: 2px 15px;
+	padding: 2px 16px;
 	font-size: 0.8em;
 	border-radius: 0 0 10px 0;
 }
 
 // Home 이미지
 #home_image {
-	border: 5px solid rgb(0, 0, 0); 
+	border: 3px solid rgb(54, 54, 54);
 	border-radius: 50px;
 }
 
@@ -126,11 +129,13 @@ body a {
 
 // Education 마크
 #education_mark {
+	border: 2px solid rgb(198, 198, 198);
+	margin-top: 3px;
 	margin-left: 30px;
-	width: 70%;
-	height: 70%;
+	width: 80%;
+	height: 80%;
 	background: white;
-	border-radius: 20%;
+	border-radius: 15%;
 }
 
 // Publication 제목

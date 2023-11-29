@@ -77,4 +77,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/jaeyoon-sim-86a4aa185/'}
 
 contacts:
-- {name: 'Jaeyoon Sim', title: 'Graduate Student', department: 'Graduate School of Artificial Intelligence(GSAI)', institution: 'POSTECH MIV LAB', institution_address: 'Pohang, Korea', email: 'simjy98[at]postech[dot]ac[dot]kr', building: 'Rist 4', image: 'assets/img/contact.jpeg'}
+- {name: 'Jaeyoon Sim', title: 'Graduate Student', department: 'Graduate School of Artificial Intelligence (GSAI)', institution: 'POSTECH MIV LAB', institution_address: 'Pohang, Korea', email: 'simjy98[at]postech[dot]ac[dot]kr', building: 'Rist 4', image: 'assets/img/contact.jpeg'}

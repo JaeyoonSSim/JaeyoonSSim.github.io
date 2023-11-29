@@ -3,7 +3,7 @@ layout: page
 title: "Visual Intelligence"
 ---
 #### Professor
-- Taehyun Oh (POSTECH)
+- [Taehyun Oh](https://ami.postech.ac.kr/members/tae-hyun-oh) (POSTECH)
 
 #### Grade
 - S

@@ -3,7 +3,7 @@ layout: page
 title: "Machine Learning for Graph Analysis"
 ---
 #### Professor
-- Sungsoo Ahn (POSTECH)
+- [Sungsoo Ahn](https://sites.google.com/view/sungsooahn0215/home) (POSTECH)
 
 #### Grade
 - 

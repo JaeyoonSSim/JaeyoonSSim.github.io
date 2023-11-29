@@ -3,7 +3,7 @@ layout: page
 title: "Computational Photography"
 ---
 #### Professor
-- Sunghyun Cho (POSTECH)
+- [Sunghyun Cho](https://www.scho.pe.kr/) (POSTECH)
 
 #### Grade
 - A+

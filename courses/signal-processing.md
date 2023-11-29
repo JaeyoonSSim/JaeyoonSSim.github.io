@@ -3,7 +3,7 @@ layout: page
 title: "Signal Processing"
 ---
 #### Professor
-- Wonhwa Kim (POSTECH)
+- [Wonhwa Kim](https://miv.postech.ac.kr/members/) (POSTECH)
 
 #### Grade
 - Audit

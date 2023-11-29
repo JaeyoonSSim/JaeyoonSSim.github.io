@@ -3,7 +3,7 @@ layout: page
 title: "Machine Learning"
 ---
 #### Professor
-- Jungseul Ok (POSTECH)
+- [Jungseul Ok](https://sites.google.com/view/jungseulok) (POSTECH)
 
 #### Grade
 - A0

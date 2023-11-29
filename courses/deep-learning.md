@@ -3,7 +3,7 @@ layout: page
 title: "Deep Learning"
 ---
 #### Professor
-- Daejin Kim (POSTECH)
+- [Daejin Kim](http://imlab.postech.ac.kr/members.htm) (POSTECH)
 
 #### Grade
 - A+

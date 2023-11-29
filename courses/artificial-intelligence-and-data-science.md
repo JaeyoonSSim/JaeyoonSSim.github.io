@@ -3,7 +3,7 @@ layout: page
 title: "Artificial Intelligence & Data Science"
 ---
 #### Professor
-- Namhoon Lee (POSTECH)
+- [Namhoon Lee](https://namhoonlee.github.io/) (POSTECH)
 
 #### Grade
 - A+
