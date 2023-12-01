@@ -9,4 +9,4 @@ I gave a presentation and a Q&A in English 😎
 
 Title : Neural Parameterization
 
-Professors : Taehyun Oh (AMI LAB @ postech), Dongwoo Kim, Sangdon Park (ML LAB @ postech)
+Professors : [Taehyun Oh](https://ami.postech.ac.kr/members/tae-hyun-oh) (AMI LAB @ postech), [Dongwoo Kim](https://dongwookim-ml.github.io/), [Sangdon Park](https://sangdon.github.io/) (ML LAB @ postech)
