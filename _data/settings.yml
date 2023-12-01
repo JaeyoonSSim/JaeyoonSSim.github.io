@@ -66,6 +66,7 @@ graduate_courses:
 - {number: 'CSED/AIGS703I', name: 'Machine Learning for Graph Analysis', url: 'machine-learning-for-graph-analysis'}
 - {number: 'CSED490F', name: 'Signal Processing', url: 'signal-processing'}
 - {number: 'EECE490U', name: 'Visual Intelligence', url: 'visual-intelligence'}
+- {number: 'IMEN891E', name: 'Bayesian Statistics for Data Analysis', url: 'bayesian-statistics-for-data-analysis'}
 - {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', url: 'sports-engineering-and-ict-convergence'}
 
 language_skills:
