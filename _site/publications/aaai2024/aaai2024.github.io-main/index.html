@@ -32,7 +32,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="./static/images/favicon.ico">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -98,17 +98,16 @@
               <a href="https://jonbarron.info">Injun Choi</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Guorong Wu</a><sup>3</sup>,
+              <a href="http://sofienbouaziz.com">Guorong Wu</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Won Hwa Kim</a><sup>1,2</sup>
+              <a href="https://www.danbgoldman.com">Won Hwa Kim</a><sup>1</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>GSAI, POSTECH,</span>
-            <span class="author-block"><sup>2</sup>CSE, POSTECH,</span>
-            <span class="author-block"><sup>3</sup>UNC-Chapel Hill</span>
+            <span class="author-block"><sup>1</sup>POSTECH,</span>
+            <span class="author-block"><sup>2</sup>UNC-Chapel Hill</span>
           </div>
 
           <div class="column has-text-centered">
@@ -116,7 +115,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="./static/aaai24_paper.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -125,7 +124,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href="https://arxiv.org/abs/2401.11840"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -135,12 +134,12 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="./static/aaai24_supplementary.pdf"
+                <a href="./static/aaai24_poster.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-obp"></i>
                   </span>
-                  <span>Supplementary</span>
+                  <span>Poster</span>
                 </a>
               </span>
               <!-- Code Link. -->
@@ -182,7 +181,7 @@
                 type="video/mp4">
       </video>
       -->
-      <img src="./static/images/overall_structure_1.png" class="center" width="100%">
+      <img src="./static/images/aaai2024_figure.png" class="center" width="100%">
       <h2 class="subtitle has-text-centered">
         <!--
         <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
@@ -277,7 +276,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          Various Graph Neural Networks (GNN) have been successful in analyzing data in non-Euclidean spaces, however, they have limitations such as oversmoothing, i.e., information becomes excessively averaged as the number of hidden layers increases. The issue stems from the intrinsic formulation of conventional graph convolution where the nodal features are aggregated from a direct neighborhood per layer across the entire nodes in the graph. As setting different number of hid- den layers per node is infeasible, recent works leverage a diffusion kernel to redefine the graph structure and incorporate information from farther nodes. Unfortunately, such approaches suffer from heavy diagonalization of a graph Laplacian or learning a large transform matrix. In this regards, we propose a diffusion learning framework where the range of feature aggregation is controlled by the scale of a diffusion kernel. For efficient computation, we derive closed-form derivatives of approximations of the graph convolution with respect to the scale, so that node-wise range can be adaptively learned. With a downstream classifier, the entire framework is made trainable in an end-to-end manner. Our model is tested on various standard datasets for node-wise classification for the state-of-the-art performance, and it is also validated on a real-world brain network data for graph classifications to demonstrate its practicality for Alzheimer classification.
+          Various Graph Neural Networks (GNNs) have been successful in analyzing data in non-Euclidean spaces, however, they have limitations such as oversmoothing, i.e., information becomes excessively averaged as the number of hidden layers increases. The issue stems from the intrinsic formulation of conventional graph convolution where the nodal features are aggregated from a direct neighborhood per layer across the entire nodes in the graph. As setting different number of hid- den layers per node is infeasible, recent works leverage a diffusion kernel to redefine the graph structure and incorporate information from farther nodes. Unfortunately, such approaches suffer from heavy diagonalization of a graph Laplacian or learning a large transform matrix. In this regards, we propose a diffusion learning framework where the range of feature aggregation is controlled by the scale of a diffusion kernel. For efficient computation, we derive closed-form derivatives of approximations of the graph convolution with respect to the scale, so that node-wise range can be adaptively learned. With a downstream classifier, the entire framework is made trainable in an end-to-end manner. Our model is tested on various standard datasets for node-wise classification for the state-of-the-art performance, and it is also validated on a real-world brain network data for graph classifications to demonstrate its practicality for Alzheimer classification.
         </div>
       </div>
     </div>
@@ -406,11 +405,13 @@
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <p>
-          In this work, we proposed efficient trainable methods to bypass exact computation of spectral kernel convolution 
-          that define adaptive ranges of neighbor for each node. We have derived closed-form derivatives on polynomial coefficients 
-          to train the range, i.e., scale, with conventional backpropagation, and the developed framework LSAP demonstrates 
-          <em>state-of-the-art</em> performance on node classification and brain network classification. The brain network analysis provides 
-          neuroscientifically interpretable results corroborated by previous AD literature.
+          In this work, we proposed efficient trainable methods to bypass exact computation of 
+          spectral kernel convolution that define adaptive ranges of neighbor for each node. 
+          We have derived closed-form derivatives on polynomial coefficients to train the 
+          scale with conventional backpropagation, and the developed framework LSAP demonstrates 
+          <em>SOTA</em> performance on node classification and brain network classification. 
+          The brain network analysis provides neuroscientifically interpretable results 
+          corroborated by previous AD literature.
         </p>
       </div>
     </div>
@@ -436,10 +437,10 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
+         href="./static/aaai24_paper.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/JaeyoonSSim/LSAP" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>

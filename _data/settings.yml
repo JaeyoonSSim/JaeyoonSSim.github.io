@@ -74,6 +74,7 @@ language_skills:
 - {language: '🇺🇸 English', skill: 'Fluent'}
 
 social:
+- {icon: 'google scholar', link: 'https://scholar.google.com/citations?user=XheFLZgAAAAJ&hl=ko'}
 - {icon: 'github', link: 'https://github.com/JaeyoonSSim'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/jaeyoon-sim-86a4aa185/'}
 
