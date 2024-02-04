@@ -1,5 +1,8 @@
 <!-- Publications -->
 <script src="/main.js" defer></script>
+
+
+
 <div class="row g-5 mb-5">
   <div>
     <h3 class="main_title pb-3 mb-5">Publications</h3>
@@ -21,11 +24,37 @@
             <p class="text-muted">Seunghun Baek<sup>*</sup>, <b><u>Jaeyoon Sim</u><sup>*</sup></b>, Mustafa Dere, Guorong Wu, Won Hwa Kim (<sup>*</sup>equal contribution)</p>
             <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> International Symposium on Biomedical Imaging (ISBI), Athens, Greece, 2024</p>
             <p>
-            <a target="_self" class="btn btn-outline-secondary btn-sm" role="button">Abs</a>
-            <a href="/publications/xx.pdf" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
-            <a href="/publications/cvpr2023/xx.html" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> BibTeX</a>
-            
+            <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs2_button" aria-expanded="false" aria-controls="abs2_button">Abstract</a>
+            <!-- <a href="/publications/xx.pdf" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a> -->
+            <a href="/publications/aaai2024/aaai2024.github.io-main/index.html" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Project Page</a>
+            <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib2_button" aria-expanded="false" aria-controls="bib2_button">BibTeX</a>
             </p>
+            <div class="collapse" id="abs2_button">
+              <div style="line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                Characterizing a preclinical stage of Alzheimer’s Disease (AD), via single imaging is difficult as its 
+                early symptoms are quite subtle. Therefore, many neuroimaging studies are curated with various imaging 
+                modalities, e.g., MRI and PET, however, it is often challenging to acquire all of them from all subjects 
+                and missing data become inevitable. In this regards, in this paper, we propose a framework that generates
+                unobserved imaging measures for specific subjects using their existing measures, thereby reducing the need 
+                for additional examinations. Our framework transfers modality-specific style while preserving AD-specific 
+                content. This is done by domain adversarial training that preserves modality-agnostic but AD-specific 
+                information, while a generative adversarial network adds an indistinguishable modality-specific style. 
+                Our proposed framework is evaluated on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) study and 
+                compared with other imputation methods in terms of generated data quality. Small average Cohen’s d < 0.19 
+                between our generated measures and real ones suggests that the synthetic data are practically usable 
+                regardless of their modality type.
+              </div>
+            </div>
+            <div class="collapse" id="bib2_button">
+              <div style="line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                @article{Kumar_HighSpeed_RAL_2023,<br>
+                  Title={High-Speed Stereo Visual SLAM for Low-Powered Computing Devices},<br>
+                  Author={Ashish Kumar and Jaesik Park and Laxmidhar Behera},<br>
+                  Journal={IEEE Robotics and Automation Letters (RAL)},<br>
+                  Year={2023}<br>
+                  }
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-4 text-center">
@@ -39,14 +68,15 @@
             <p style="color:rgb(187, 255, 184);"><b>IPIU Outstanding Paper Award (Bronze)</b></p>
             <!--<p style="color:rgb(190, 183, 130);font-size:100%;">[Workshop] Image Processing and Image Understanding (IPIU), Jeju, Korea, 2024</p>-->
             <p>
-            <a data-bs-toggle="collapse" href="#abs1" aria-expanded="false" aria-controls="abs1" class=" btn btn-outline-secondary btn-sm" role="button">Abs</a>
-            <a href="/publications/xx.pdf" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
+            <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs1_button" aria-expanded="false" aria-controls="abs1_button">Abstract</a>
+            <!-- <a href="/publications/xx.pdf" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a> -->
             <a href="/publications/aaai2024/aaai2024.github.io-main/index.html" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Project Page</a>
-            <a href="/publications/xx.pdf" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> BibTeX</a>
+            <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib1_button" aria-expanded="false" aria-controls="bib1_button">BibTeX</a>
             <!--<a href="/publications/cvpr2023/CVPR2023_supplementary/xx.html" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Supplementary</a>-->
-            <div class="collapse" id="abs1">
-              <div class="card card-body">
-                Various Graph Neural Networks (GNN) have been successful in analyzing data in non-Euclidean spaces, 
+            </p>
+            <div class="collapse" id="abs1_button">
+              <div style="line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                Various Graph Neural Networks (GNNs) have been successful in analyzing data in non-Euclidean spaces, 
                 however, they have limitations such as oversmoothing, i.e., information becomes excessively averaged 
                 as the number of hidden layers increases. The issue stems from the intrinsic formulation of conventional 
                 graph convolution where the nodal features are aggregated from a direct neighborhood per layer across 
@@ -62,7 +92,16 @@
                 data for graph classifications to demonstrate its practicality for Alzheimer classification.
               </div>
             </div>
-            </p>
+            <div class="collapse" id="bib1_button">
+              <div style="line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                @article{Kumar_HighSpeed_RAL_2023,<br>
+                  Title={High-Speed Stereo Visual SLAM for Low-Powered Computing Devices},<br>
+                  Author={Ashish Kumar and Jaesik Park and Laxmidhar Behera},<br>
+                  Journal={IEEE Robotics and Automation Letters (RAL)},<br>
+                  Year={2023}<br>
+                  }
+              </div>
+            </div>
           </div> 
           
           

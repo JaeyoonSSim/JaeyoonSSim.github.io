@@ -64,49 +64,49 @@ body a {
 .detail_publication {
 	font-size:0.8em;
 
-	.hidden {
-		visibility: hidden;
-		position: absolute;
-		opacity: 0;
+	// .hidden {
+	// 	visibility: hidden;
+	// 	position: absolute;
+	// 	opacity: 0;
 		
-		font-size: 0.875rem;
-		max-height: 0px;
-		overflow: hidden;
-		text-align: justify;
-		transition-property: 0.15s ease;
-		-moz-transition: 0.15s ease;
-		-ms-transition: 0.15s ease;
-		-o-transition: 0.15s ease;
-		transition: visibility 0s, opacity 0.5s ease;
+	// 	font-size: 0.875rem;
+	// 	max-height: 0px;
+	// 	overflow: hidden;
+	// 	text-align: justify;
+	// 	transition-property: 0.15s ease;
+	// 	-moz-transition: 0.15s ease;
+	// 	-ms-transition: 0.15s ease;
+	// 	-o-transition: 0.15s ease;
+	// 	transition: visibility 0s, opacity 0.5s ease;
 		
-		p {
-		line-height: 1.0em;
-		margin: 10px;
-		}
-		pre {
-			font-size: 1em;
-			line-height: 1.4em;
-			padding: 10px;
-		}
-	}
-	.hidden.open {
-		position: static;
-		opacity: 1;
-		visibility: visible;
+	// 	p {
+	// 	line-height: 1.0em;
+	// 	margin: 10px;
+	// 	}
+	// 	pre {
+	// 		font-size: 1em;
+	// 		line-height: 1.4em;
+	// 		padding: 10px;
+	// 	}
+	// }
+	// .hidden.open {
+	// 	position: static;
+	// 	opacity: 1;
+	// 	visibility: visible;
 
-		max-height: 100em;
-		transition-property: 0.15s ease;
-		-moz-transition: 0.15s ease;
-		-ms-transition: 0.15s ease;
-		-o-transition: 0.15s ease;
-		transition: visibility 0s, opacity 0.5s ease;
-	}
-	div.abstract.hidden {
-		border: dashed 1px white;
-	}
-	div.abstract.hidden.open {
-		border-color: white;
-	}
+	// 	max-height: 100em;
+	// 	transition-property: 0.15s ease;
+	// 	-moz-transition: 0.15s ease;
+	// 	-ms-transition: 0.15s ease;
+	// 	-o-transition: 0.15s ease;
+	// 	transition: visibility 0s, opacity 0.5s ease;
+	// }
+	// div.abstract.hidden {
+	// 	border: dashed 1px white;
+	// }
+	// div.abstract.hidden.open {
+	// 	border-color: white;
+	// }
 }
 
 
