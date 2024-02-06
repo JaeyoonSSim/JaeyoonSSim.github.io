@@ -5,7 +5,7 @@ title: "Qualification Exam Pass"
 
 I passed my qualification exam 😎
 
-I gave a presentation and a Q&A in English 😎
+I gave a presentation in English 😎
 
 Topic : Neural Parameterization
 
