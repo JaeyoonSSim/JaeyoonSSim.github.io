@@ -57,21 +57,21 @@ undergraduate_courses:
 - {number: 'PHYS106', name: 'Physics II'}
 
 graduate_courses:
-- {number: 'CSED/AIG515', name: 'Machine Learning', url: 'machine-learning'}
-- {number: 'CSED/AIG526', name: 'Data Mining', url: 'data-mining'}
-- {number: 'CSED/AIG537', name: 'Artificial Intelligence & Data Science', url: 'artificial-intelligence-and-data-science'}
-- {number: 'CSED/AIG538', name: 'Deep Learning', url: 'deep-learning'}
-- {number: 'CSED/AIG539', name: 'Computer Vision', url: 'computer-vision'}
-- {number: 'CSED/AIG551', name: 'Computational Photography', url: 'computational-photography'}
+- {number: 'CSED/AIGS515', name: 'Machine Learning', url: 'machine-learning'}
+- {number: 'CSED/AIGS526', name: 'Data Mining', url: 'data-mining'}
+- {number: 'CSED/AIGS537', name: 'Artificial Intelligence & Data Science', url: 'artificial-intelligence-and-data-science'}
+- {number: 'CSED/AIGS538', name: 'Deep Learning', url: 'deep-learning'}
+- {number: 'CSED/AIGS539', name: 'Computer Vision', url: 'computer-vision'}
+- {number: 'CSED/AIGS551', name: 'Computational Photography', url: 'computational-photography'}
 - {number: 'CSED/AIGS703I', name: 'Machine Learning for Graph Analysis', url: 'machine-learning-for-graph-analysis'}
 - {number: 'CSED490F', name: 'Signal Processing', url: 'signal-processing'}
 - {number: 'EECE490U', name: 'Visual Intelligence', url: 'visual-intelligence'}
-- {number: 'IMEN891E', name: 'Bayesian Statistics for Data Analysis', url: 'bayesian-statistics-for-data-analysis'}
+# - {number: 'IMEN891E', name: 'Bayesian Statistics for Data Analysis', url: 'bayesian-statistics-for-data-analysis'}
 - {number: 'SIAX501', name: 'Sports Engineering and ICT Convergence', url: 'sports-engineering-and-ict-convergence'}
 
 language_skills:
-- {language: '🇰🇷 Korean', skill: 'Native Language'}
-- {language: '🇺🇸 English', skill: 'Fluent'}
+- {language: '🇰🇷 Korean', skill: 'Native'}
+- {language: '🇺🇸 English', skill: 'Proficient'}
 
 social:
 - {icon: 'google scholar', link: 'https://scholar.google.com/citations?user=XheFLZgAAAAJ&hl=ko'}
