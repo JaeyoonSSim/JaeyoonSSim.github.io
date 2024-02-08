@@ -75,8 +75,15 @@ language_skills:
 
 social:
 - {icon: 'google scholar', link: 'https://scholar.google.com/citations?user=XheFLZgAAAAJ&hl=ko'}
-- {icon: 'github', link: 'https://github.com/JaeyoonSSim'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/jaeyoon-sim-86a4aa185/'}
+- {icon: 'github', link: 'https://github.com/JaeyoonSSim'}
 
 contacts:
-- {name: 'Jaeyoon Sim', title: 'Graduate Student', department: 'Graduate School of Artificial Intelligence (GSAI)', institution: 'POSTECH MIV LAB', institution_address: 'Pohang, Korea', email: 'simjy98[at]postech[dot]ac[dot]kr', building: 'Rist 4', image: 'assets/img/contact.jpeg'}
+- {name: 'Jaeyoon Sim', 
+title: 'Graduate Student', 
+department: 'Graduate School of Artificial Intelligence (GSAI)', 
+institution: 'POSTECH MIP LAB', 
+institution_address: 'Pohang, Korea', 
+email: 'simjy98[at]postech[dot]ac[dot]kr', 
+building: 'Rist 4', 
+image: 'assets/img/contact.jpeg'}

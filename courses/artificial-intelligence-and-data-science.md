@@ -27,7 +27,7 @@ title: "Artificial Intelligence & Data Science"
 - Panel discussion #2: How to do AI research?
 
 
-#### Assignments
+#### Assignments 
 - [Assignment](/courses/artificial-intelligence-and-data-science/20222421_JaeyoonSim.pdf) (100 / 100)
 
 #### Exams

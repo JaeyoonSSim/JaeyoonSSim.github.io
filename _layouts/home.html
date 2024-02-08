@@ -9,7 +9,7 @@ layout: default
     <img id="home_image" src="{{ site.github.url }}/assets/img/home1.jpg" 
     onmouseover="this.src='{{ site.github.url }}/assets/img/home2.jpg'" 
     onmouseout="this.src='{{ site.github.url }}/assets/img/home1.jpg'" 
-    onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hiehgt="100%">
+    onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hieght="100%">
   </div>
 
   <div class="col-md-8">
@@ -27,7 +27,7 @@ layout: default
       {% for post in site.posts %}
       <li>
         <div class="timeline_content">
-          <h5><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a></h5>
+          <h5><a href="{{ site.github.url }}/{{ post.url }}" style="text-decoration:none">{{ post.title }}</a></h5>
         </div>
         <div class="timeline_time"><h4>{{ post.date | date: "%b %d, %Y" }}</h4><div>
       </li>
