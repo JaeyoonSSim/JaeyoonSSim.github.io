@@ -117,7 +117,7 @@ body a { color: #bbffb8; }
 
 .btn:hover:before { transform: skewX(-45deg) translateX(13.5em); transition: all 0.5s ease-in-out; }
 
-.timeline { position: relative; margin: 50px 0px 0px auto; padding: 10px 0; width: 100%; box-sizing: border-box; background-color: #202020; overflow: auto; height: 270px; }
+.timeline { position: relative; margin: 50px 0px 0px auto; padding: 10px 0; width: 100%; box-sizing: border-box; overflow: auto; height: 270px; }
 
 .timeline:before { content: ''; position: absolute; left: 50%; width: 3px; height: 220%; background: #c5c5c5; }
 
