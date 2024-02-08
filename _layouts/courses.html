@@ -36,9 +36,14 @@ layout: default
         <h6><i class="fas fa-moon"></i> Under-Graduate Course</h6>
       </div>
       <div class="detail col-lg-10">
-        {% for course in site.data.settings.undergraduate_courses %}
-          <p><kbd>{{ course.number }}</kbd> {{ course.name }}</a></p>
-        {% endfor %}
+        <a class="btn btn-outline-secondary btn-sm" style="margin-top:0px" role="button" data-toggle="collapse" data-target="#ugrad_button" aria-expanded="false" aria-controls="ugrad_button">▼</a>
+        <div class="collapse" id="ugrad_button">
+          <div style="margin-left:-18px; background-color:rgb(32, 32, 32)" class="card card-body">
+          {% for course in site.data.settings.undergraduate_courses %}
+            <p><kbd>{{ course.number }}</kbd> {{ course.name }}</a></p>
+          {% endfor %}
+          </div>
+        </div>
       </div>
     </div>
 
