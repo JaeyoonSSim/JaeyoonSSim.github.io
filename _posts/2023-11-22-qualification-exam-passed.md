@@ -3,9 +3,7 @@ layout: post
 title: "Ph.D. Qualification Exam"
 ---
 
-I passed my qualification exam 😎
-
-I gave a presentation in English 😎
+I passed my Ph.D. qualification exam with English presentation 😎
 
 Topic : Neural Parameterization
 
