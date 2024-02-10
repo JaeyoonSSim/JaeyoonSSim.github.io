@@ -41,47 +41,6 @@
   <script src="./static/js/index.js"></script>
 </head>
 <body>
-<!--
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</nav>
--->
 
 <section class="hero">
   <div class="hero-body">
@@ -160,17 +119,6 @@
                   <span>Code</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
-              <!--
-              <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
-                -->
             </div>
 
           </div>
@@ -183,95 +131,36 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!--
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      -->
-      <img src="./static/images/aaai2024_figure.png" class="center" width="100%">
-      <h2 class="subtitle has-text-centered">
-        <!--
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-        -->
-        <b>Illustration of overall framework</b>
+      <center>
+      <img src="./static/images/isbi2024_figure.png" class="center" width="80%">  
+      </center>
+      <h2 class="subtitle" style="margin-top:-10%; text-align:justify">
+        <b>
+          An overview of our framework.
+          In Content Extraction, Modality-agnostic embedding is extracted from any type of feature
+          for the subject. In Style Injection, modality-specific generators can generate missing features
+          not present in the original subject. Shape: imaging scan (i.e., domain), 
+          Color: AD-stage label (i.e., class)
+        </b>
       </h2>
+      <hr>
     </div>
   </div>
 </section>
 
 
-<section class="hero is-light is-small">
-  <div class="hero-body has-text-centered">
-    <div class="container">
-        <center>
-        <video id="teaser" autoplay muted loop playsinline height="100%" width="50%" style="border-radius:1em">
-          <source src="./static/images/supple_video.mp4" type="video/mp4">
-        </video>
-        </center>
-        <p>
-        This video shows how <b>LSAP</b> learns adaptive scales on the brain network (graph) for each node 
-        <br>corresponding to a specific ROI during 2000 epochs using ADNI dataset. After training, all
-        <br>four models can obtain node-wise scales, but the three <b>LSAP</b> models using approximation 
-        <br>are ~10 times faster to learn the scales than Exact under the same conditions.
-        </p>
-      
-      
-      <!--
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body" sytle="text-align:justify">
+        <img src="./static/images/image1.png" class="center" width="100%">
+        <h3 class="subtitle has-text-centered" style="margin-top:5%">
+          <b>
+            Illustraion of our framework.
+          </b>
+        </h3>
+        
     </div>
+    <hr>
   </div>
 </section>
 
@@ -284,26 +173,11 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          Various Graph Neural Networks (GNNs) have been successful in analyzing data in non-Euclidean spaces, however, they have limitations such as oversmoothing, i.e., information becomes excessively averaged as the number of hidden layers increases. The issue stems from the intrinsic formulation of conventional graph convolution where the nodal features are aggregated from a direct neighborhood per layer across the entire nodes in the graph. As setting different number of hid- den layers per node is infeasible, recent works leverage a diffusion kernel to redefine the graph structure and incorporate information from farther nodes. Unfortunately, such approaches suffer from heavy diagonalization of a graph Laplacian or learning a large transform matrix. In this regards, we propose a diffusion learning framework where the range of feature aggregation is controlled by the scale of a diffusion kernel. For efficient computation, we derive closed-form derivatives of approximations of the graph convolution with respect to the scale, so that node-wise range can be adaptively learned. With a downstream classifier, the entire framework is made trainable in an end-to-end manner. Our model is tested on various standard datasets for node-wise classification for the state-of-the-art performance, and it is also validated on a real-world brain network data for graph classifications to demonstrate its practicality for Alzheimer classification.
+          Characterizing a preclinical stage of Alzheimer’s Disease (AD), via single imaging is difficult as its early symptoms are quite subtle. Therefore, many neuroimaging studies are curated with various imaging modalities, e.g., MRI and PET, however, it is often challenging to acquire all of them from all subjects and missing data become inevitable. In this regards, in this paper, we propose a framework that generates unobserved imaging measures for specific subjects using their existing measures, thereby reducing the need for additional examinations. Our framework transfers modality-specific style while preserving AD-specific content. This is done by domain adversarial training that preserves modality-agnostic but AD-specific information, while a generative adversarial network adds an indistinguishable modality-specific style. Our proposed framework is evaluated on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) study and compared with other imputation methods in terms of generated data quality. Small average Cohen’s d < 0.19 between our generated measures and real ones suggests that the synthetic data are practically usable regardless of their modality type.
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
     <hr>
-    <!-- Paper video. -->
-    <!--
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    -->
-    <!--/ Paper video. -->
-    
   </div>
 
   <div class="container is-max-desktop has-text-centered">
@@ -314,12 +188,13 @@
         <div class="columns is-centered">
           <div class="column content" align="left">
             <p>
-              <center><h5>Node Classification</h5></center>
+              <center><h5>Averaged Cohen's <i>d</i></h5></center>
             </p>
-            <img src="./static/images/result_table1.png" class="center" width="100%">
+            <img src="./static/images/table1.png" class="center" width="100%">
             <p>
-              <b>Table:</b> Accuracy (%) on standard benchmarks for node classification. 
-              LSAP yields better performances over existing baselines (in <b>bold</b>) similar to Exact achieving the best results (<u>underline</u>).
+              <b>Table:</b> The average absolute Cohen's <i>d</i> across all the ROIs between
+              actual and generated distributions. Lower values are better, and the values &geq; 0.5
+              are in <b>bold</b>.
             </p>
           </div>
         </div>
@@ -329,12 +204,13 @@
         <div class="columns is-centered">
           <div class="column content" align="left">
             <p>
-              <center><h5>Graph Classification</h5></center>
+              <center><h5>Classification Performance</h5></center>
             </p>
-            <img src="./static/images/result_table3.png" class="center" width="100%">
+            <img src="./static/images/table2.png" class="center" width="100%">
             <p></p>
             <p>
-              <b>Table:</b> Classification performances on ADNI dataset (for CN / SMC/ EMCI / LMCI / AD).
+              <b>Table:</b> Classification performances (CN / EMCI / LMCI) on ADNI data
+              with all modalities. The number of generators required are given in ().
             </p>
           </div>
         </div>
@@ -347,62 +223,21 @@
 
 
   <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Localized Scales for Graph Classification</h2>
+    <h2 class="title is-3">Visualization of the averaged absolute Cohend's <i>d</i></h2>
+    
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <center>
-        </p>
-        <img src="./static/images/image4.png" class="center" width="80%">
         <p>
+        <img src="./static/images/image2.png" class="center" width="80%">
+        </p>
         </center>
         <p>
-          <b>Figure:</b> Visualization of the learned scales on the cortical regions of a brain.
-          This visualization shows the scale of each ROI from the classification result using <b>FDG</b> feature.
-          Top: Inner part of right hemisphere, Bottom: Outer part of right hemisphere.
+          <b>Figure:</b> Visualization of the averaged absolute Cohen's <i>d</i> between actual distribution
+          and generated distribution on the inner left cortical regions of EMCI subjects. AD-specific regions show
+          better imputation results as lower Cohen's <i>d</i> implices higher correspondence. 
+          (Row: Source, Column: Target.)
         </p>
-        
-      </div>
-    </div>
-    <div class="columns is-centered has-text-centered">
-      <div class="content has-text-justified">
-        </p>
-        <img src="./static/images/image1.png" class="center" width="100%">
-        <p>
-        <p>
-          <b>Figure:</b> Visualization of the learned scales on the cortical and sub-cortical regions of a brain.
-          This visualization shows the scale of each ROI through the classification result using <b>Cortical Thickness</b> feature.
-        </p>
-      </div>
-    </div>
-    <div class="columns is-centered has-text-centered">
-      <div class="content has-text-justified">
-        </p>
-        <img src="./static/images/image2.png" class="center" width="100%">
-        <p>
-        <p>
-          <b>Figure:</b> Visualization of the learned scales on the cortical and sub-cortical regions of a brain.
-          This visualization shows the scale of each ROI through the classification result using <b>FDG</b> feature.
-        </p>
-      </div>
-    </div>
-    <hr>
-  </div>
-
-  <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Computation Time with Kernel Convolution</h2>
-    <div class="columns is-centered has-text-centered">
-      <div class="content has-text-justified">
-        <center>
-        </p>
-        <img src="./static/images/image3.png" class="center" width="50%">
-        <p>
-        </center>
-        <p>
-          <b>Figure:</b> Comparisons of computation time (in <em>ms</em>) for one epoch (Forward and backpropagation).
-          Within the epoch, time for heat kernel convolution is given in black bar. Results were obtained from node classification and a graph classification
-          with 10 repititions, and LSAP saves majority of the computation.
-        </p>
-        
       </div>
     </div>
     <hr>
@@ -413,13 +248,15 @@
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <p>
-          In this work, we proposed efficient trainable methods to bypass exact computation of 
-          spectral kernel convolution that define adaptive ranges of neighbor for each node. 
-          We have derived closed-form derivatives on polynomial coefficients to train the 
-          scale with conventional backpropagation, and the developed framework LSAP demonstrates 
-          <em>SOTA</em> performance on node classification and brain network classification. 
-          The brain network analysis provides neuroscientifically interpretable results 
-          corroborated by previous AD literature.
+          In this paper, we propose a novel framework that generates unobserved imaging measures 
+          for specific subjects using their existing measures. To reduce the needs for taking several 
+          imaging scans, our framework addresses the imputation for missing measures by transferring 
+          modality-specific style while preserving AD-specific content. Experimental results on the 
+          ADNI study show that our model provides a probable estimation of target modality for 
+          individual subjects, which yields similar distributions of generated measurements to those 
+          from observed data and helps downstream analyses. Since our work is applicable regardless 
+          of modality type, our approach has potential to be adopted by other neuroimaging studies 
+          that are limited by missing measures.
         </p>
       </div>
     </div>
@@ -445,7 +282,7 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/aaai24_paper.pdf">
+         href="./static/isbi24_paper.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
       <a class="icon-link" href="https://github.com/JaeyoonSSim/LSAP" class="external-link" disabled>
