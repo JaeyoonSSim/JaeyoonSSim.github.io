@@ -32,10 +32,11 @@ Topics include: robustness and fragility of food webs and financial markets; alg
 - Reasoning over Knowledge Graphs
 
 
-#### Assignments
-- [Assignment](/courses/machine_learning-for-graph-analysis/20222421_JaeyoonSim.pdf) ( / )
 
-#### Exams
+#### Assignments
+- [Assignment](/courses/machine_learning-for-graph-analysis/20222421_JaeyoonSim.pdf) 
+
+<!-- #### Exams
 - Midterm Exam ( / )
 
-- Final Exam ( / )
+- Final Exam ( / ) -->
