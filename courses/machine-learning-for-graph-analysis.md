@@ -31,8 +31,6 @@ Topics include: robustness and fragility of food webs and financial markets; alg
 - Network Evolution
 - Reasoning over Knowledge Graphs
 
-
-
 #### Assignments
 - [Assignment](/courses/machine_learning-for-graph-analysis/20222421_JaeyoonSim.pdf) 
 
