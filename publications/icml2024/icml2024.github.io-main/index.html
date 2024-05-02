@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modality-Agnostic Style Transfer for Holistic Feature Imputation</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Modality-Agnostic Style Transfer for Holistic Feature Imputation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://miv.postech.ac.kr/members/">Seunghun Baek</a><sup>*1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=XheFLZgAAAAJ&hl=ko">Jaeyoon Sim</a><sup>*1</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.acmlab.org/team">Mustafa Dere</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=m26d_0cAAAAJ&hl=ko">Minjeong Kim</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=XVsMB2kAAAAJ&hl=ko">Guorong Wu</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=aWPSHNwAAAAJ&hl=ko">Won Hwa Kim</a><sup>1</sup>
+            </span>
+          </div>
+
+          <p class="author-block">
+            (* : Equal Contribution)
+          </p>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>POSTECH,</span>
+            <span class="author-block"><sup>2</sup>UNC-Chapel Hill</span>
+            <span class="author-block"><sup>3</sup>UNC-Greensboroz</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <h3 class="is-size-4 publication-authors"><b>ISBI 2024</b></h3>
+            <p class="is-size-4 publication-authors"><img class="emoji" title=":greece:" alt=":greece:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1f7.png" height="20" width="20"> Athens, Greece</p>
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./static/aaai24_paper.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.11840"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="./static/aaai24_poster.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-obp"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/JaeyoonSSim/LSAP"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <center>
+      <img src="./static/images/isbi2024_figure.png" class="center" width="80%">  
+      </center>
+      <h2 class="subtitle" style="margin-top:-10%; text-align:justify">
+        <b>
+          An overview of our framework.
+          In Content Extraction, Modality-agnostic embedding is extracted from any type of feature
+          for the subject. In Style Injection, modality-specific generators can generate missing features
+          not present in the original subject. Shape: imaging scan (i.e., domain), 
+          Color: AD-stage label (i.e., class)
+        </b>
+      </h2>
+      <hr>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body" sytle="text-align:justify">
+        <img src="./static/images/image1.png" class="center" width="100%">
+        <h3 class="subtitle has-text-centered" style="margin-top:5%">
+          <b>
+            Illustraion of our framework.
+          </b>
+        </h3>
+        
+    </div>
+    <hr>
+  </div>
+</section>
+
+
+<section class="section">
+
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          Characterizing a preclinical stage of Alzheimer’s Disease (AD), via single imaging is difficult as its early symptoms are quite subtle. Therefore, many neuroimaging studies are curated with various imaging modalities, e.g., MRI and PET, however, it is often challenging to acquire all of them from all subjects and missing data become inevitable. In this regards, in this paper, we propose a framework that generates unobserved imaging measures for specific subjects using their existing measures, thereby reducing the need for additional examinations. Our framework transfers modality-specific style while preserving AD-specific content. This is done by domain adversarial training that preserves modality-agnostic but AD-specific information, while a generative adversarial network adds an indistinguishable modality-specific style. Our proposed framework is evaluated on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) study and compared with other imputation methods in terms of generated data quality. Small average Cohen’s d < 0.19 between our generated measures and real ones suggests that the synthetic data are practically usable regardless of their modality type.
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Quantative Results</h2>
+    <div class="columns is-centered has-text-centered" >
+
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content" align="left">
+            <p>
+              <center><h5>Averaged Cohen's <i>d</i></h5></center>
+            </p>
+            <img src="./static/images/table1.png" class="center" width="100%">
+            <p>
+              <b>Table:</b> The average absolute Cohen's <i>d</i> across all the ROIs between
+              actual and generated distributions. Lower values are better, and the values &geq; 0.5
+              are in <b>bold</b>.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content" align="left">
+            <p>
+              <center><h5>Classification Performance</h5></center>
+            </p>
+            <img src="./static/images/table2.png" class="center" width="100%">
+            <p></p>
+            <p>
+              <b>Table:</b> Classification performances (CN / EMCI / LMCI) on ADNI data
+              with all modalities. The number of generators required are given in ().
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--/ Matting. -->
+    <hr>
+  </div>
+
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Visualization of the averaged absolute Cohend's <i>d</i></h2>
+    
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        <p>
+        <img src="./static/images/image2.png" class="center" width="80%">
+        </p>
+        </center>
+        <p>
+          <b>Figure:</b> Visualization of the averaged absolute Cohen's <i>d</i> between actual distribution
+          and generated distribution on the inner left cortical regions of EMCI subjects. AD-specific regions show
+          better imputation results as lower Cohen's <i>d</i> implices higher correspondence. 
+          (Row: Source, Column: Target.)
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Conclusion</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <p>
+          In this paper, we propose a novel framework that generates unobserved imaging measures 
+          for specific subjects using their existing measures. To reduce the needs for taking several 
+          imaging scans, our framework addresses the imputation for missing measures by transferring 
+          modality-specific style while preserving AD-specific content. Experimental results on the 
+          ADNI study show that our model provides a probable estimation of target modality for 
+          individual subjects, which yields similar distributions of generated measurements to those 
+          from observed data and helps downstream analyses. Since our work is applicable regardless 
+          of modality type, our approach has potential to be adopted by other neuroimaging studies 
+          that are limited by missing measures.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{baek2024modality,
+  author    = {Seunghun Baek and Jaeyoon Sim and Mustafa Dere and Minjeong Kim and Guorong Wu and Won Hwa Kim},
+  title     = {Modality-agnostic Style Transfer for Holistic Feature Imputation},
+  journal   = {ISBI},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/isbi24_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/JaeyoonSSim/LSAP" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This website template was adapted from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies website</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
