@@ -97,22 +97,71 @@
         <div class="row g-5 mb-5">
           
           <div class="col-lg-4 text-center">
+            <img src="/publications/miccai2024/miccai2024_v1.github.io-main/static/images/miccai2024_figure.png" 
+            onmouseover="this.src='/publications/miccai2024/miccai2024_v1.github.io-main/static/images/miccai2024_figure2.png'" 
+            onmouseout="this.src='/publications/miccai2024/miccai2024_v1.github.io-main/static/images/miccai2024_figure.png'" 
+            class="img-fluid rounded float-center img-thumbnail shadow mb-3" 
+            onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hieght="100%">
+          </div>
+          <div class="col-lg-8">
+            <h6><p class="publication_title">OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels</p></h6>
+            <p class="text-muted">Seunghun Baek<sup>&#42;</sup>, <b><u>Jaeyoon Sim</u><sup>&#42;</sup></b>, Guorong Wu, Won Hwa Kim (<sup>&#42;</sup>: Equal Contribution)</p>
+            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024, Marrakesh, Morocco, 2024</p>
+            <p style="color:rgb(187, 255, 184);">Early Accept [~11% Acceptance Rate]</p>
+            <p>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs4_button" aria-expanded="false" aria-controls="abs4_button">Abstract</a>
+              <a href="/publications/miccai2024/miccai2024_v1.github.io-main/index.html" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Project Page</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib4_button" aria-expanded="false" aria-controls="bib4_button">BibTeX</a>
+            </p>
+            <div class="collapse" id="abs4_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                Accurately discriminating progressive stages of Alzheimer’s Disease (AD) is crucial for 
+                early diagnosis and prevention. It often involves multiple imaging modalities to understand 
+                the complex pathology of AD, however, acquiring a complete set of images is challenging due 
+                to high cost and burden for subjects. In the end, missing data become inevitable which lead
+                to limited sample-size and decrease in precision in downstream analyses. To tackle this challenge, 
+                we introduce a holistic imaging feature imputation method that enables to leverage diverse imaging 
+                features while retaining all subjects. The proposed method comprises two networks: 1&#41; An encoder to 
+                extract modality-independent embeddings and 2&#41; A decoder to reconstruct the original measures 
+                conditioned on their imaging modalities. The encoder includes a novel ordinal contrastive loss, 
+                which aligns samples in the embedding space according to the progression of AD. We also maximize 
+                modality-wise coherence of embeddings within each subject, in conjunction with domain adversarial 
+                training algorithms, to further enhance alignment between different imaging modalities. The proposed 
+                method promotes our holistic imaging feature imputation across various modalities in the shared 
+                embedding space. In the experiments, we show that our networks deliver favorable results for 
+                statistical analysis and classification against imputation baselines with Alzheimer’s Disease 
+                Neuroimaging Initiative (ADNI) study.
+              </div>
+            </div>
+            <div class="collapse" id="bib4_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                @article{baek2024ocl,<br>
+                  author    = {Seunghun Baek and Jaeyoon Sim and Guorong Wu and Won Hwa Kim},<br>
+                  title     = {OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels},<br>
+                  journal   = {MICCAI},<br>
+                  year      = {2024}<br>
+                  }
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 text-center">
             <img src="/publications/icml2024/icml2024.github.io-main/static/images/icml2024_figure.png" 
-            onmouseover="this.src='/publications/icml2024/icml2024.github.io-main/static/images/icml2024_figure2.png'" 
+            onmouseover="this.src='/publications/icml2024/icml2024.github.io-main/static/images/icml2024_figure3.png'" 
             onmouseout="this.src='/publications/icml2024/icml2024.github.io-main/static/images/icml2024_figure.png'" 
             class="img-fluid rounded float-center img-thumbnail shadow mb-3" 
             onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hieght="100%">
           </div>
           <div class="col-lg-8">
-            <h6><p class="publication_title">	Neurodegenerative Brain Network Classification via Adaptive Diffusion with Temporal Regularization</p></h6>
+            <h6><p class="publication_title">Neurodegenerative Brain Network Classification via Adaptive Diffusion with Temporal Regularization</p></h6>
             <p class="text-muted">Hyuna Cho, <b><u>Jaeyoon Sim</u></b>, Guorong Wu, Won Hwa Kim</p>
             <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> International Conference on Machine Learning (ICML), Vienna, Austria, 2024</p>
             <p>
-              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs2_button" aria-expanded="false" aria-controls="abs2_button">Abstract</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs3_button" aria-expanded="false" aria-controls="abs3_button">Abstract</a>
               <a href="/publications/icml2024/icml2024.github.io-main/index.html" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Project Page</a>
-              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib2_button" aria-expanded="false" aria-controls="bib2_button">BibTeX</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib3_button" aria-expanded="false" aria-controls="bib3_button">BibTeX</a>
             </p>
-            <div class="collapse" id="abs2_button">
+            <div class="collapse" id="abs3_button">
               <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
                 Analysis of neurodegenerative diseases on brain connectomes is important in facilitating early 
                 diagnosis and predicting its onset. However, investigation of the progressive and irreversible 
@@ -129,7 +178,7 @@
                 Disease Neuroimaging Initiative (ADNI) and Parkinson’s Progression Markers Initiative (PPMI) datasets.
               </div>
             </div>
-            <div class="collapse" id="bib2_button">
+            <div class="collapse" id="bib3_button">
               <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
                 @article{cho2024neurodegenerative,<br>
                   author    = {Hyuna Cho and Jaeyoon Sim and Guorong Wu and Won Hwa Kim},<br>
@@ -150,7 +199,7 @@
           </div>
           <div class="col-lg-8">
             <h6><p class="publication_title">Modality-Agnostic Style Transfer for Holistic Feature Imputation</p></h6>
-            <p class="text-muted">Seunghun Baek<sup>*</sup>, <b><u>Jaeyoon Sim</u><sup>*</sup></b>, Mustafa Dere, Minjeong Kim, Guorong Wu, Won Hwa Kim (<sup>*</sup>: equal contribution)</p>
+            <p class="text-muted">Seunghun Baek<sup>&#42;</sup>, <b><u>Jaeyoon Sim</u><sup>&#42;</sup></b>, Mustafa Dere, Minjeong Kim, Guorong Wu, Won Hwa Kim (<sup>&#42;</sup>: Equal Contribution)</p>
             <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> International Symposium on Biomedical Imaging (ISBI), Athens, Greece, 2024</p>
             <p style="color:rgb(187, 255, 184);">Oral Presentation</p>
             <p>
@@ -196,7 +245,7 @@
           <div class="col-lg-8">
             <h6><p class="publication_title">Learning to Approximate Adaptive Kernel Convolution on Graphs</p></h6>
             <p class="text-muted"><b><u>Jaeyoon Sim</u></b>, Sooyeon Jeon, InJun Choi, Guorong Wu, Won Hwa Kim</p>
-            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> Association for the Advancement of Artificial Intelligence (AAAI), Vancouver, Canada, 2024. [23.75% acceptance rate]</p></span>
+            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> Association for the Advancement of Artificial Intelligence (AAAI), Vancouver, Canada, 2024. [23.75% Acceptance Rate]</p></span>
             <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 3px 0px 3px; border-radius:20%"><b>W</b></span> Image Processing and Image Understanding (IPIU), Jeju, Korea, 2024</p>
             <p style="color:rgb(187, 255, 184);">IPIU Outstanding Paper Award - Bronze Prize</p>
             <p style="color:rgb(187, 255, 184);">BK21 Outstanding Paper Award - Excellence Prize</p>
@@ -225,12 +274,15 @@
             </div>
             <div class="collapse" id="bib1_button">
               <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
-                @article{sim2024learning,<br>
-                  author    = {Jaeyoon Sim and Sooyeon Jeon and Injun Choi and Guorong Wu and Won Hwa Kim},<br>
-                  title     = {Learning to Approximate Adaptive Kernel Convolution on Graphs},<br>
-                  journal   = {AAAI},<br>
-                  year      = {2024}<br>
-                  }
+                @inproceedings{sim2024learning,<br>
+                  title={Learning to Approximate Adaptive Kernel Convolution on Graphs},<br>
+                  author={Sim, Jaeyoon and Jeon, Sooyeon and Choi, InJun and Wu, Guorong and Kim, Won Hwa},<br>
+                  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},<br>
+                  volume={38},<br>
+                  number={5},<br>
+                  pages={4882--4890},<br>
+                  year={2024}<br>
+                }
               </div>
             </div>
           </div> 

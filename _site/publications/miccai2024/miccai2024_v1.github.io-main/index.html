@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+<!--
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+-->
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://mip.postech.ac.kr/members/">Seunghun Baek</a><sup>*1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=XheFLZgAAAAJ&hl=ko">Jaeyoon Sim</a><sup>*1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=XVsMB2kAAAAJ&hl=ko">Guorong Wu</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=aWPSHNwAAAAJ&hl=ko">Won Hwa Kim</a><sup>1</sup>
+            </span>
+          </div>
+
+          <p class="author-block">
+            (* : Equal Contribution)
+          </p>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>POSTECH,</span>
+            <span class="author-block"><sup>2</sup>UNC-Chapel Hill</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <h3 class="is-size-4 publication-authors"><b>MICCAI 2024</b></h3>
+            <p class="is-size-4 publication-authors"><img class="emoji" title=":canada:" alt=":canada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1e6.png" height="20" width="20"> Marrakesh, Morocco</p>
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./static/aaai24_paper.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.11840"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="./static/aaai24_poster.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-obp"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/JaeyoonSSim/LSAP"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!--
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+                -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!--
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/teaser.mp4"
+                type="video/mp4">
+      </video>
+      -->
+      <img src="./static/images/aaai2024_figure.png" class="center" width="100%">
+      <h2 class="subtitle has-text-centered" style="margin-top:-5%">
+        <!--
+        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
+        free-viewpoint
+        portraits.
+        -->
+        <b>Illustration of overall framework (LSAP).</b>
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <div class="container">
+        <center>
+        <video id="teaser" autoplay muted loop playsinline height="100%" width="50%" style="border-radius:1em">
+          <source src="./static/images/supple_video.mp4" type="video/mp4">
+        </video>
+        </center>
+        <p>
+        This video shows how <b>LSAP</b> learns adaptive scales on the brain network (graph) for each node 
+        <br>corresponding to a specific ROI during 2000 epochs using ADNI dataset. After training, all
+        <br>four models can obtain node-wise scales, but the three <b>LSAP</b> models using approximation 
+        <br>are ~10 times faster to learn the scales than Exact under the same conditions.
+        </p>
+      
+      
+      <!--
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/steve.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/chair-tp.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/shiba.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/fullbody.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/blueshirt.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/mask.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-coffee">
+          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/coffee.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-toby">
+          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/toby2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      -->
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          Various Graph Neural Networks (GNNs) have been successful in analyzing data in non-Euclidean spaces, however, they have limitations such as oversmoothing, i.e., information becomes excessively averaged as the number of hidden layers increases. The issue stems from the intrinsic formulation of conventional graph convolution where the nodal features are aggregated from a direct neighborhood per layer across the entire nodes in the graph. As setting different number of hid- den layers per node is infeasible, recent works leverage a diffusion kernel to redefine the graph structure and incorporate information from farther nodes. Unfortunately, such approaches suffer from heavy diagonalization of a graph Laplacian or learning a large transform matrix. In this regards, we propose a diffusion learning framework where the range of feature aggregation is controlled by the scale of a diffusion kernel. For efficient computation, we derive closed-form derivatives of approximations of the graph convolution with respect to the scale, so that node-wise range can be adaptively learned. With a downstream classifier, the entire framework is made trainable in an end-to-end manner. Our model is tested on various standard datasets for node-wise classification for the state-of-the-art performance, and it is also validated on a real-world brain network data for graph classifications to demonstrate its practicality for Alzheimer classification.
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+    <hr>
+    <!-- Paper video. -->
+    <!--
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    -->
+    <!--/ Paper video. -->
+    
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Quantative Results</h2>
+    <div class="columns is-centered has-text-centered" >
+
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content" align="left">
+            <p>
+              <center><h5>Node Classification</h5></center>
+            </p>
+            <img src="./static/images/result_table1.png" class="center" width="100%">
+            <p>
+              <b>Table:</b> Accuracy (%) on standard benchmarks for node classification. 
+              LSAP yields better performances over existing baselines (in <b>bold</b>) similar to Exact achieving the best results (<u>underline</u>).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content" align="left">
+            <p>
+              <center><h5>Graph Classification</h5></center>
+            </p>
+            <img src="./static/images/result_table3.png" class="center" width="100%">
+            <p></p>
+            <p>
+              <b>Table:</b> Classification performances on ADNI dataset (for CN / SMC/ EMCI / LMCI / AD).
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--/ Matting. -->
+    <hr>
+  </div>
+
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Localized Scales for Graph Classification</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/image4.png" class="center" width="80%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> Visualization of the learned scales on the cortical regions of a brain.
+          This visualization shows the scale of each ROI from the classification result using <b>FDG</b> feature.
+          Top: Inner part of right hemisphere, Bottom: Outer part of right hemisphere.
+        </p>
+        
+      </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        </p>
+        <img src="./static/images/image1.png" class="center" width="100%">
+        <p>
+        <p>
+          <b>Figure:</b> Visualization of the learned scales on the cortical and sub-cortical regions of a brain.
+          This visualization shows the scale of each ROI through the classification result using <b>Cortical Thickness</b> feature.
+        </p>
+      </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        </p>
+        <img src="./static/images/image2.png" class="center" width="100%">
+        <p>
+        <p>
+          <b>Figure:</b> Visualization of the learned scales on the cortical and sub-cortical regions of a brain.
+          This visualization shows the scale of each ROI through the classification result using <b>FDG</b> feature.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Computation Time with Kernel Convolution</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/image3.png" class="center" width="50%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> Comparisons of computation time (in <em>ms</em>) for one epoch (Forward and backpropagation).
+          Within the epoch, time for heat kernel convolution is given in black bar. Results were obtained from node classification and a graph classification
+          with 10 repititions, and LSAP saves majority of the computation.
+        </p>
+        
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Conclusion</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <p>
+          In this work, we proposed efficient trainable methods to bypass exact computation of 
+          spectral kernel convolution that define adaptive ranges of neighbor for each node. 
+          We have derived closed-form derivatives on polynomial coefficients to train the 
+          scale with conventional backpropagation, and the developed framework LSAP demonstrates 
+          <em>SOTA</em> performance on node classification and brain network classification. 
+          The brain network analysis provides neuroscientifically interpretable results 
+          corroborated by previous AD literature.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{sim2024learning,
+  author    = {Jaeyoon Sim and Sooyeon Jeon and InJun Choi and Guorong Wu and Won Hwa Kim},
+  title     = {Learning to Approximate Adaptive Kernel Convolution on Graphs},
+  journal   = {AAAI},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/aaai24_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/JaeyoonSSim/LSAP" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This website template was adapted from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies website</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
