@@ -452,14 +452,14 @@ $btn_color: gray;
 	width: 100%;
 	box-sizing: border-box;
 	overflow:auto;
-	height:310px
+	height:400px
 }
 .timeline:before {
 	content: '';
 	position: absolute;
 	left: 50%;
 	width: 3px;
-	height: 220%;
+	height: 180%;
 	background: #c5c5c5;
 }
 .timeline ul {
