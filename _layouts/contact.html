@@ -17,6 +17,8 @@ layout: default
             <p>{{ contact.institution }} | {{ contact.institution_address }}</p>
             <p>📧 Email: {{ contact.email }}</p>
             <p>🏢 Building: {{ contact.building }}</p>
+            <img src="{{ site.github.url }}/assets/face2.png" 
+            onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" width="20%">
             </div>
             <div class="col-md-6">
             <img id="contact_image" src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
