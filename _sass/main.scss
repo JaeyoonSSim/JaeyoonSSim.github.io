@@ -463,7 +463,8 @@ $btn_color: gray;
 	width: 100%;
 	box-sizing: border-box;
 	overflow:auto;
-	height:400px
+	height:400px;
+	// background: rgb(80, 80, 80)
 }
 .timeline:before {
 	content: '';
