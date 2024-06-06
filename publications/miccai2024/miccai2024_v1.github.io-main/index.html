@@ -78,7 +78,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="./static/aaai24_paper.pdf"
+                <a href="./static/miccai24_paper.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -86,7 +86,7 @@
                   <span>Paper</span>
                 </a>
               </span>
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://arxiv.org/abs/2401.11840"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -94,7 +94,7 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Video Link. -->
               <span class="link-block">
                 <a href="./static/aaai24_poster.pdf"
@@ -106,7 +106,7 @@
                 </a>
               </span>
               <!-- Code Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/JaeyoonSSim/LSAP"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -114,7 +114,7 @@
                   </span>
                   <span>Code</span>
                   </a>
-              </span>
+              </span> -->
               <!-- Dataset Link. -->
               <!--
               <span class="link-block">
@@ -138,205 +138,60 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!--
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      -->
-      <img src="./static/images/aaai2024_figure.png" class="center" width="100%">
-      <h2 class="subtitle has-text-centered" style="margin-top:-5%">
-        <!--
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-        -->
-        <b>Illustration of overall framework (LSAP).</b>
+      <img src="./static/images/figure1.png" class="center" width="100%">
+      <h2 class="subtitle has-text-centered" style="margin-top:2%">
+        <b>Illustration of overall framework.</b>
       </h2>
     </div>
+    <hr>
   </div>
 </section>
-
-
-<section class="hero is-light is-small">
-  <div class="hero-body has-text-centered">
-    <div class="container">
-        <center>
-        <video id="teaser" autoplay muted loop playsinline height="100%" width="50%" style="border-radius:1em">
-          <source src="./static/images/supple_video.mp4" type="video/mp4">
-        </video>
-        </center>
-        <p>
-        This video shows how <b>LSAP</b> learns adaptive scales on the brain network (graph) for each node 
-        <br>corresponding to a specific ROI during 2000 epochs using ADNI dataset. After training, all
-        <br>four models can obtain node-wise scales, but the three <b>LSAP</b> models using approximation 
-        <br>are ~10 times faster to learn the scales than Exact under the same conditions.
-        </p>
-      
-      
-      <!--
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      -->
-    </div>
-  </div>
-</section>
-
 
 <section class="section">
-
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3" style="margin-top:-5%">Abstract</h2>
         <div class="content has-text-justified">
-          Various Graph Neural Networks (GNNs) have been successful in analyzing data in non-Euclidean spaces, however, they have limitations such as oversmoothing, i.e., information becomes excessively averaged as the number of hidden layers increases. The issue stems from the intrinsic formulation of conventional graph convolution where the nodal features are aggregated from a direct neighborhood per layer across the entire nodes in the graph. As setting different number of hid- den layers per node is infeasible, recent works leverage a diffusion kernel to redefine the graph structure and incorporate information from farther nodes. Unfortunately, such approaches suffer from heavy diagonalization of a graph Laplacian or learning a large transform matrix. In this regards, we propose a diffusion learning framework where the range of feature aggregation is controlled by the scale of a diffusion kernel. For efficient computation, we derive closed-form derivatives of approximations of the graph convolution with respect to the scale, so that node-wise range can be adaptively learned. With a downstream classifier, the entire framework is made trainable in an end-to-end manner. Our model is tested on various standard datasets for node-wise classification for the state-of-the-art performance, and it is also validated on a real-world brain network data for graph classifications to demonstrate its practicality for Alzheimer classification.
+          Accurately discriminating progressive stages of Alzheimer’s Disease (AD) is crucial for 
+          early diagnosis and prevention. It often involves multiple imaging modalities to understand 
+          the complex pathology of AD, however, acquiring a complete set of images is challenging due 
+          to high cost and burden for subjects. In the end, missing data become inevitable which lead
+          to limited sample-size and decrease in precision in downstream analyses. To tackle this challenge, 
+          we introduce a holistic imaging feature imputation method that enables to leverage diverse imaging 
+          features while retaining all subjects. The proposed method comprises two networks: 1&#41; An encoder to 
+          extract modality-independent embeddings and 2&#41; A decoder to reconstruct the original measures 
+          conditioned on their imaging modalities. The encoder includes a novel ordinal contrastive loss, 
+          which aligns samples in the embedding space according to the progression of AD. We also maximize 
+          modality-wise coherence of embeddings within each subject, in conjunction with domain adversarial 
+          training algorithms, to further enhance alignment between different imaging modalities. The proposed 
+          method promotes our holistic imaging feature imputation across various modalities in the shared 
+          embedding space. In the experiments, we show that our networks deliver favorable results for 
+          statistical analysis and classification against imputation baselines with Alzheimer’s Disease 
+          Neuroimaging Initiative (ADNI) study.
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
-    <hr>
-    <!-- Paper video. -->
-    <!--
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    -->
-    <!--/ Paper video. -->
-    
-  </div>
-
-  <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Quantative Results</h2>
-    <div class="columns is-centered has-text-centered" >
-
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content" align="left">
-            <p>
-              <center><h5>Node Classification</h5></center>
-            </p>
-            <img src="./static/images/result_table1.png" class="center" width="100%">
-            <p>
-              <b>Table:</b> Accuracy (%) on standard benchmarks for node classification. 
-              LSAP yields better performances over existing baselines (in <b>bold</b>) similar to Exact achieving the best results (<u>underline</u>).
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content" align="left">
-            <p>
-              <center><h5>Graph Classification</h5></center>
-            </p>
-            <img src="./static/images/result_table3.png" class="center" width="100%">
-            <p></p>
-            <p>
-              <b>Table:</b> Classification performances on ADNI dataset (for CN / SMC/ EMCI / LMCI / AD).
-            </p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <!--/ Matting. -->
     <hr>
   </div>
 
-
   <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Localized Scales for Graph Classification</h2>
+    <h2 class="title is-3">Ordinal Contrastive Learning</h2>
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <center>
         </p>
-        <img src="./static/images/image4.png" class="center" width="80%">
+        <img src="./static/images/figure2.png" class="center" width="80%">
         <p>
         </center>
         <p>
-          <b>Figure:</b> Visualization of the learned scales on the cortical regions of a brain.
-          This visualization shows the scale of each ROI from the classification result using <b>FDG</b> feature.
-          Top: Inner part of right hemisphere, Bottom: Outer part of right hemisphere.
-        </p>
-        
-      </div>
-    </div>
-    <div class="columns is-centered has-text-centered">
-      <div class="content has-text-justified">
-        </p>
-        <img src="./static/images/image1.png" class="center" width="100%">
-        <p>
-        <p>
-          <b>Figure:</b> Visualization of the learned scales on the cortical and sub-cortical regions of a brain.
-          This visualization shows the scale of each ROI through the classification result using <b>Cortical Thickness</b> feature.
-        </p>
-      </div>
-    </div>
-    <div class="columns is-centered has-text-centered">
-      <div class="content has-text-justified">
-        </p>
-        <img src="./static/images/image2.png" class="center" width="100%">
-        <p>
-        <p>
-          <b>Figure:</b> Visualization of the learned scales on the cortical and sub-cortical regions of a brain.
-          This visualization shows the scale of each ROI through the classification result using <b>FDG</b> feature.
+          <b>Figure:</b> Comparison of supervised (left) and ordinal (right) contrastive 
+          learning: Both approaches contrast the set of all samples from the same class 
+          as positives against the negatives from the rest of the batch. While supervised 
+          contrastive learning repels each negative without differentiation on labels 
+          denoted as (a) ≈ (b) ≈ (c), ordinal contrastive learning assigns the penalizing 
+          strength based on the label distance.
         </p>
       </div>
     </div>
@@ -344,20 +199,99 @@
   </div>
 
   <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Computation Time with Kernel Convolution</h2>
+    <h2 class="title is-3">Embedding Space Analysis</h2>
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <center>
         </p>
-        <img src="./static/images/image3.png" class="center" width="50%">
+        <img src="./static/images/result1.png" class="center" width="80%">
         <p>
         </center>
         <p>
-          <b>Figure:</b> Comparisons of computation time (in <em>ms</em>) for one epoch (Forward and backpropagation).
-          Within the epoch, time for heat kernel convolution is given in black bar. Results were obtained from node classification and a graph classification
-          with 10 repititions, and LSAP saves majority of the computation.
+          <b>Figure:</b> Visualizations of embeddings under each loss by t-SNE. 
+          Each individual encoder is trained with three distinct losses including Cross-Entropy 
+          (left), Supervised Contrastive Loss LSC (center) and our Ordinal Contrastive Loss 
+          (right) along with domain adversarial loss. (a) and (b) correspond to training and 
+          testing data respectively. (Color: AD-stage labels, Shape: imaging scan types.)
         </p>
         
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Statistical Analysis</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/result2.png" class="center" width="80%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> <em>p</em>-values from group comparisons with Bonferroni correction at 
+          &#945;=0.01: (a) before imputation, (b) after imputation from our model. 
+          Top: Resutant <em>p</em>-value maps on a brain surface (left hemisphere) in a negative log 
+          from CN and EMCI comparison with cortical thickness, and (b) shows higher sensitivity. 
+          Bottom: Number of significant ROIs. Number of common ROIs before-and-after imputation 
+          are in ().
+        </p>
+
+        <center>
+        </p>
+        <img src="./static/images/result4.png" class="center" width="80%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> <em>p</em>-values from group comparisons with Bonferroni correction at 
+          &#945;=0.01: (a) before imputation, (b) after imputation from our model. 
+          Top: Resutant <em>p</em>-value maps on a brain surface (left hemisphere) in a negative log 
+          from CN and EMCI comparison with Tau, FDG and &#946;-amyloid. and (b) shows higher sensitivity
+          compared to (a).
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Quantitative Results</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        <p>
+        <img src="./static/images/result3.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Table:</b> Classification performance on ADNI data with all imaging features.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+  
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Quantitative Results</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        <p>
+        <img src="./static/images/result5.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Figure:</b> Visualization of ROI-wise disparities between the real (target: Column) 
+          measure and the generated measure from each modality (source: Row) for the subject
+          ‘009_S_1030’. Each disparity is normalized with the ROI-wise mean and variance of 
+          the entire dataset. While self-reconstructions (diagonal entries) are consistently 
+          achieved regardless of the adoption of modality-wise coherence, yielding more
+          regions with small disparities (below &#945;/5) when adopting modality-wise coherence 
+          in translations (non-diagonal entries) suggests the effectiveness of maximizing the 
+          modality-wise coherence.
+          
+        </p>
       </div>
     </div>
     <hr>
@@ -368,13 +302,15 @@
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <p>
-          In this work, we proposed efficient trainable methods to bypass exact computation of 
-          spectral kernel convolution that define adaptive ranges of neighbor for each node. 
-          We have derived closed-form derivatives on polynomial coefficients to train the 
-          scale with conventional backpropagation, and the developed framework LSAP demonstrates 
-          <em>SOTA</em> performance on node classification and brain network classification. 
-          The brain network analysis provides neuroscientifically interpretable results 
-          corroborated by previous AD literature.
+          In this work, we propose a promising framework that imputes unobserved imaging 
+          measures of subjects by translating their existing measures. To enable holistic 
+          imputation accurately reflecting individual disease conditions, our framework 
+          devises modality-invariant and disease-progress aligned latent space guided by 1) 
+          domain adversarial training, 2) maximizing modality-wise coherence, and 3) 
+          ordinal contrastive learning. Experimental results on the ADNI study show that 
+          our model offers reliable estimations of unobserved modalities for individual 
+          subjects, facilitating the downstream AD analyses. Our work has potential to be
+          adopted by other neuroimaging studies suffering from missing measures.
         </p>
       </div>
     </div>
@@ -386,10 +322,10 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{sim2024learning,
-  author    = {Jaeyoon Sim and Sooyeon Jeon and InJun Choi and Guorong Wu and Won Hwa Kim},
-  title     = {Learning to Approximate Adaptive Kernel Convolution on Graphs},
-  journal   = {AAAI},
+    <pre><code>@article{baek2024ocl,
+  author    = {Seunghun Baek and Jaeyoon Sim and Guorong Wu and Won Hwa Kim},
+  title     = {OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels},
+  journal   = {MICCAI},
   year      = {2024},
 }</code></pre>
   </div>
