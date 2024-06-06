@@ -32,7 +32,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.ico">
+  <link rel="icon" href="./static/images/face.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -76,7 +76,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="./static/aaai24_paper.pdf"
+                <a href="./static/icml24_paper.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -84,7 +84,7 @@
                   <span>Paper</span>
                 </a>
               </span>
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://arxiv.org/abs/2401.11840"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -92,10 +92,10 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="./static/aaai24_poster.pdf"
+                <a href="./static/icml24_poster.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-obp"></i>
@@ -104,7 +104,7 @@
                 </a>
               </span>
               <!-- Code Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/JaeyoonSSim/LSAP"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -112,7 +112,7 @@
                   </span>
                   <span>Code</span>
                   </a>
-              </span>
+              </span> -->
             </div>
 
           </div>
@@ -125,49 +125,35 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <center>
-      <img src="./static/images/isbi2024_figure.png" class="center" width="80%">  
-      </center>
-      <h2 class="subtitle" style="margin-top:-10%; text-align:justify">
-        <b>
-          An overview of our framework.
-          In Content Extraction, Modality-agnostic embedding is extracted from any type of feature
-          for the subject. In Style Injection, modality-specific generators can generate missing features
-          not present in the original subject. Shape: imaging scan (i.e., domain), 
-          Color: AD-stage label (i.e., class)
-        </b>
+      <img src="./static/images/figure1.png" class="center" width="100%">  
+      <h2 class="subtitle has-text-centered" style="margin-top:2%">  
+        <b>Overview of architecture for neurodegenerative brain network classification (AGT).</b>
       </h2>
       <hr>
     </div>
   </div>
 </section>
 
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body" sytle="text-align:justify">
-        <img src="./static/images/image1.png" class="center" width="100%">
-        <h3 class="subtitle has-text-centered" style="margin-top:5%">
-          <b>
-            Illustraion of our framework.
-          </b>
-        </h3>
-        
-    </div>
-    <hr>
-  </div>
-</section>
-
-
 <section class="section">
-
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3" style="margin-top:-10%">Abstract</h2>
         <div class="content has-text-justified">
-          Characterizing a preclinical stage of Alzheimer’s Disease (AD), via single imaging is difficult as its early symptoms are quite subtle. Therefore, many neuroimaging studies are curated with various imaging modalities, e.g., MRI and PET, however, it is often challenging to acquire all of them from all subjects and missing data become inevitable. In this regards, in this paper, we propose a framework that generates unobserved imaging measures for specific subjects using their existing measures, thereby reducing the need for additional examinations. Our framework transfers modality-specific style while preserving AD-specific content. This is done by domain adversarial training that preserves modality-agnostic but AD-specific information, while a generative adversarial network adds an indistinguishable modality-specific style. Our proposed framework is evaluated on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) study and compared with other imputation methods in terms of generated data quality. Small average Cohen’s d < 0.19 between our generated measures and real ones suggests that the synthetic data are practically usable regardless of their modality type.
+          Analysis of neurodegenerative diseases on brain connectomes is important in facilitating early 
+                diagnosis and predicting its onset. However, investigation of the progressive and irreversible 
+                dynamics of these diseases remains underexplored in cross-sectional studies as its diagnostic 
+                groups are considered independent. Also, as in many real-world graphs, brain networks exhibit 
+                intricate structures with both homophily and heterophily. To address these challenges, we propose 
+                Adaptive Graph diffusion network with Temporal regularization (AGT). AGT introduces node-wise 
+                convolution to adaptively capture low (i.e., homophily) and high-frequency (i.e., heterophily) 
+                characteristics within an optimally tailored range for each node. Moreover, AGT captures sequential 
+                variations within progressive diagnostic groups with a novel temporal regularization, considering 
+                the relative feature distance between the groups in the latent space. As a result, our proposed 
+                model yields interpretable results at both node-level and group-level. The superiority of our 
+                method is validated on two neurodegenerative disease benchmarks for graph classification: Alzheimer’s 
+                Disease Neuroimaging Initiative (ADNI) and Parkinson’s Progression Markers Initiative (PPMI) datasets.
         </div>
       </div>
     </div>
@@ -175,62 +161,109 @@
   </div>
 
   <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Quantative Results</h2>
-    <div class="columns is-centered has-text-centered" >
-
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content" align="left">
-            <p>
-              <center><h5>Averaged Cohen's <i>d</i></h5></center>
-            </p>
-            <img src="./static/images/table1.png" class="center" width="100%">
-            <p>
-              <b>Table:</b> The average absolute Cohen's <i>d</i> across all the ROIs between
-              actual and generated distributions. Lower values are better, and the values &geq; 0.5
-              are in <b>bold</b>.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content" align="left">
-            <p>
-              <center><h5>Classification Performance</h5></center>
-            </p>
-            <img src="./static/images/table2.png" class="center" width="100%">
-            <p></p>
-            <p>
-              <b>Table:</b> Classification performances (CN / EMCI / LMCI) on ADNI data
-              with all modalities. The number of generators required are given in ().
-            </p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <!--/ Matting. -->
-    <hr>
-  </div>
-
-
-  <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Visualization of the averaged absolute Cohend's <i>d</i></h2>
-    
+    <h2 class="title is-3">Node-level Scale Adaptation</h2>
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <center>
         <p>
-        <img src="./static/images/image2.png" class="center" width="80%">
+        <img src="./static/images/icml2024_figure4.png" class="center" width="100%">
         </p>
         </center>
         <p>
-          <b>Figure:</b> Visualization of the averaged absolute Cohen's <i>d</i> between actual distribution
-          and generated distribution on the inner left cortical regions of EMCI subjects. AD-specific regions show
-          better imputation results as lower Cohen's <i>d</i> implices higher correspondence. 
-          (Row: Source, Column: Target.)
+          <b>Figure:</b> Comparison between global filters and an adaptive local filter. 
+          The global filter refers to the conventional filters whose range of feature aggregation 
+          is identical across the whole nodes. (a) A low-pass global filter smooths out features 
+          among neighboring nodes, (b) while a high-pass global filter accentuates the difference 
+          between a target node and its neighboring nodes. (c) Unlike these 
+          global filters, the adaptive local filter captures optimal bandwidths for each node with 
+          trainable node-wise scaling parameters.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Quantitative Results</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        <p>
+        <img src="./static/images/table1.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Table:</b> Classification performance on the ADNI and PPMI datasets with 5-fold 
+          cross-validation. The best results are marked in bold and the second-best results are 
+          indicated by an underline.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">ROI Analysis</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        <p>
+        <img src="./static/images/table2.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Table:</b> Five brain regions with the smallest trained scales for the AD group 
+          in the ADNI dataset and the PD group in the PPMI dataset. The regional scales were 
+          averaged across 5 trained models from 5 folds.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Temporal Analysis</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+          <p>
+          <img src="./static/images/result1.png" class="center" width="100%">
+          </p>
+        </center>
+        <p>
+          <b>Figure:</b> Five brain regions with the smallest trained scales for the AD group 
+          in the ADNI dataset and the PD group in the PPMI dataset. The regional scales were 
+          averaged across 5 trained models from 5 folds.
+        </p>
+        <center>
+          <p>
+          <img src="./static/images/result2.png" class="center" width="60%">
+          </p>
+        </center>
+        <p>
+          <b>Figure:</b> Visualization of the trained scales on the ADNI-FDG experiment. 
+          Top: Trained scales of right cortex ROIs. Bottom: Trained scales of left cortex ROIs. 
+          All node-wise scales are averaged across 5 folds.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">ROI Analysis</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        <p>
+        <img src="./static/images/result3.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Figure:</b> (a) and (c) are from a brain network (i.e., X and A) of subject #3130. 
+          Edges in (b) and (d) are the adaptive wavelet basis derived from a trained model. 
+          The node features in (b) become more discriminative from (a), while those 
+          in (d) become more similar compared to the nodes in (c).
         </p>
       </div>
     </div>
@@ -242,15 +275,14 @@
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <p>
-          In this paper, we propose a novel framework that generates unobserved imaging measures 
-          for specific subjects using their existing measures. To reduce the needs for taking several 
-          imaging scans, our framework addresses the imputation for missing measures by transferring 
-          modality-specific style while preserving AD-specific content. Experimental results on the 
-          ADNI study show that our model provides a probable estimation of target modality for 
-          individual subjects, which yields similar distributions of generated measurements to those 
-          from observed data and helps downstream analyses. Since our work is applicable regardless 
-          of modality type, our approach has potential to be adopted by other neuroimaging studies 
-          that are limited by missing measures.
+          We presented a novel wavelet-based GNN addressing challenges in analyzing the evolving 
+          dynamics of neurodegenerative diseases on brain connectomes. Our method captures the 
+          sequential variations within diagnostic groups with a group-wise temporal regularization. 
+          Also, it adaptively captures both homophily and heterophily within a graph by adjusting 
+          node-wise spectral bandwidth. As a result, our method outperformed various GNNs for brain 
+          connectome classification on two representative neurodegenerative disease benchmarks. 
+          Our framework offers clinical interpretability, showing significant potential to be 
+          applied in the analysis of various neurodegenerative diseases.
         </p>
       </div>
     </div>
@@ -262,10 +294,10 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{baek2024modality,
-  author    = {Seunghun Baek and Jaeyoon Sim and Mustafa Dere and Minjeong Kim and Guorong Wu and Won Hwa Kim},
-  title     = {Modality-agnostic Style Transfer for Holistic Feature Imputation},
-  journal   = {ISBI},
+    <pre><code>@article{cho2024neurodegenerative,
+  author    = {Hyuna Cho and Jaeyoon Sim and Guorong Wu and Won Hwa Kim},
+  title     = {Neurodegenerative Brain Network Classification via Adaptive Diffusion with Temporal Regularization},
+  journal   = {ICML},
   year      = {2024},
 }</code></pre>
   </div>
