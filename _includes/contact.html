@@ -4,13 +4,15 @@
     <h3 class="main_title pb-3 mb-5">Contact</h3>
     {% for contact in site.data.settings.contacts %}
     <div class="row g-5 mb-5">
-      <div class="col-md-6">
+      <img class="col-md-6">
         <h4>{{ contact.name }}</h4>
         <p></p>
         <p>{{ contact.title }} | {{ contact.department }}</p>
         <p>{{ contact.institution }} | {{ contact.institution_address }}</p>
         <p>📧 Email: {{ contact.email }}</p>
         <p>🏢 Building: {{ contact.building }}</p>
+        <img src="{{ site.github.url }}/assets/face2.png" 
+        onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" width="60%" hieght="60%">
       </div>
       <div class="col-md-6">
         <img id="contact_image" src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">

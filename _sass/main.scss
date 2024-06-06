@@ -173,7 +173,7 @@ body a {
 // Home 이미지
 #home_image {
 	border: 3px solid rgb(54, 54, 54);
-	border-radius: 50px;
+	border-radius: 15%;
 }
 
 // Home 제목 
@@ -183,7 +183,7 @@ body a {
 
 // Education 마크
 #education_mark {
-	border: 2px solid rgb(198, 198, 198);
+	border: 3px solid silver;
 	margin-top: 3px;
 	margin-left: 30px;
 	width: 80%;
@@ -196,6 +196,13 @@ body a {
 .publication_title {
 	font-weight: 700;
 	font-size: 1.2em;
+}
+
+// Publication 이미지
+#publication_image {
+	border: 3px solid silver;
+	border-radius: 10px;
+	width: 100%;
 }
 
 // Course 이미지
@@ -218,6 +225,10 @@ body a {
 	border-radius: 10px;
 	margin-top: 10px;
 }
+
+
+
+
 
 
 // 아코디언 메뉴

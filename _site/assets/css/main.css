@@ -33,13 +33,15 @@ body a { color: #bbffb8; }
 
 .award_badge { background-color: #e26e6ece; vertical-align: middle; text-align: center; padding: 2px 39px; font-size: 0.8em; border-radius: 0 0 10px 0; }
 
-#home_image { border: 3px solid #363636; border-radius: 50px; }
+#home_image { border: 3px solid #363636; border-radius: 15%; }
 
 #home_title { font-weight: 700; }
 
-#education_mark { border: 2px solid #c6c6c6; margin-top: 3px; margin-left: 30px; width: 80%; height: 80%; background: white; border-radius: 15%; }
+#education_mark { border: 3px solid silver; margin-top: 3px; margin-left: 30px; width: 80%; height: 80%; background: white; border-radius: 15%; }
 
 .publication_title { font-weight: 700; font-size: 1.2em; }
+
+#publication_image { border: 3px solid silver; border-radius: 10px; width: 100%; }
 
 #course_image { border: 3px solid white; border-radius: 10px; width: 100%; }
 
