@@ -3,4 +3,4 @@ layout: post
 title: "Homepage Open"
 ---
 
-I opened the homepage 😎
+I opened the homepage. 😎
