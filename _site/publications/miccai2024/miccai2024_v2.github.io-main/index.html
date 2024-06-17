@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multi-Modal Graph Neural Network with Transformer-Guided Adaptive Diffusion for Preclinical Alzheimer Classification</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/face.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Multi-Modal Graph Neural Network with Transformer-Guided Adaptive Diffusion for Preclinical Alzheimer Classification</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=XheFLZgAAAAJ&hl=ko">Jaeyoon Sim</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://mip.postech.ac.kr/members/">Minjae Lee</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=XVsMB2kAAAAJ&hl=ko">Guorong Wu</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=aWPSHNwAAAAJ&hl=ko">Won Hwa Kim</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>POSTECH,</span>
+            <span class="author-block"><sup>2</sup>UNC-Chapel Hill</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <h3 class="is-size-4 publication-authors"><b>MICCAI 2024</b></h3>
+            <p class="is-size-4 publication-authors"><img class="emoji" title=":canada:" alt=":canada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1e6.png" height="20" width="20"> Marrakesh, Morocco</p>
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./static/miccai24_paper.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.11840"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="./static/aaai24_poster.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-obp"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/JaeyoonSSim/LSAP"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span> -->
+              <!-- Dataset Link. -->
+              <!--
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+                -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/figure1.png" class="center" width="100%">
+      <h2 class="subtitle has-text-centered" style="margin-top:2%">
+        <b>Illustration of overall framework.</b>
+      </h2>
+    </div>
+    <hr>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="margin-top:-5%">Abstract</h2>
+        <div class="content has-text-justified">
+          The graphical representation of the brain offers critical insights into diagnosing and prognosing neurodegenerative 
+          disease via relationships between regions of interest (ROIs). Despite recent emergence of various Graph Neural Networks 
+          (GNNs) to effectively capture the relational information, there remain inherent limitations in interpreting the brain 
+          networks. Specifically, convolutional approaches ineffectively aggregate information from distant neighborhoods, while 
+          attention-based methods exhibit deficiencies in capturing node-centric information, particularly in retaining critical 
+          characteristics from pivotal nodes. These shortcomings reveal challenges for identifying disease-specific variation 
+          from diverse features from different modalities. In this regards, we propose an integrated framework guiding diffusion 
+          process at each node by a downstream transformer where both short- and long-range properties of graphs are aggregated 
+          via diffusion-kernel and multi-head attention respectively. We demonstrate the superiority of our model by improving 
+          performance of pre-clinical Alzheimer’s disease (AD) classification with various modalities. Also, our model adeptly 
+          identifies key ROIs that are closely associated with the preclinical stages of AD, marking a significant potential 
+          for early diagnosis and prevision of the disease.
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Quantitative Results</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/table1.png" class="center" width="100%">
+        <p>
+        </center>
+        <p>
+          <b>Table:</b> Preclinical AD classification performance (CN/SMC/EMCI) on ADNI data.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Discussion on the Scales</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/result1.png" class="center" width="100%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> Visualization of learned scales on the cortical regions of left (top) and
+          right (bottom) hemispheres. 
+        </p>
+
+        <center>
+        </p>
+        <img src="./static/images/table2.png" class="center" width="100%">
+        <p>
+        </center>
+        <p>
+          <b>Table:</b> 8 Localized ROIs with the smallest trained scales
+          for classification. (L) and (R) denote left and right hemisphere, respectively.
+        </p>
+
+        <center>
+        </p>
+        <img src="./static/images/result3.png" class="center" width="100%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> Visualization of learned scales on the cortical regions of a brain using three
+          biomarkers such as cortical thickness (top), &#946;-Amyloid (middle) and FDG (bottom).
+        </p>
+        
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Pre-clinical AD via ROI Attention</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/result2.png" class="center" width="100%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> Distribution of attention scores across all brain regions with cortical thickness (left), 
+          &#946;-Amyloid (center) and FDG (right).
+        </p>
+
+        <center>
+        </p>
+        <img src="./static/images/table3.png" class="center" width="100%">
+        <p>
+        </center>
+        <p>
+          <b>Table:</b>  Corresponding ROIs with
+          the 5 highest attention scores for classification. Importance Rate (IR) indicates how
+          many ROIs pay attention. (L) and (R) denote left and right hemisphere, respectively.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Ablation Study on the Blocks</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        <p>
+        <img src="./static/images/table4.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Table:</b> Performance comparisons of different blocks. For attention block, 
+          our multimodal (MM) attention and existing position-wise attention are compared.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+  
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Conclusion</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <p>
+          In this work, we proposed a novel end-to-end framework GTAD to dynamically 
+          define node-centric ranges per imaging modality via diffusion kernel, guided
+          by a subsequent transformer. Our framework captures local characteristics on
+          graphs by flexibly optimizing node-wise scales separately on imaging modalities,
+          and obtains a global representation by employing multi-modal self-attention,
+          which guides the model to better prediction. Leveraging multiple imaging measures, 
+          GTAD demonstrates superiority as evidenced by improved performance in
+          preclinical AD classification, and the results identifies disease-specific variation
+          through AD-specific key ROIs in the brain.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{sim2024multi,
+  author    = {Jaeyoon Sim and Minjae Lee and Guorong Wu and Won Hwa Kim},
+  title     = {Multi-Modal Graph Neural Network with Transformer-Guided Adaptive Diffusion for Preclinical Alzheimer Classification},
+  journal   = {MICCAI},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/aaai24_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/JaeyoonSSim/LSAP" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This website template was adapted from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies website</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
