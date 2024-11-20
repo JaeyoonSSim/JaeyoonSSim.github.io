@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🎉 POSTECHIAN Fellowship 🎉"
+title: "Won the 🎉 POSTECHIAN Fellowship 🎉"
 ---
 
-I won the POSTECHIAN Fellowship 2024. 😎
+I'm really grateful to have been granted the POSTECHIAN Fellowship 2024. 😎
