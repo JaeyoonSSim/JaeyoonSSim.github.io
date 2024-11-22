@@ -3,4 +3,4 @@ layout: post
 title: "Won the 🎊 POSTECHIAN Fellowship 🎊"
 ---
 
-I'm really grateful to have been granted the POSTECHIAN Fellowship 2024. 😎
+I'm deeply grateful to have been awarded the POSTECHIAN Fellowship 2024 and truly honored to be one of the two recipients selected from POSTECH GSAI for this prestigious fellowship. 😎
