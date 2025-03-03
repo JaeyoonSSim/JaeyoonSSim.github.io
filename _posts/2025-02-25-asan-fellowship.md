@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Won the 🎊 Asan Biomedical Science Scholarship 🎊"
+title: "Won the 🎊 Asan Biomedical Science Fellowship 🎊"
 ---
 
-I am truly honored to receive the Asan Foundation Scholarship in Biomedical Science. 😎
+I'm truly honored to won the Asan Foundation Biomedical Science Fellowship. 😎
 
 <center> 
 <img src="/experiences/images/picture_asan_scholarship1.jpeg" width="28%" height="28%"> 
