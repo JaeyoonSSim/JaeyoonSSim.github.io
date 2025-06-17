@@ -16,6 +16,53 @@
       </div>
       <div class="detail_publication col-md-10">
         <div class="row g-5 mb-5">
+
+
+          <div class="col-lg-4 text-center">
+            <img id="publication_image"
+            src="/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure.png" 
+            onmouseover="this.src='/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure2.png'" 
+            onmouseout="this.src='/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure.png'" 
+            class="img-fluid rounded float-center img-thumbnail shadow mb-3" 
+            onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hieght="100%">
+          </div>
+          <div class="col-lg-8">
+            <h6><p class="publication_title">MNM: Multi-level Neuroimaging Meta-analysis with Hyperbolic Brain-Text Representations</p></h6>
+            <p class="text-muted">Seunghun Baek, Jaejin Lee, <b><u>Jaeyoon Sim</u></b>, Minjae Jung, Won Hwa Kim</p>
+            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> International Conference on Medical Image Computing and Computer Assisted Intervention <span style="color:rgb(153,255,255)"><b>(MICCAI)</b></span>, Daejeon, Republic of Korea, 2025</p>
+            <p style="color:rgb(187, 255, 184);"><b>Provisional Accept [~9% Acceptance Rate]</b></p>
+            <p>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs5_button" aria-expanded="false" aria-controls="abs5_button">Abstract</a>
+              <!-- <a href="/publications/miccai2024/miccai2024_v2.github.io-main/index.html" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Project Page</a> -->
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib5_button" aria-expanded="false" aria-controls="bib5_button">BibTeX</a>
+            </p>
+            <div class="collapse" id="abs5_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                Various neuroimaging studies suffer from small sample size problem which often limit their reliability. 
+                Meta-analysis addresses this challenge by aggregating findings from different studies to identify consistent 
+                patterns of brain activity. However, traditional approaches based on keyword retrieval or linear mappings 
+                often overlook the rich hierarchical structure in the brain. In this work, we propose a novel framework that 
+                leverages hyperbolic geometry to bridge the gap between neuroscience literature and brain activation maps. 
+                By embedding text from research articles and corresponding brain images into a shared hyperbolic space via 
+                the Lorentz model, our method captures both semantic similarity and hierarchical organization inherent in 
+                neuroimaging data. In the hyperbolic space, our method performs multi-level neuroimaging meta-analysis (MNM) 
+                by 1) aligning brain and text embeddings for semantic correspondence, 2) guiding hierarchy between text and 
+                brain activations, and 3) preserving the hierarchical relationships within brain activation patterns. 
+                Experimental results demonstrate that our model outperforms baselines, offering a robust and interpretable 
+                paradigm of multi-level neuroimaging meta-analysis via hyperbolic brain-text representation.
+              </div>
+            </div>
+            <div class="collapse" id="bib5_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                @inproceedings{baek2025mnm,<br>
+                  title={MNM: Multi-level Neuroimaging Meta-analysis with Hyperbolic Brain-Text Representations},<br>
+                  author={Baek, Seunghun, and Lee, Jaejin, and Sim, Jaeyoon and Jung, Minjae and Kim, Won Hwa},<br>
+                  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},<br>
+                  year={2025},<br>
+                }
+              </div>
+            </div> 
+          </div>
           
           <div class="col-lg-4 text-center">
             <img id="publication_image"
