@@ -8,8 +8,7 @@ title: "Home"
 <br/>
 
 #### Research Interest
-- Computer Vision
-- Machine Learning
-- Medical Imaging
-- Signal Processing
+- Computer Vision & Machine Learninng
+- Medical Imaging Analysis
+- Applied Signal Processing
 - Graph Neural Network
