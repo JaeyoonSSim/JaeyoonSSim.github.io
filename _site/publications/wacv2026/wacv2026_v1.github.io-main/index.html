@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/face.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://habaek4.github.io/">Seunghun Baek</a><sup>1*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=XheFLZgAAAAJ&hl=ko">Jaeyoon Sim</a><sup>1*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=XVsMB2kAAAAJ&hl=ko">Guorong Wu</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=aWPSHNwAAAAJ&hl=ko">Won Hwa Kim</a><sup>1</sup>
+            </span>
+          </div>
+
+          <p class="author-block">
+            (* : Equal Contribution)
+          </p>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>POSTECH,</span>
+            <span class="author-block"><sup>2</sup>UNC-Chapel Hill</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <h3 class="is-size-4 publication-authors"><b>MICCAI 2024</b></h3>
+            <p class="is-size-4 publication-authors"><img class="emoji" title=":canada:" alt=":canada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1e6.png" height="20" width="20"> Marrakesh, Morocco</p>
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./static/miccai24_paper1.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.11840"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="./static/miccai24_poster1.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-obp"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/JaeyoonSSim/LSAP"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span> -->
+              <!-- Dataset Link. -->
+              <!--
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+                -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/figure1.png" class="center" width="100%">
+      <h2 class="subtitle has-text-centered" style="margin-top:2%">
+        <b>Illustration of overall framework.</b>
+      </h2>
+    </div>
+    <hr>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="margin-top:-5%">Abstract</h2>
+        <div class="content has-text-justified">
+          Accurately discriminating progressive stages of Alzheimer’s Disease (AD) is crucial for 
+          early diagnosis and prevention. It often involves multiple imaging modalities to understand 
+          the complex pathology of AD, however, acquiring a complete set of images is challenging due 
+          to high cost and burden for subjects. In the end, missing data become inevitable which lead
+          to limited sample-size and decrease in precision in downstream analyses. To tackle this challenge, 
+          we introduce a holistic imaging feature imputation method that enables to leverage diverse imaging 
+          features while retaining all subjects. The proposed method comprises two networks: 1&#41; An encoder to 
+          extract modality-independent embeddings and 2&#41; A decoder to reconstruct the original measures 
+          conditioned on their imaging modalities. The encoder includes a novel ordinal contrastive loss, 
+          which aligns samples in the embedding space according to the progression of AD. We also maximize 
+          modality-wise coherence of embeddings within each subject, in conjunction with domain adversarial 
+          training algorithms, to further enhance alignment between different imaging modalities. The proposed 
+          method promotes our holistic imaging feature imputation across various modalities in the shared 
+          embedding space. In the experiments, we show that our networks deliver favorable results for 
+          statistical analysis and classification against imputation baselines with Alzheimer’s Disease 
+          Neuroimaging Initiative (ADNI) study.
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Ordinal Contrastive Learning</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/figure2.png" class="center" width="80%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> Comparison of supervised (left) and ordinal (right) contrastive 
+          learning: Both approaches contrast the set of all samples from the same class 
+          as positives against the negatives from the rest of the batch. While supervised 
+          contrastive learning repels each negative without differentiation on labels 
+          denoted as (a) ≈ (b) ≈ (c), ordinal contrastive learning assigns the penalizing 
+          strength based on the label distance.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Embedding Space Analysis</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/result1.png" class="center" width="80%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> Visualizations of embeddings under each loss by t-SNE. 
+          Each individual encoder is trained with three distinct losses including Cross-Entropy 
+          (left), Supervised Contrastive Loss LSC (center) and our Ordinal Contrastive Loss 
+          (right) along with domain adversarial loss. (a) and (b) correspond to training and 
+          testing data respectively. (Color: AD-stage labels, Shape: imaging scan types.)
+        </p>
+        
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Statistical Analysis</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/result2.png" class="center" width="80%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> <em>p</em>-values from group comparisons with Bonferroni correction at 
+          &#945;=0.01: (a) before imputation, (b) after imputation from our model. 
+          Top: Resutant <em>p</em>-value maps on a brain surface (left hemisphere) in a negative log 
+          from CN and EMCI comparison with cortical thickness, and (b) shows higher sensitivity. 
+          Bottom: Number of significant ROIs. Number of common ROIs before-and-after imputation 
+          are in ().
+        </p>
+
+        <center>
+        </p>
+        <img src="./static/images/result4.png" class="center" width="80%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> <em>p</em>-values from group comparisons with Bonferroni correction at 
+          &#945;=0.01: (a) before imputation, (b) after imputation from our model. 
+          Top: Resutant <em>p</em>-value maps on a brain surface (left hemisphere) in a negative log 
+          from CN and EMCI comparison with Tau, FDG and &#946;-amyloid. and (b) shows higher sensitivity
+          compared to (a).
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Quantitative Results</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        <p>
+        <img src="./static/images/result3.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Table:</b> Classification performance on ADNI data with all imaging features.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+  
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Quantitative Results</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        <p>
+        <img src="./static/images/result5.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Figure:</b> Visualization of ROI-wise disparities between the real (target: Column) 
+          measure and the generated measure from each modality (source: Row) for the subject
+          ‘009_S_1030’. Each disparity is normalized with the ROI-wise mean and variance of 
+          the entire dataset. While self-reconstructions (diagonal entries) are consistently 
+          achieved regardless of the adoption of modality-wise coherence, yielding more
+          regions with small disparities (below &#945;/5) when adopting modality-wise coherence 
+          in translations (non-diagonal entries) suggests the effectiveness of maximizing the 
+          modality-wise coherence.
+          
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Conclusion</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <p>
+          In this work, we propose a promising framework that imputes unobserved imaging 
+          measures of subjects by translating their existing measures. To enable holistic 
+          imputation accurately reflecting individual disease conditions, our framework 
+          devises modality-invariant and disease-progress aligned latent space guided by 1) 
+          domain adversarial training, 2) maximizing modality-wise coherence, and 3) 
+          ordinal contrastive learning. Experimental results on the ADNI study show that 
+          our model offers reliable estimations of unobserved modalities for individual 
+          subjects, facilitating the downstream AD analyses. Our work has potential to be
+          adopted by other neuroimaging studies suffering from missing measures.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{baek2024ocl,
+      title={OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels},
+      author={Baek, Seunghun and Sim, Jaeyoon and Wu, Guorong and Kim, Won Hwa},
+      booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+      pages={334--344},
+      year={2024},
+      organization={Springer}
+    }</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <!-- <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/aaai24_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/JaeyoonSSim/LSAP" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div> -->
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This website template was adapted from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies website</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

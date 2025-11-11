@@ -98,6 +98,54 @@
 
           <div class="col-lg-4 text-center">
             <img id="publication_image"
+            src="/publications/wacv2026/wacv2026_v1.github.io-main/static/images/wacv2026_figure1.png" 
+            onmouseover="this.src='/publications/wacv2026/wacv2026_v1.github.io-main/static/images/wacv2026_figure2.png'" 
+            onmouseout="this.src='/publications/wacv2026/wacv2026_v1.github.io-main/static/images/wacv2026_figure1.png'" 
+            class="img-fluid rounded float-center img-thumbnail shadow mb-3" 
+            onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hieght="100%">
+          </div>
+          <div class="col-lg-8">
+            <h6><p class="publication_title">HiMix : Hierarchical Visual-Textual Mixing Network for Lesion Segmentation</p></h6>
+            <p class="text-muted">Soojin Hwang<sup>&#42;</sup>, <b><u>Jaeyoon Sim</u></b><sup>&#42;</sup>, Won Hwa Kim (<sup>&#42;</sup>: Equal Contribution)</p>
+            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> IEEE/CVF Winter Conference on Applications of Computer Vision <span style="color:rgb(153,255,255)"><b>(WACV)</b></span>, Tucson, Arizona, 2026</p>
+            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 3px 0px 3px; border-radius:20%"><b>W</b></span> MICCAI Workshop on Emerging LLM/LMM Applications in Medical Imaging (ELAMI), Daejeon, Republic of Korea, 2025</p>
+            <p style="color:rgb(187, 255, 184);"><b>KSIIM Academic Award - Excellence Prize</b></p>
+            <!-- <p style="color:rgb(187, 255, 184);"><b>Provisional Accept [~9% Acceptance Rate]</b></p> -->
+            <p>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs7_button" aria-expanded="false" aria-controls="abs6_button">Abstract</a>
+              <a href="/publications/miccai2024/miccai2024_v2.github.io-main/index.html" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Project Page</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib7_button" aria-expanded="false" aria-controls="bib6_button">BibTeX</a>
+            </p>
+            <div class="collapse" id="abs7_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                Lesion segmentation is an essential task in medical imaging to support diagnosis and assessment of pathologies.
+                While deep learning models have shown success in various domains, their reliance on large-scale annotated datasets limits 
+                applicability in the medical domain due to labeling cost. To address this issue, recent studies in medical image segmentation 
+                have utilized clinical texts as complementary semantic cues without additional annotations. However, most existing methods 
+                utilize a single textual embedding and fail to capture hierarchical interactions between language and visual features, which 
+                limits their ability to leverage fine-grained cues essential for precise and detailed segmentation. In this regime, we propose 
+                Hierarchical Visual-Textual Mixing Network (HiMix), a novel multi-modal segmentation framework that mixes multi-scale image and 
+                text representations throughout the mask decoding process. HiMix progressively injects hierarchical text embedding, from high-level 
+                semantics to fine-grained spatial details, into corresponding image decoder layers to bridge the modality gap and enhance visual 
+                feature refinement at multiple levels of abstraction. Experiments on the QaTa-COV19, MosMedData+ and Kvasir-SEG datasets demonstrate 
+                that HiMix consistently outperforms uni-modal and multi-modal methods. Furthermore, HiMix exhibits strong generalization to 
+                unstructured textual formats, highlighting its practical applicability in real-world clinical scenarios.
+              </div>
+            </div>
+            <div class="collapse" id="bib7_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                @inproceedings{hwang2026himix,<br>
+                  title={HiMix : Hierarchical Visual-Textual Mixing Network for Lesion Segmentation},<br>
+                  author={Hwang, Soojin, and Sim, Jaeyoon and Kim, Won Hwa},<br>
+                  booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision},<br>
+                  year={2026},<br>
+                }
+              </div>
+            </div> 
+          </div>
+
+          <div class="col-lg-4 text-center">
+            <img id="publication_image"
             src="/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure.png" 
             onmouseover="this.src='/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure2.png'" 
             onmouseout="this.src='/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure.png'" 
@@ -110,9 +158,9 @@
             <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> International Conference on Medical Image Computing and Computer Assisted Intervention <span style="color:rgb(153,255,255)"><b>(MICCAI)</b></span>, Daejeon, Republic of Korea, 2025</p>
             <p style="color:rgb(187, 255, 184);"><b>Provisional Accept [~9% Acceptance Rate]</b></p>
             <p>
-              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs5_button" aria-expanded="false" aria-controls="abs6_button">Abstract</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs6_button" aria-expanded="false" aria-controls="abs6_button">Abstract</a>
               <!-- <a href="/publications/miccai2024/miccai2024_v2.github.io-main/index.html" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Project Page</a> -->
-              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib5_button" aria-expanded="false" aria-controls="bib6_button">BibTeX</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib6_button" aria-expanded="false" aria-controls="bib6_button">BibTeX</a>
             </p>
             <div class="collapse" id="abs6_button">
               <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
@@ -134,9 +182,12 @@
               <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
                 @inproceedings{baek2025mnm,<br>
                   title={MNM: Multi-level Neuroimaging Meta-analysis with Hyperbolic Brain-Text Representations},<br>
-                  author={Baek, Seunghun, and Lee, Jaejin, and Sim, Jaeyoon and Jung, Minjae and Kim, Won Hwa},<br>
+                  author={Baek, Seunghun and Lee, Jaejin and Sim, Jaeyoon and Jeong, Minjae and Kim, Won Hwa},<br>
                   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},<br>
+                  pages={397--406},<br>
                   year={2025},<br>
+                  organization={Springer}<br>
+                  }
                 }
               </div>
             </div> 
