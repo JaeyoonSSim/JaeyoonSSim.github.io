@@ -6,7 +6,7 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels</title>
+  <title>HiMix : Hierarchical Visual-Textual Mixing Network for Lesion Segmentation</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -47,19 +47,16 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels</h1>
+          <h1 class="title is-1 publication-title">HiMix : Hierarchical Visual-Textual Mixing Network for Lesion Segmentation</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://habaek4.github.io/">Seunghun Baek</a><sup>1*</sup>,
+              <a href="https://mip.postech.ac.kr/members">Soojin Hwang</a><sup>*</sup>,
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=XheFLZgAAAAJ&hl=ko">Jaeyoon Sim</a><sup>1*</sup>,
+              <a href="https://scholar.google.com/citations?user=XheFLZgAAAAJ&hl=ko">Jaeyoon Sim</a><sup>*</sup>,
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=XVsMB2kAAAAJ&hl=ko">Guorong Wu</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=aWPSHNwAAAAJ&hl=ko">Won Hwa Kim</a><sup>1</sup>
+              <a href="https://scholar.google.com/citations?user=aWPSHNwAAAAJ&hl=ko">Won Hwa Kim</a><sup></sup>
             </span>
           </div>
 
@@ -68,13 +65,12 @@
           </p>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>POSTECH,</span>
-            <span class="author-block"><sup>2</sup>UNC-Chapel Hill</span>
+            <span class="author-block">POSTECH</span>
           </div>
 
           <div class="column has-text-centered">
-            <h3 class="is-size-4 publication-authors"><b>MICCAI 2024</b></h3>
-            <p class="is-size-4 publication-authors"><img class="emoji" title=":canada:" alt=":canada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1e6.png" height="20" width="20"> Marrakesh, Morocco</p>
+            <h3 class="is-size-4 publication-authors"><b>WACV 2026</b></h3>
+            <p class="is-size-4 publication-authors"><img class="emoji" title=":canada:" alt=":canada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1fa-1f1f8.png" height="20" width="20"> Tucson, Arizona</p>
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
@@ -126,6 +122,16 @@
                   <span>Data</span>
                   </a>
                 -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/JaeyoonSSim/HiMix"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
             </div>
 
           </div>
@@ -138,9 +144,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="./static/images/figure1.png" class="center" width="100%">
+      <img src="./static/images/framework.png" class="center" width="100%">
       <h2 class="subtitle has-text-centered" style="margin-top:2%">
-        <b>Illustration of overall framework.</b>
+        <b>Illustration of overall framework (Himix).</b>
       </h2>
     </div>
     <hr>
@@ -154,22 +160,18 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3" style="margin-top:-5%">Abstract</h2>
         <div class="content has-text-justified">
-          Accurately discriminating progressive stages of Alzheimer’s Disease (AD) is crucial for 
-          early diagnosis and prevention. It often involves multiple imaging modalities to understand 
-          the complex pathology of AD, however, acquiring a complete set of images is challenging due 
-          to high cost and burden for subjects. In the end, missing data become inevitable which lead
-          to limited sample-size and decrease in precision in downstream analyses. To tackle this challenge, 
-          we introduce a holistic imaging feature imputation method that enables to leverage diverse imaging 
-          features while retaining all subjects. The proposed method comprises two networks: 1&#41; An encoder to 
-          extract modality-independent embeddings and 2&#41; A decoder to reconstruct the original measures 
-          conditioned on their imaging modalities. The encoder includes a novel ordinal contrastive loss, 
-          which aligns samples in the embedding space according to the progression of AD. We also maximize 
-          modality-wise coherence of embeddings within each subject, in conjunction with domain adversarial 
-          training algorithms, to further enhance alignment between different imaging modalities. The proposed 
-          method promotes our holistic imaging feature imputation across various modalities in the shared 
-          embedding space. In the experiments, we show that our networks deliver favorable results for 
-          statistical analysis and classification against imputation baselines with Alzheimer’s Disease 
-          Neuroimaging Initiative (ADNI) study.
+          Lesion segmentation is an essential task in medical imaging to support diagnosis and assessment of pathologies.
+                While deep learning models have shown success in various domains, their reliance on large-scale annotated datasets limits 
+                applicability in the medical domain due to labeling cost. To address this issue, recent studies in medical image segmentation 
+                have utilized clinical texts as complementary semantic cues without additional annotations. However, most existing methods 
+                utilize a single textual embedding and fail to capture hierarchical interactions between language and visual features, which 
+                limits their ability to leverage fine-grained cues essential for precise and detailed segmentation. In this regime, we propose 
+                Hierarchical Visual-Textual Mixing Network (HiMix), a novel multi-modal segmentation framework that mixes multi-scale image and 
+                text representations throughout the mask decoding process. HiMix progressively injects hierarchical text embedding, from high-level 
+                semantics to fine-grained spatial details, into corresponding image decoder layers to bridge the modality gap and enhance visual 
+                feature refinement at multiple levels of abstraction. Experiments on the QaTa-COV19, MosMedData+ and Kvasir-SEG datasets demonstrate 
+                that HiMix consistently outperforms uni-modal and multi-modal methods. Furthermore, HiMix exhibits strong generalization to 
+                unstructured textual formats, highlighting its practical applicability in real-world clinical scenarios.
         </div>
       </div>
     </div>
@@ -177,21 +179,18 @@
   </div>
 
   <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Ordinal Contrastive Learning</h2>
+    <h2 class="title is-3">Text Feature Utilization Strategy</h2>
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <center>
         </p>
-        <img src="./static/images/figure2.png" class="center" width="80%">
+        <img src="./static/images/concept.png" class="center" width="40%">
         <p>
         </center>
         <p>
-          <b>Figure:</b> Comparison of supervised (left) and ordinal (right) contrastive 
-          learning: Both approaches contrast the set of all samples from the same class 
-          as positives against the negatives from the rest of the batch. While supervised 
-          contrastive learning repels each negative without differentiation on labels 
-          denoted as (a) ≈ (b) ≈ (c), ordinal contrastive learning assigns the penalizing 
-          strength based on the label distance.
+          <b>Figure:</b> Illustration of text feature utilization strategy in our proposed approach.
+          Multi-level linguistic features extracted from the text encoder are hierarchically aligned 
+          and passed to the corresponding decoder layers.
         </p>
       </div>
     </div>
@@ -199,20 +198,17 @@
   </div>
 
   <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Embedding Space Analysis</h2>
+    <h2 class="title is-3">Key Modules in HiMix</h2>
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <center>
         </p>
-        <img src="./static/images/result1.png" class="center" width="80%">
+        <img src="./static/images/module.png" class="center" width="80%">
         <p>
         </center>
         <p>
-          <b>Figure:</b> Visualizations of embeddings under each loss by t-SNE. 
-          Each individual encoder is trained with three distinct losses including Cross-Entropy 
-          (left), Supervised Contrastive Loss LSC (center) and our Ordinal Contrastive Loss 
-          (right) along with domain adversarial loss. (a) and (b) correspond to training and 
-          testing data respectively. (Color: AD-stage labels, Shape: imaging scan types.)
+          <b>Figure:</b> Illustration of key modules in HiMix. Left: Decoder with adaptive spectrum refinement module (ASRM).
+          Right: Dynamic layer fusion module (DLFM).
         </p>
         
       </div>
@@ -221,51 +217,17 @@
   </div>
 
   <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Statistical Analysis</h2>
-    <div class="columns is-centered has-text-centered">
-      <div class="content has-text-justified">
-        <center>
-        </p>
-        <img src="./static/images/result2.png" class="center" width="80%">
-        <p>
-        </center>
-        <p>
-          <b>Figure:</b> <em>p</em>-values from group comparisons with Bonferroni correction at 
-          &#945;=0.01: (a) before imputation, (b) after imputation from our model. 
-          Top: Resutant <em>p</em>-value maps on a brain surface (left hemisphere) in a negative log 
-          from CN and EMCI comparison with cortical thickness, and (b) shows higher sensitivity. 
-          Bottom: Number of significant ROIs. Number of common ROIs before-and-after imputation 
-          are in ().
-        </p>
-
-        <center>
-        </p>
-        <img src="./static/images/result4.png" class="center" width="80%">
-        <p>
-        </center>
-        <p>
-          <b>Figure:</b> <em>p</em>-values from group comparisons with Bonferroni correction at 
-          &#945;=0.01: (a) before imputation, (b) after imputation from our model. 
-          Top: Resutant <em>p</em>-value maps on a brain surface (left hemisphere) in a negative log 
-          from CN and EMCI comparison with Tau, FDG and &#946;-amyloid. and (b) shows higher sensitivity
-          compared to (a).
-        </p>
-      </div>
-    </div>
-    <hr>
-  </div>
-
-  <div class="container is-max-desktop has-text-centered">
     <h2 class="title is-3">Quantitative Results</h2>
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <center>
         <p>
-        <img src="./static/images/result3.png" class="center" width="100%">
+        <img src="./static/images/result1.png" class="center" width="100%">
         </p>
         </center>
         <p>
-          <b>Table:</b> Classification performance on ADNI data with all imaging features.
+          <b>Table:</b> Quantitative comparision on segmentation of uni-modal (top) and multi-modal (middle) learning baselines, and HiMix (bottom).
+          The best and second-best results are highlighted in bold and underlined, respectively.
         </p>
       </div>
     </div>
@@ -273,23 +235,17 @@
   </div>
   
   <div class="container is-max-desktop has-text-centered">
-    <h2 class="title is-3">Quantitative Results</h2>
+    <h2 class="title is-3">Qualitative Results</h2>
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <center>
         <p>
-        <img src="./static/images/result5.png" class="center" width="100%">
+        <img src="./static/images/result2.png" class="center" width="100%">
         </p>
         </center>
         <p>
-          <b>Figure:</b> Visualization of ROI-wise disparities between the real (target: Column) 
-          measure and the generated measure from each modality (source: Row) for the subject
-          ‘009_S_1030’. Each disparity is normalized with the ROI-wise mean and variance of 
-          the entire dataset. While self-reconstructions (diagonal entries) are consistently 
-          achieved regardless of the adoption of modality-wise coherence, yielding more
-          regions with small disparities (below &#945;/5) when adopting modality-wise coherence 
-          in translations (non-diagonal entries) suggests the effectiveness of maximizing the 
-          modality-wise coherence.
+          <b>Figure:</b> Visualization of segmentation results. Results on QaTa-COV19 (top), MosMedData+ (middle) and Kvasir-SEG (bottom) datasets. 
+          Yellow, red, and green represent true positive, false negative, and false positive, respectively.
           
         </p>
       </div>
@@ -302,15 +258,13 @@
     <div class="columns is-centered has-text-centered">
       <div class="content has-text-justified">
         <p>
-          In this work, we propose a promising framework that imputes unobserved imaging 
-          measures of subjects by translating their existing measures. To enable holistic 
-          imputation accurately reflecting individual disease conditions, our framework 
-          devises modality-invariant and disease-progress aligned latent space guided by 1) 
-          domain adversarial training, 2) maximizing modality-wise coherence, and 3) 
-          ordinal contrastive learning. Experimental results on the ADNI study show that 
-          our model offers reliable estimations of unobserved modalities for individual 
-          subjects, facilitating the downstream AD analyses. Our work has potential to be
-          adopted by other neuroimaging studies suffering from missing measures.
+          In this work, we proposed HiMix, a novel multi-modal segmentation framework that effectively aligns 
+          and leverages hierarchical representations from both image and text modalities. HiMix dynamically 
+          extracts and refines essential information from both modalities to ensure a hierarchical integration 
+          of high-level semantics and fine-grained details. Experiments on diverse medical segmentation benchmarks 
+          demonstrate that HiMix consistently outperforms state-of-the-art models, which validates the advantage 
+          of hierarchical design. Moreover, HiMix further demonstrates strong adaptability to diverse text formats, 
+          showcasing its potential for practical applicability to real-scenarios.
         </p>
       </div>
     </div>
@@ -322,13 +276,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{baek2024ocl,
-      title={OCL: Ordinal Contrastive Learning for Imputating Features with Progressive Labels},
-      author={Baek, Seunghun and Sim, Jaeyoon and Wu, Guorong and Kim, Won Hwa},
-      booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-      pages={334--344},
-      year={2024},
-      organization={Springer}
+    <pre><code>@inproceedings{hwang2026himix,
+      title={HiMix : Hierarchical Visual-Textual Mixing Network for Lesion Segmentation},
+      author={Hwang, Soojin and Sim, Jaeyoon and Kim, Won Hwa},
+      booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision},
+      year={2026}
     }</code></pre>
   </div>
 </section>
