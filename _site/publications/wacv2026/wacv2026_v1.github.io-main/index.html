@@ -22,6 +22,18 @@
     gtag('config', 'G-PYVRSFMDRL');
   </script>
 
+  <style>
+    .abstract-box {
+      background: #fafffb;
+      border-left: 4px solid rgb(97, 195, 92);
+      border-right: 4px solid rgb(97, 195, 92);
+      padding: 22px 26px;
+      border-radius: 10px;
+      line-height: 1.3;
+    }
+  </style>
+
+
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
@@ -74,7 +86,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="./static/miccai24_paper1.pdf"
+                <a href="./static/wacv26_paper1.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -157,9 +169,11 @@
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <!-- <div class="column is-four-fifths"> -->
+        <div class="column is-full">
         <h2 class="title is-3" style="margin-top:-5%">Abstract</h2>
         <div class="content has-text-justified">
+          <div class="abstract-box">
           Lesion segmentation is an essential task in medical imaging to support diagnosis and assessment of pathologies.
                 While deep learning models have shown success in various domains, their reliance on large-scale annotated datasets limits 
                 applicability in the medical domain due to labeling cost. To address this issue, recent studies in medical image segmentation 
@@ -172,6 +186,7 @@
                 feature refinement at multiple levels of abstraction. Experiments on the QaTa-COV19, MosMedData+ and Kvasir-SEG datasets demonstrate 
                 that HiMix consistently outperforms uni-modal and multi-modal methods. Furthermore, HiMix exhibits strong generalization to 
                 unstructured textual formats, highlighting its practical applicability in real-world clinical scenarios.
+          </div>
         </div>
       </div>
     </div>

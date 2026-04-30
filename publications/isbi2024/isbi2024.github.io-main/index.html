@@ -22,6 +22,17 @@
     gtag('config', 'G-PYVRSFMDRL');
   </script>
 
+  <style>
+    .abstract-box {
+      background: #fafffb;
+      border-left: 4px solid rgb(97, 195, 92);
+      border-right: 4px solid rgb(97, 195, 92);
+      padding: 22px 26px;
+      border-radius: 10px;
+      line-height: 1.3;
+    }
+  </style>
+
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
@@ -168,10 +179,20 @@
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <!-- <div class="column is-four-fifths"> -->
+        <div class="column is-full">
         <h2 class="title is-3" style="margin-top:-5%">Abstract</h2>
         <div class="content has-text-justified">
-          Characterizing a preclinical stage of Alzheimer’s Disease (AD), via single imaging is difficult as its early symptoms are quite subtle. Therefore, many neuroimaging studies are curated with various imaging modalities, e.g., MRI and PET, however, it is often challenging to acquire all of them from all subjects and missing data become inevitable. In this regards, in this paper, we propose a framework that generates unobserved imaging measures for specific subjects using their existing measures, thereby reducing the need for additional examinations. Our framework transfers modality-specific style while preserving AD-specific content. This is done by domain adversarial training that preserves modality-agnostic but AD-specific information, while a generative adversarial network adds an indistinguishable modality-specific style. Our proposed framework is evaluated on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) study and compared with other imputation methods in terms of generated data quality. Small average Cohen’s d < 0.19 between our generated measures and real ones suggests that the synthetic data are practically usable regardless of their modality type.
+          <div class="abstract-box">
+          Characterizing a preclinical stage of Alzheimer’s Disease (AD), via single imaging is difficult as its early symptoms are quite subtle. 
+          Therefore, many neuroimaging studies are curated with various imaging modalities, e.g., MRI and PET, however, it is often challenging to 
+          acquire all of them from all subjects and missing data become inevitable. In this regards, in this paper, we propose a framework that 
+          generates unobserved imaging measures for specific subjects using their existing measures, thereby reducing the need for additional examinations. 
+          Our framework transfers modality-specific style while preserving AD-specific content. This is done by domain adversarial training that 
+          preserves modality-agnostic but AD-specific information, while a generative adversarial network adds an indistinguishable modality-specific style. 
+          Our proposed framework is evaluated on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) study and compared with other imputation methods 
+          in terms of generated data quality. Small average Cohen’s d < 0.19 between our generated measures and real ones suggests that the synthetic data 
+          are practically usable regardless of their modality type.
         </div>
       </div>
     </div>
