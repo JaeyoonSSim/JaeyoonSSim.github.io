@@ -98,6 +98,50 @@
 
           <div class="col-lg-4 text-center">
             <img id="publication_image"
+            src="/publications/icml2026/icml2026_v1.github.io-main/static/images/icml2026_figure1.png" 
+            onmouseover="this.src='/publications/icml2026/icml2026_v1.github.io-main/static/images/icml2026_figure2.png'" 
+            onmouseout="this.src='/publications/icml2026/icml2026_v1.github.io-main/static/images/icml2026_figure1.png'" 
+            class="img-fluid rounded float-center img-thumbnail shadow mb-3" 
+            onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hieght="100%">
+          </div>
+          <div class="col-lg-8">
+            <h6><p class="publication_title">Learning Multi-Scale Hypergraph for High-Order Brain Connectivity Analysis</p></h6>
+            <p class="text-muted"><b><u>Jaeyoon Sim</u></b>, Soojin Hwang, Seunghun Baek, Gourong Wu, Won Hwa Kim</p>
+            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> International Conference on Machine Learning <span style="color:rgb(153,255,255)"><b>(ICML)</b></span>, Seoul, South Korea, 2026</p>
+            <p>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs8_button" aria-expanded="false" aria-controls="abs8_button">Abstract</a>
+              <a href="/publications/icml2026/icml2026_v1.github.io-main/index.html" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Project Page</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib8_button" aria-expanded="false" aria-controls="bib8_button">BibTeX</a>
+            </p>
+            <div class="collapse" id="abs8_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                Understanding complex interactions between brain regions is critical for early neurodegenerative disease classification such as 
+                Alzheimer’s Disease (AD) and Parkinson’s Disease (PD). While graph-based models are widely used to analyze brain networks, most 
+                existing approaches primarily focus on pairwise interactions between directly connected nodes, limiting their ability to capture 
+                higher-order dependencies across multiple regions. Although hypergraph-based methods have been proposed to model higher-order relations, 
+                many rely on predefined hyperedges or restrict learning to hyperedge weights, reducing flexibility and limiting their capacity to 
+                capture multi-resolution structural patterns. In this regard, we introduce an adaptive multi-scale hyperedge learning framework, i.e., MuHL, 
+                which constructs hierarchical node features and dynamically learns high-order interaction through continuous hyper-edge construction over 
+                multi-resolution graph signals. Extensive experiments on multiple brain network benchmarks demonstrate that MuHL consistently improves 
+                disease classification performance across different stages, and further identifies key regions of interest (ROIs) and their group-wise 
+                interactions from the learned hyperedges that are associated with disease progression, highlighting its potential as a powerful tool 
+                for brain network analysis with neurodegenerative disorders.
+              </div>
+            </div>
+            <div class="collapse" id="bib8_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                @inproceedings{sim2026learning,<br>
+                  title={Learning Multi-Scale Hypergraph for High-Order Brain Connectivity Analysis},<br>
+                  author={Sim, Jaeyoon and Hwang, Soojin, and Baek, Seunghun and Wu, Guorong and Kim, Won Hwa},<br>
+                  booktitle={Forty-third International Conference on Machine Learning},<br>
+                  year={2026}
+                }
+              </div>
+            </div> 
+          </div>
+
+          <div class="col-lg-4 text-center">
+            <img id="publication_image"
             src="/publications/wacv2026/wacv2026_v1.github.io-main/static/images/wacv2026_figure1.png" 
             onmouseover="this.src='/publications/wacv2026/wacv2026_v1.github.io-main/static/images/wacv2026_figure2.png'" 
             onmouseout="this.src='/publications/wacv2026/wacv2026_v1.github.io-main/static/images/wacv2026_figure1.png'" 
@@ -112,9 +156,9 @@
             <p style="color:rgb(187, 255, 184);"><b>KSIIM Academic Award - Excellence Prize</b></p>
             <!-- <p style="color:rgb(187, 255, 184);"><b>Provisional Accept [~9% Acceptance Rate]</b></p> -->
             <p>
-              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs7_button" aria-expanded="false" aria-controls="abs6_button">Abstract</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs7_button" aria-expanded="false" aria-controls="abs7_button">Abstract</a>
               <a href="/publications/wacv2026/wacv2026_v1.github.io-main/index.html" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Project Page</a>
-              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib7_button" aria-expanded="false" aria-controls="bib6_button">BibTeX</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib7_button" aria-expanded="false" aria-controls="bib7_button">BibTeX</a>
             </p>
             <div class="collapse" id="abs7_button">
               <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
@@ -329,10 +373,11 @@
             </div>
             <div class="collapse" id="bib3_button">
               <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
-                @inproceedings{choneurodegenerative,<br>
+                @inproceedings{cho2024choneurodegenerative,<br>
                   title={Neurodegenerative Brain Network Classification via Adaptive Diffusion with Temporal Regularization},<br>
                   author={Cho, Hyuna and Sim, Jaeyoon and Wu, Guorong and Kim, Won Hwa},<br>
-                  booktitle={Forty-first International Conference on Machine Learning}<br>
+                  booktitle={Forty-first International Conference on Machine Learning},<br>
+                  year={2024}
                 }
               </div>
             </div>

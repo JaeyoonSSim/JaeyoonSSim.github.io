@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learning Multi-Scale Hypergraph for High-Order Brain Connectivity Analysis</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <style>
+    .abstract-box {
+      background: #fafffb;
+      border-left: 4px solid rgb(97, 195, 92);
+      border-right: 4px solid rgb(97, 195, 92);
+      padding: 22px 26px;
+      border-radius: 10px;
+      line-height: 1.3;
+    }
+  </style>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/face.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Learning Multi-Scale Hypergraph for High-Order Brain Connectivity Analysis</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=XheFLZgAAAAJ&hl=ko"><b>Jaeyoon Sim</b></a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://mip.postech.ac.kr/members">Soojin Hwang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://habaek4.github.io/">Seunghun Baek</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=XVsMB2kAAAAJ&hl=ko">Guorong Wu</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=aWPSHNwAAAAJ&hl=ko">Won Hwa Kim</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>POSTECH,</span>
+            <span class="author-block"><sup>2</sup>UNC-Chapel Hill</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <h3 class="is-size-4 publication-authors"><b>ICML 2026</b></h3>
+            <p class="is-size-4 publication-authors"><img class="emoji" title=":south korea:" alt=":sourth korea:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f0-1f1f7.png" height="20" width="20"> Seoul, South Korea</p>
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./static/wacv26_paper1.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.11840"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="./static/wacv26_poster1.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-obp"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/JaeyoonSSim/LSAP"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span> -->
+              <!-- Dataset Link. -->
+              <!--
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+                -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/JaeyoonSSim/HiMix"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/framework.png" class="center" width="100%">
+      <h2 class="subtitle has-text-centered" style="margin-top:2%">
+        <b>Illustration of overall framework (MuHL).</b>
+      </h2>
+    </div>
+    <hr>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <!-- <div class="column is-four-fifths"> -->
+        <div class="column is-full">
+        <h2 class="title is-3" style="margin-top:-5%">Abstract</h2>
+        <div class="content has-text-justified">
+          <div class="abstract-box">
+          Understanding complex interactions between brain regions is critical for early neurodegenerative disease 
+          classification such as Alzheimer’s Disease (AD) and Parkinson’s Disease (PD). While graph-based models are 
+          widely used to analyze brain networks, most existing approaches primarily focus on pairwise interactions between 
+          directly connected nodes, limiting their ability to capture higher-order dependencies across multiple regions. 
+          Although hypergraph-based methods have been proposed to model higher-order relations, many rely on predefined 
+          hyperedges or restrict learning to hyperedge weights, reducing flexibility and limiting their capacity to capture 
+          multi-resolution structural patterns. In this regard, we introduce an adaptive multi-scale hyperedge learning 
+          framework, i.e., MuHL, which constructs hierarchical node features and dynamically learns high-order interaction 
+          through continuous hyper-edge construction over multi-resolution graph signals. Extensive experiments on multiple 
+          brain network benchmarks demonstrate that MuHL consistently improves disease classification performance across different 
+          stages, and further identifies key regions of interest (ROIs) and their group-wise interactions from the learned hyperedges 
+          that are associated with disease progression, highlighting its potential as a powerful tool for brain network analysis with 
+          neurodegenerative disorders.
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Multi-resolution High-order Relation Modeling via Hypergraph</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/concept.png" class="center" width="100%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> The original graph with
+          pairwise edges is shown in (a), and from fine scale (b) to coarse scale (e), hyperedges adaptively expand to include more nodes, moving 
+          from localized connections to broader groupings that capture global structural similarity. Similar colors indicate potentially similar regions, 
+          while the red contour represents the sparsely constructed hyperedge at each scale, determined by the corresponding smoothed features.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <!-- <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Key Modules in HiMix</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <center>
+        </p>
+        <img src="./static/images/module.png" class="center" width="80%">
+        <p>
+        </center>
+        <p>
+          <b>Figure:</b> Illustration of key modules in HiMix. Left: Decoder with adaptive spectrum refinement module (ASRM).
+          Right: Dynamic layer fusion module (DLFM).
+        </p>
+        
+      </div>
+    </div>
+    <hr>
+  </div> -->
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Quantitative Results</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <left>
+        <h5><b>i) Disease-stage Classification</b></h5>
+        </left>
+        <center>
+        <p>
+        <img src="./static/images/result1.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Table:</b> 
+          Brain network classification performance on the ADNI and PPMI datasets evaluated using 5 fold cross-validation. The best 
+          results are shown in <b>bold</b>, and the second-best results are <u>underlined</u>. (†: Methods for brain network analysis)
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <left>
+          <h5><b>ii) Cross-phase/dataset Generalization</b></h5>
+        </left>
+        <center>
+        <p>
+        <img src="./static/images/result2.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Table:</b> 
+          Zero-shot classification performance across datasets and acquisition phases. MuHL and baselines are trained on a source dataset 
+          or phase and directly evaluated on unseen target datasets or phases without fine-tuning. Specifically, for AD, models are trained on PPMI 
+          and evaluated on TaoWu and Neurocon, while for PD, models are trained on ADNI-2 and evaluated on ADNI-1/3/GO.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+  
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Qualitative Results</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <left>
+          <h5><b>i) Key ROIs via Hyperedge Activations</b></h5>
+        </left>
+        <center>
+        <p>
+        <img src="./static/images/result3.1.png" class="center" width="100%">
+        </p>
+        <p>
+        <img src="./static/images/result3.2.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Figure:</b> Visualization of top-10 ROIs with the highest relative hyperedge importance on the ADNI (top) and PPMI (bottom) datasets.
+          (a)/(b): outer views of left/right hemishpere, (c)/(d): front/rear views, (e)/(f): top/bottom views. Node color reflects the relative contribution
+          of each ROI based on aggregated hyperedge weights.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <left>
+          <h5><b>ii) Most Salient Hyperedge</b></h5>
+        </left>
+        <center>
+        <p>
+        <img src="./static/images/result4.png" class="center" width="100%">
+        </p>
+        </center>
+        <p>
+          <b>Figure:</b> Visualization of the top-10 ROIs associated with
+          the most important hyperedge for top/bottom views in the ADNI
+          and PPMI studies, based on the sum of node activations for each
+          hyperedge. Node color indicates activation value (i.e., weight) per
+          node within the hyperedge.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Effectiveness of Model Component</h2>
+    <div class="columns is-centered has-text-centered" >
+
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content" align="left">
+            <p>
+              <center><h5>i) Hyper-parameter Studies</h5></center>
+            </p>
+            <img src="./static/images/ablation1.png" class="center" width="100%">
+            <p>
+              <b>Figure:</b> Sensitivity studies of crucial hyperparameters in MuHL
+              on the ADNI dataset.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content" align="left">
+            <p>
+              <center><h5>ii) Ablation Studies</h5></center>
+            </p>
+            <img src="./static/images/ablation2.png" class="center" width="100%">
+            <p></p>
+            <p>
+              <b>Table:</b> Ablation study of MuHL components on both datasets.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Conclusion</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="content has-text-justified">
+        <p>
+          In this work, we proposed MuHL, a novel hypergraph framework to adaptively model high-order relationships 
+          in brain networks. By leveraging multi-resolution graph representations and dynamically constructing hyperedges, 
+          our method effectively captures complex inter-regional dependencies beyond pairwise connections. Extensive 
+          experiments on the ADNI and PPMI datasets show that MuHL demonstrates superiority as evidenced by improved 
+          performance in AD- and PD-specific stages classification. Furthermore, the trained hypergraph identifies hub ROIs 
+          linked to disease progression across both AD and PD, showcasing the potential of adaptive hypergraph learning as a 
+          powerful tool for analyzing diverse neurodegenerative disorders.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{sim2026learning,
+      title={Learning Multi-Scale Hypergraph for High-Order Brain Connectivity Analysis},
+      author={Sim, Jaeyoon and Hwang, Soojin, and Baek, Seunghun and Wu, Guorong and Kim, Won Hwa},
+      booktitle={Forty-third International Conference on Machine Learning},
+      year={2026} 
+    }</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <!-- <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/aaai24_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/JaeyoonSSim/LSAP" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div> -->
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This website template was adapted from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies website</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
