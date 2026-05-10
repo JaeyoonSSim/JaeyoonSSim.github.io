@@ -31,6 +31,63 @@
       border-radius: 10px;
       line-height: 1.3;
     }
+
+    #hero-background-section {
+      position: relative;
+      overflow: hidden;
+      /* 배경이 너무 밝으면 글자가 안 보일 수 있으니 기본 배경색을 지정해두면 좋습니다 */
+      background-color: #ffffff; 
+    }
+    
+    #hero-background-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90%;
+      /* 사용할 이미지 경로를 넣으세요 */
+      background-image: url('./static/images/background1.jpeg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+      /* 투명도를 0.3으로 고정 */
+      opacity: 0.3; 
+      z-index: 0;
+    }
+    
+    /* 제목과 버튼 등이 배경 위로 오도록 설정 */
+    #hero-background-section .hero-body {
+      position: relative;
+      z-index: 1;
+    }
+
+
+    .fixed-conference-logo {
+      position: fixed;
+      top: 20px;       /* 위에서부터의 거리 */
+      right: 20px;     /* 오른쪽에서부터의 거리 */
+      z-index: 1000;   /* 다른 요소보다 항상 위에 있도록 */
+      width: 150px;    /* 로고 크기 조절 */
+      pointer-events: none; /* 로고가 버튼 클릭을 방해하지 않도록 설정 (필요시 제거) */
+    }
+    
+    .fixed-conference-logo img {
+      width: 100%;
+      height: auto;
+      /* 로고도 너무 튀면 약간의 투명도를 줄 수 있습니다 */
+      opacity: 0.9;
+    }
+    
+    /* 모바일에서는 화면이 좁으므로 로고를 숨기거나 크기를 줄이는 설정 */
+    @media screen and (max-width: 768px) {
+      .fixed-conference-logo {
+        width: 80px;
+        top: 10px;
+        right: 10px;
+      }
+    }
   </style>
 
 
@@ -52,9 +109,12 @@
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
 </head>
-<body>
 
-<section class="hero">
+<body>
+  <div class="fixed-conference-logo">
+    <img src="./static/images/icml2026_logo.png" alt="ICML 2026 Logo">
+  </div>
+  <section class="hero" id="hero-background-section">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
