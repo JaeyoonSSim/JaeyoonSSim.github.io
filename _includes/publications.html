@@ -121,7 +121,7 @@
             <h6><p class="publication_title">HiMix : Hierarchical Visual-Textual Mixing Network for Lesion Segmentation</p></h6>
             <p class="text-muted">Soojin Hwang<sup>&#42;</sup>, <b><u>Jaeyoon Sim</u></b><sup>&#42;</sup>, Won Hwa Kim (<sup>&#42;</sup>: Equal Contribution)</p>
             <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> IEEE/CVF Winter Conference on Applications of Computer Vision <span style="color:rgb(153,255,255)"><b>(WACV)</b></span>, Tucson, <img class="emoji" title=":canada:" alt=":canada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1fa-1f1f8.png" height="20" width="20"> Arizona, 2026</p>
-            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 3px 0px 3px; border-radius:20%"><b>W</b></span> MICCAI Workshop on Emerging LLM/LMM Applications in Medical Imaging (ELAMI), Daejeon, <img class="emoji" title=":south korea:" alt=":sourth korea:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f0-1f1f7.png" height="20" width="20"> South Korea, 2025</p>
+            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 3px 0px 3px; border-radius:20%"><b>W</b></span> MICCAI Workshop on Emerging LLM/LMM Applications in Medical Imaging (MICCAIW-ELAMI), Daejeon, <img class="emoji" title=":south korea:" alt=":sourth korea:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f0-1f1f7.png" height="20" width="20"> South Korea, 2025</p>
             <p style="color:rgb(187, 255, 184);"><b>KSIIM Academic Award - Excellence Prize</b></p>
             <!-- <p style="color:rgb(187, 255, 184);"><b>Provisional Accept [~9% Acceptance Rate]</b></p> -->
             <p>
@@ -158,11 +158,60 @@
             </div> 
           </div>
 
+
           <div class="col-lg-4 text-center">
             <img id="publication_image"
-            src="/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure.png" 
+            src="/publications/miccai2025/miccai2025_v2.github.io-main/static/images/miccai2025_figure1.png" 
+            onmouseover="this.src='/publications/miccai2025/miccai2025_v2.github.io-main/static/images/miccai2025_figure2.png'" 
+            onmouseout="this.src='/publications/miccai2025/miccai2025_v2.github.io-main/static/images/miccai2025_figure1.png'" 
+            class="img-fluid rounded float-center img-thumbnail shadow mb-3" 
+            onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hieght="100%">
+          </div>
+          <div class="col-lg-8">
+            <h6><p class="publication_title">Spectral Graph Autoregressive Modeling for Conditional Brain Network Augmentation</p></h6>
+            <p class="text-muted">Hayoung Ahn, Seungjoo Lee, <b><u>Jaeyoon Sim</u></b>, Yechan Hwang, Hyuna Cho, Guorong Wu, Won Hwa Kim</p>
+            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 3px 0px 3px; border-radius:20%"><b>W</b></span> MICCAI Workshop on GRaphs in biomedicAl Image anaLysis <span style="color:rgb(153,255,255)"><b>(MICCAIW-GRAIL)</b></span>, Daejeon, <img class="emoji" title=":south korea:" alt=":sourth korea:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f0-1f1f7.png" height="20" width="20"> South Korea, 2025</p>
+            <p>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs10_button" aria-expanded="false" aria-controls="abs10_button">Abstract</a>
+              <a href="https://link.springer.com/chapter/10.1007/978-3-032-06103-4_20" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib10_button" aria-expanded="false" aria-controls="bib10_button">BibTeX</a>
+            </p>
+            <div class="collapse" id="abs10_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                We present Spectral Graph AutoRegressive (SGAR) model, a novel conditional node signal synthesis method 
+                for brain networks. Unlike conventional generative models, SGAR employs a coarse-to-fine graph generation 
+                strategy in the spectral space: it first predicts low-frequency components that capture the global graph 
+                structure and then progressively refines high-frequency details to encode local feature dependencies. 
+                SGAR leverages Graph Fourier Transform (GFT) to decompose graph signals in the spectral domain and 
+                utilizes a conditional autoregressive transformer to generate spectral components based on disease
+                stage labels. The continuous node signals are subsequently reconstructed via Inverse Graph Fourier 
+                Transform (IGFT), preserving the overall network topology. Applied to the Alzheimer’s Disease 
+                Neuroimaging Initiative (ADNI) dataset, our framework effectively addresses the challenges of data 
+                scarcity and label imbalance by augmenting brain networks with realistic, structured node features. 
+                Experimental results demonstrate that SGAR improves downstream AD classification performance while 
+                maintaining the global structure of brain networks.
+              </div>
+            </div>
+            <div class="collapse" id="bib10_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                @inproceedings{ahn2025spectral,<br>
+                  title={Spectral Graph Autoregressive Modeling for Conditional Brain Network Augmentation},<br>
+                  author={Ahn, Hayoung and Lee, Seungjoo and Sim, Jaeyoon and Hwang, Yechan and Cho, Hyuna and Wu, Guorong and Kim, Won Hwa},<br>
+                  booktitle={International Workshop on Reconstruction and Imaging Motion Estimation},<br>
+                  pages={209--218},<br>
+                  year={2025},<br>
+                  organization={Springer}<br>
+                }
+              </div>
+            </div> 
+          </div>
+
+
+          <div class="col-lg-4 text-center">
+            <img id="publication_image"
+            src="/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure1.png" 
             onmouseover="this.src='/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure2.png'" 
-            onmouseout="this.src='/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure.png'" 
+            onmouseout="this.src='/publications/miccai2025/miccai2025_v1.github.io-main/static/images/miccai2025_figure1.png'" 
             class="img-fluid rounded float-center img-thumbnail shadow mb-3" 
             onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hieght="100%">
           </div>
