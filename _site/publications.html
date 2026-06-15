@@ -97,6 +97,49 @@
 
           <div class="col-lg-4 text-center">
             <img id="publication_image"
+            src="/publications/miccai2026/miccai2026_v2.github.io-main/static/images/miccai2026_figure1.png" 
+            onmouseover="this.src='/publications/miccai2026/miccai2026_v2.github.io-main/static/images/miccai2026_figure2.png'" 
+            onmouseout="this.src='/publications/miccai2026/miccai2026_v2.github.io-main/static/images/miccai2026_figure1.png'" 
+            class="img-fluid rounded float-center img-thumbnail shadow mb-3" 
+            onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hieght="100%">
+          </div>
+          <div class="col-lg-8">
+            <h6><p class="publication_title">Set-Inclusive Uncertainty Modeling for Robust Brain Tumor Segmentation</p></h6>
+            <p class="text-muted">Seunghun Baek<sup>&#42;</sup>, Jihwan Park<sup>&#42;</sup>, <b><u>Jaeyoon Sim</u></b>, Hoseok Lee, Jihwan Park, Seungjoo Lee, Won Hwa Kim (<sup>&#42;</sup>: Equal Contribution)</p>
+            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> International Conference on Medical Image Computing and Computer Assisted Intervention <span style="color:rgb(153,255,255)"><b>(MICCAI)</b></span>, Strasbourg, <img class="emoji" title=":france:" alt=":france:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png" height="20" width="20"> France, 2026</p>
+            <p>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs9_button" aria-expanded="false" aria-controls="abs9_button">Abstract</a>
+              <a href="https://link.springer.com/chapter/" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib9_button" aria-expanded="false" aria-controls="bib9_button">BibTeX</a>
+            </p>
+            <div class="collapse" id="abs9_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                Multimodal MRI is essential for accurate brain tumor segmentation. However, acquiring all modalities at inference is 
+                often challenging in practice, which causes intrinsic uncertainty due to unavoidable information loss. Without modeling 
+                this uncertainty, existing methods encode incomplete evidence into deterministic representations that appear plausible 
+                but lack reliability. In this regime, we propose a probabilistic representation framework that models representations 
+                as Gaussian distributions, where their mean captures task information and their variance measures uncertainty from 
+                missing evidence. To make variance reflect information deficiency, we regularize the mean from each partial configuration 
+                toward its full-modality counterpart, while scaling the variance with the discrepancy between their aligned means. We 
+                further introduce a set-inclusive strategy that exploits the hierarchical structure of modality subsets and enforces an 
+                ordering constraint to maintain their consistent uncertainty relationships. Extensive experiments on BraTS 2018 and 2020 
+                demonstrate that our approach offers superior performance over baselines across diverse missing-modality scenarios.
+              </div>
+            </div>
+            <div class="collapse" id="bib9_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                @inproceedings{baek2026set,<br>
+                  title={Set-Inclusive Uncertainty Modeling for Robust Brain Tumor Segmentation},<br>
+                  author={Baek, Seunghun and Jihwan Park and Sim, Jaeyoon and Lee, Hoseok and Seungjoo Lee and Kim, Won Hwa},<br>
+                  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},<br>
+                  year={2026}<br>
+                }
+              </div>
+            </div> 
+          </div>
+
+          <div class="col-lg-4 text-center">
+            <img id="publication_image"
             src="/publications/miccai2026/miccai2026_v1.github.io-main/static/images/miccai2026_figure1.png" 
             onmouseover="this.src='/publications/miccai2026/miccai2026_v1.github.io-main/static/images/miccai2026_figure2.png'" 
             onmouseout="this.src='/publications/miccai2026/miccai2026_v1.github.io-main/static/images/miccai2026_figure1.png'" 
@@ -249,6 +292,7 @@
             <h6><p class="publication_title">Spectral Graph Autoregressive Modeling for Conditional Brain Network Augmentation</p></h6>
             <p class="text-muted">Hayoung Ahn, Seungjoo Lee, <b><u>Jaeyoon Sim</u></b>, Yechan Hwang, Hyuna Cho, Guorong Wu, Won Hwa Kim</p>
             <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 3px 0px 3px; border-radius:20%"><b>W</b></span> MICCAI Workshop on GRaphs in biomedicAl Image anaLysis <span style="color:rgb(153,255,255)"><b>(MICCAIW-GRAIL)</b></span>, Daejeon, <img class="emoji" title=":south korea:" alt=":sourth korea:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f0-1f1f7.png" height="20" width="20"> South Korea, 2025</p>
+            <p style="color:rgb(187, 255, 184);"><b>GRAIL Best Paper Award</b></p>
             <p>
               <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs10_button" aria-expanded="false" aria-controls="abs10_button">Abstract</a>
               <a href="https://link.springer.com/chapter/10.1007/978-3-032-06103-4_20" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
