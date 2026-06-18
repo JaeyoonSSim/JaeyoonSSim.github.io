@@ -17,6 +17,54 @@
       <div class="detail_publication col-md-10">
         <div class="row g-5 mb-5">
 
+
+          <div class="col-lg-4 text-center">
+            <img id="publication_image"
+            src="/publications/eccv2026/eccv2026_v1.github.io-main/static/images/eccv2026_figure1.png" 
+            onmouseover="this.src='/publications/eccv2026/eccv2026_v1.github.io-main/static/images/eccv2026_figure2.png'" 
+            onmouseout="this.src='/publications/eccv2026/eccv2026_v1.github.io-main/static/images/eccv2026_figure1.png'" 
+            class="img-fluid rounded float-center img-thumbnail shadow mb-3" 
+            onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" alt="Home" width="100%" hieght="100%">
+          </div>
+          <div class="col-lg-8">
+            <h6><p class="publication_title">Residual-Guided Expert Specialization for Incomplete Multimodal Learning</p></h6>
+            <p class="text-muted">Seunghun Baek, Jihwan Park, <b><u>Jaeyoon Sim</u></b>, Minjae Jeong, Hoseok Lee, Won Hwa Kim (<sup>&#42;</sup>: Equal Contribution)</p>
+            <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> European Conference on Computer Vision <span style="color:rgb(153,255,255)"><b>(ECCV)</b></span>, Malmo, <img class="emoji" title=":france:" alt=":france:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f8-1f1ea.png" height="20" width="20"> Sweden, 2026</p>
+            <p style="color:rgb(187, 255, 184);"><b>IPIU Outstanding Paper Award - Bronze Prize</b></p>
+            <p>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs11_button" aria-expanded="false" aria-controls="abs10_button">Abstract</a>
+              <a href="https://link.springer.com/chapter/" target="_self" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
+              <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#bib11_button" aria-expanded="false" aria-controls="bib10_button">BibTeX</a>
+            </p>
+            <div class="collapse" id="abs11_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                As real-world prediction systems often face missing modalities at inference, incomplete multimodal learning (IML) 
+                remains a practical challenge. While prior methods aim to learn representations robust to missing inputs, representations 
+                from incomplete modalities inevitably deviate from their full-modality counterparts due to missing evidence. To explicitly 
+                leverage these deviations, we propose MARS (Missingness-Aware Residual-guided Specialization), a mixture-of-experts 
+                framework that guides expert specialization based on how representations are reshaped by missingness. By contrasting 
+                task representations derived from incomplete inputs with their complete counterparts during training, we derive a privileged 
+                residual signal that captures this representational gap. The residual signal guides a residual router to assign samples 
+                to the experts specialized for the corresponding deviation patterns. In parallel, a feature router learns to imitate this 
+                routing behavior using only incomplete inputs, enabling deployment without access to full modalities. To mitigate this 
+                train-test router gap, we develop a discrepancy-aware noise regularization that adaptively perturbs the residual router’s 
+                decisions when the feature router deviates, enhancing expert robustness under imperfect imitation. Experiments on multimodal 
+                classification (CASIA-SURF, CREMA-D, UPMC Food-101) and segmentation (MCubeS) under missing scenarios show that MARS 
+                consistently surpasses baselines, while remaining efficient and extensible to diverse backbones and tasks.
+              </div>
+            </div>
+            <div class="collapse" id="bib11_button">
+              <div style="border: dashed 2px silver; line-height: 1.0em; background-color:rgb(46, 46, 46); color:white; text-align:justify" class="card card-body">
+                @inproceedings{baek2026residual,<br>
+                  title={Residual-Guided Expert Specialization for Incomplete Multimodal Learning},<br>
+                  author={Baek, Seunghun and Jihwan Park and Sim, Jaeyoon and Jeong, Minjae and Lee, Hoseok and Kim, Won Hwa},<br>
+                  booktitle={European Conference on Computer Vision},<br>
+                  year={2026}<br>
+                }
+              </div>
+            </div> 
+          </div>
+
           <div class="col-lg-4 text-center">
             <img id="publication_image"
             src="/publications/miccai2026/miccai2026_v2.github.io-main/static/images/miccai2026_figure1.png" 
@@ -27,7 +75,7 @@
           </div>
           <div class="col-lg-8">
             <h6><p class="publication_title">Set-Inclusive Uncertainty Modeling for Robust Brain Tumor Segmentation</p></h6>
-            <p class="text-muted">Seunghun Baek<sup>&#42;</sup>, Jihwan Park<sup>&#42;</sup>, <b><u>Jaeyoon Sim</u></b>, Hoseok Lee, Jihwan Park, Seungjoo Lee, Won Hwa Kim (<sup>&#42;</sup>: Equal Contribution)</p>
+            <p class="text-muted">Seunghun Baek<sup>&#42;</sup>, Jihwan Park<sup>&#42;</sup>, <b><u>Jaeyoon Sim</u></b>, Hoseok Lee, Seungjoo Lee, Won Hwa Kim (<sup>&#42;</sup>: Equal Contribution)</p>
             <p class="text-muted"><span style="background-color:rgb(187, 255, 184); color:rgb(0, 120, 0); padding: 0px 5px 0px 5px; border-radius:20%"><b>C</b></span> International Conference on Medical Image Computing and Computer Assisted Intervention <span style="color:rgb(153,255,255)"><b>(MICCAI)</b></span>, Strasbourg, <img class="emoji" title=":france:" alt=":france:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png" height="20" width="20"> France, 2026</p>
             <p>
               <a class="btn btn-outline-secondary btn-sm" role="button" data-toggle="collapse" data-target="#abs10_button" aria-expanded="false" aria-controls="abs10_button">Abstract</a>
